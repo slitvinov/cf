@@ -33,14 +33,16 @@ END {
 }
 
 function unescape(c,   i, n, ans) {
-    gsub(/\r/    ,  "", c)
-    gsub(/&quot;/,   q, c) # xml charachters
-    gsub(/&apos;/, "'", c)
-    gsub(/&lt;/  , "<", c)
-    gsub(/&gt;/  , ">", c)
-    gsub(/&amp;/ , "&", c)
+    gsub(/\r/    ,  ""  , c) # windows
 
-    gsub(/&#39;/ , "'", c)
+    gsub(/&quot;/,   q  , c) # xml
+    gsub(/&apos;/, "'"  , c)
+    gsub(/&lt;/  , "<"  , c)
+    gsub(/&gt;/  , ">"  , c)
+    gsub(/&amp;/ , "\\&", c)
+    gsub(/&nbsp;/, " "  , c)
+
+    gsub(/&#39;/ , "'", c) # html
     return c
 }
 
