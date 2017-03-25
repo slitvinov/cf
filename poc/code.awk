@@ -25,7 +25,7 @@ BEGIN {
     cmd = sprintf(cmd, url, code)
 
     print cmd | "cat 1>&2"
-    # rc = system(cmd)
+    rc = system(cmd)
 
     print
     print "code" "\t" code
