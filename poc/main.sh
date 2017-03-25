@@ -5,11 +5,11 @@
 ini () {
     h=tourist # handle
     cc=$h.code # where to place code
-    
+
     mg='!!#' # magic string for database
     t=/tmp/cf.$$; mkdir -p $t
     trap 'rm -rf $t' 1 2 13 15
-    
+
     mkdir -p .c # cache
     mkdir -p .d # data base
     mkdir -p  $cc
@@ -42,14 +42,14 @@ api0 () {
 
 api () { # better interface to api m a=1 b=2 -> api0 m?a=1&b=2
     arg=`awk 'BEGIN {
-           i = 1; a = ARGV[i++]
-           sep = "?"
-           while (i < ARGC) {
-               a = a sep ARGV[i++]
-               sep = "&"
-           }
-           print a
-         }' "$@"`
+	   i = 1; a = ARGV[i++]
+	   sep = "?"
+	   while (i < ARGC) {
+	       a = a sep ARGV[i++]
+	       sep = "&"
+	   }
+	   print a
+	 }' "$@"`
     api0 $arg
 }
 
