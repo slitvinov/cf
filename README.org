@@ -1,7 +1,6 @@
-Playing with codeforces [1] database using jq [2].
+Playing with codeforces database using jq.
 
-* Footnotes
+* References
 
-[1] http://codeforces.com/api/help?mobile=true
-
-[2] https://github.com/stedolan/jq.git
+- http://codeforces.com/api/help?mobile=true
+- https://github.com/stedolan/jq.git
