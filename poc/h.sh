@@ -7,7 +7,7 @@ ini () {
 
 curl_raw () {
     curl_rc=0 # return code
-    curl "$@"
+    curl -s "$@"
     curl_rc=$?
 }
 
@@ -17,7 +17,7 @@ curl_cash () {
     cp $c $t/l
 }
 
-curl0 () {
+curl0 () { # fills $t/l; one request is cached
     ps="http://codeforces.com/api/problemset.problems"
     if test "$@" = "$ps"; then curl_cash "$@"; else curl_raw "$@" > $t/l; fi
 }
@@ -43,19 +43,25 @@ api () { # api m a=1 b=2 -> api0 m?a=1&b=2
     api0 $arg
 }
 
+jq0 () (jq --raw-output "$@" $t/r)
+
 ini
 
-api problemset.problems tags=implementation
-jq .problemStatistics $t/r | sed 30q
+# need
+api problemset.problems
+jq0 .problemStatistics[10].contestId
+jq0 .problemStatistics[10].index
+jq0 .problemStatistics[10].solvedCount
+jq0          .problems[10].tags[]
+jq0          .problems[10].name
 
-api contest.status contestId=776 handle=tourist
+api contest.status contestId=101 handle=tourist
+jq0 .[].programmingLanguage
 
-http://codeforces.com/contest/776/submission/24918716
-
-jq .[].id      $t/r
-jq .[].verdict $t/r
-jq .[].problem.index       $t/r
-jq .[].programmingLanguage $t/r
+jq0 .[].id
+jq0 .[].verdict $t/r
+jq0 .[].problem.index       $t/r
+jq0 .[].programmingLanguage $t/r
 
 sed 100q $t/r
 
