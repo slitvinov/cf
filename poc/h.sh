@@ -1,11 +1,16 @@
 #!/bin/bash
 
 ini () {
+    h=tourist # handle
+    cc=$h.code # where to place code
+    
     mg='!!#' # magic string for database
     t=/tmp/cf.$$; mkdir -p $t
     trap 'rm -rf $t' 1 2 13 15
+    
     mkdir -p .c # cache
     mkdir -p .d # data base
+    mkdir -p  $cc
 }
 
 curl_raw () {
@@ -90,12 +95,14 @@ stream_problemset | s2d $mg     > .d/d0
 
 clist=`awk '/^contestId/ {print $2}' .d/d0 | sort -g | uniq`
 for c in $clist; do
-    api contest.status contestId=$c handle=tourist
+    api contest.status contestId=$c handle=$h
     if test ! $status = OK; then break; fi
     stream_contest | s2d $mg
-    # if test   $c = 100; then break; fi
 done > .d/d1
 
-./join2.awk .d/d0 .d/d1 contestId index > .d/d3
+./join2.awk  .d/d0 .d/d1 contestId index > .d/d3
+./filter.awk .d/d3 verdict OK > .d/d.tmp && mv .d/d.tmp .d/d3
+./url.awk    .d/d3            > .d/d.tmp && mv .d/d.tmp .d/d3
 
+./code.awk   .d/d3 $cc        > .d/d.tmp && mv .d/d.tmp .d/d3
 # curl http://codeforces.com/contest/776/submission/24918716?mobile=true > d

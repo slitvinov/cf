@@ -12,7 +12,7 @@ BEGIN {
     url() # set urls
     
     print
-    print "submisionUrl" "\t" suburl
+    print "submissionUrl" "\t" suburl
     print "problemUrl" "\t" prburl
     printf "\n"
 }

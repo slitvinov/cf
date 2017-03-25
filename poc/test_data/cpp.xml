@@ -1,0 +1,8271 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="X-Csrf-Token" content="10573205eeb97662f7495b514c00027c"/>
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=0.01"/>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/jquery-1.8.3.js"></script>
+    <script type="application/javascript">
+        function adjustViewport() {
+            var screenWidthPx = Math.min($(window).width(), window.screen.width);
+            var siteWidthPx = 900; // min width of site
+            var ratio = Math.min(screenWidthPx / siteWidthPx, 1.0);
+            var viewport = "width=device-width, initial-scale=" + ratio;
+            $('#viewport').attr('content', viewport);
+            var style = $('<style>html * { max-height: 1000000px; }</style>');
+            $('html > head').append(style);
+        }
+
+        if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+            adjustViewport();
+        }
+    </script>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta http-equiv="profileName" content="p1">
+    <meta name="google-site-verification" content="OTd2dN5x4nS4OPknPI9JFg36fKxjqY0i1PSfFPv_J90"/>
+    <meta property="fb:admins" content="100001352546622" />
+    <meta property="og:image" content="http://st.codeforces.com/s/32849/images/codeforces-telegram-square.png" />
+    <link rel="image_src" href="http://st.codeforces.com/s/32849/images/codeforces-telegram-square.png" />
+    <meta property="og:title" content="Submission #24918716 - Codeforces"/>
+    <meta property="og:description" content=""/>
+    
+    <meta property="og:site_name" content="Codeforces"/>
+    
+    
+    <meta name="cc" content="38d94505beeecb7a691ce5c9f1bec8afff48da69"/>
+    
+    
+    <meta name="utc_offset" content="+03:00"/>
+    <meta name="verify-reformal" content="f56f99fd7e087fb6ccb48ef2" />
+    <title>Submission #24918716 - Codeforces</title>
+        <meta name="description" content="Codeforces. Programming competitions and contests, programming community" />
+        <meta name="keywords" content="programming algorithm contest competition informatics olympiads c++ java graphs vkcup" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/font-awesome.min.css" type="text/css" charset="utf-8" />
+
+        <link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Cuprum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+
+    <link rel="shortcut icon" type="image/png" href="http://st.codeforces.com/s/32849/favicon.png">
+
+    <!--CombineResourcesFilter-->
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/prettify.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/clear.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/style.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/mobile.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/ttypography.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/problem-statement.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/second-level-menu.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/roundbox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/datatable.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/table-form.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/topic.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/jquery.jgrowl.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/facebox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/jquery.wysiwyg.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/jquery.autocomplete.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/codeforces.datepick.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/colorbox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/jquery.drafts.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/status.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="http://st.codeforces.com/s/32849/css/community.css" type="text/css" charset="utf-8" />
+
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/prettify/prettify.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/moment.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/pushstream.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/jquery.lavalamp.min.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/jquery.jgrowl.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/jquery.swipe.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/facebox.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/jquery.wysiwyg.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/controls/wysiwyg.colorpicker.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/controls/wysiwyg.table.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/controls/wysiwyg.image.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/controls/wysiwyg.link.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/jquery.autocomplete.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/jquery.datepick.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/jquery.ie6blocker.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/jquery.colorbox-min.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/jquery.ba-bbq.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/jquery.drafts.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/sjcl.js"></script>
+    <script type="text/javascript" src="/scripts/8934361bf1a44bdc9a80b21a9678c6d5/en/codeforces-options.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/js/codeforces.js?v=20160131"></script>
+    <!--/CombineResourcesFilter-->
+
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/markitup/skins/markitup/style.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/32849/markitup/sets/markdown/style.css" type="text/css" charset="utf-8" />
+
+    <script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/markitup/jquery.markitup.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/32849/markitup/sets/markdown/set.js"></script>
+
+    <!--[if IE]>
+    <style>
+        #sidebar {
+            padding-left: 1em;
+            margin: 1em 1em 1em 0;
+        }
+    </style>
+    <![endif]-->
+
+
+</head>
+<body><span style='display:none;' class='csrf-token' data-csrf='10573205eeb97662f7495b514c00027c'>&nbsp;</span>
+
+<div class="button-up" style="display: none; opacity: 0.7; width: 50px; height:100%; position: fixed; left: 0; top: 0; cursor: pointer; text-align: center; line-height: 35px; color: #d3dbe4; font-weight: bold; font-size: 3.0rem;"><i class="icon-circle-arrow-up"></i></div>
+
+<!-- Codeforces JavaScripts. -->
+<script type="text/javascript">
+    var queryMobile = Codeforces.queryString.mobile;
+    if (queryMobile === "true" || queryMobile === "false") {
+        Codeforces.putToStorage("useMobile", queryMobile == "true");
+    } else {
+        var useMobile = Codeforces.getFromStorage("useMobile");
+        if (useMobile === true || useMobile === false) {
+            if (useMobile != true) {
+                Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", useMobile));
+            }
+        }
+    }
+</script>
+<script type="text/javascript">
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '554666954583323',
+            xfbml      : true,
+            version    : 'v2.8'
+        });
+        FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<script type="text/javascript">
+    if (window.parent.frames.length > 0) {
+        window.stop();
+    }
+</script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+    (function () {
+        jQuery.expr[':'].containsCI = function(elem, index, match) {
+            return !match || !match.length || match.length < 4 || !match[3] || (
+                    elem.textContent || elem.innerText || jQuery(elem).text() || ''
+            ).toLowerCase().indexOf(match[3].toLowerCase()) >= 0;
+        }
+    }(jQuery));
+
+    $.ajaxPrefilter(function(options, originalOptions, xhr) {
+        var csrf = Codeforces.getCsrfToken();
+
+        if (csrf) {
+            var data = originalOptions.data;
+            if (originalOptions.data !== undefined) {
+                if (Object.prototype.toString.call(originalOptions.data) === '[object String]') {
+                    data = $.deparam(originalOptions.data);
+                }
+            } else {
+                data = {};
+            }
+            options.data = $.param($.extend(data, { csrf_token: csrf }));
+        }
+    });
+
+    window.getCodeforcesServerTime = function(callback) {
+        $.post("/data/time", {}, callback, "json");
+    }
+
+    window.updateTypography = function () {
+        $("div.ttypography code").addClass("tt");
+        $("div.ttypography pre>code").addClass("prettyprint").removeClass("tt");
+        $("div.ttypography table").addClass("bordertable");
+        prettyPrint();
+    }
+
+    $.ajaxSetup({ scriptCharset: "utf-8" ,contentType: "application/x-www-form-urlencoded; charset=UTF-8", headers: {
+        'X-Csrf-Token': Codeforces.getCsrfToken()
+    }});
+
+    window.updateTypography();
+
+    Codeforces.signForms();
+
+    setTimeout(function() {
+        $(".second-level-menu-list").lavaLamp({
+            fx: "backout",
+            speed: 1000
+        });
+    }, 0);
+
+
+    Codeforces.countdown();
+    $("a[rel='photobox']").colorbox();
+
+
+    function showAnnouncements(json) {
+        //info("j=" + JSON.stringify(json));
+
+        if (json.t != "a") {
+            return;
+        }
+        // console.log("Got announcement from channel");
+        setTimeout(function() {
+            Codeforces.showAnnouncements(json.d, "en");
+        }, Math.random() * 500);
+    }
+    if (Codeforces.getParticipantChannel()) {
+        Codeforces.subscribe(Codeforces.getParticipantChannel(), function(json) {
+            showAnnouncements(json);
+        });
+    }
+
+    if (Codeforces.getContestChannel()) {
+        Codeforces.subscribe(Codeforces.getContestChannel(), function(json) {
+            showAnnouncements(json);
+        });
+    }
+
+    if (Codeforces.getGlobalChannel()) {
+        Codeforces.subscribe(Codeforces.getGlobalChannel(), function(json) {
+            showAnnouncements(json);
+        });
+    }
+
+    if (Codeforces.getUserChannel()) {
+        Codeforces.subscribe(Codeforces.getUserChannel(), function(json) {
+            showAnnouncements(json);
+        });
+    }
+
+    $(".clickable-title").click(function() {
+        Codeforces.alert($(this).attr("title"));
+    }).css("position", "relative").css("bottom", "3px");
+
+
+    Codeforces.reformatTimes();
+    Codeforces.initializePubSub();
+
+    Codeforces.setupSpoilers();
+    Codeforces.setupTutorials("/data/problemTutorial");
+        });
+    </script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-743380-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function () {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = (document.location.protocol == 'https:' ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<style>
+    .mobile-toolbar {
+        background-color: #eeeeef;
+        border-bottom: 1px solid #C6C7CC;
+        margin: 0 auto 10px auto;
+    }
+
+    .mobile-toolbar-internals {
+        width: 885px;
+        height: 100%;
+    }
+
+    .mobile-toolbar-menu {
+        float:left;
+    }
+
+    .mobile-toolbar-sidebar {
+        float:right;
+    }
+</style>
+<div class="mobile-toolbar">
+    <div class="mobile-toolbar-internals">
+        <img src="http://st.codeforces.com/s/32849/images/icons/icon-bars.png" class="mobile-toolbar-menu"/>
+        <img src="http://st.codeforces.com/s/32849/images/icons/icons-ellipsis-v.png" class="mobile-toolbar-sidebar"/>
+    </div>
+</div>
+<div id="body">
+        
+
+<div class="side-bell" style="visibility: hidden; display: none; opacity: 0.7; width: 40px; position: fixed; right: 0; top: 0; cursor: pointer; text-align: center; line-height: 35px; color: #d3dbe4; font-weight: bold; font-size: 1.5rem;">
+    <span class="icon-stack" style="width: 100%;">
+        <i class="icon-circle icon-stack-base"></i>
+        <i class="icon-bell-alt icon-light"></i>
+    </span>
+    <br/>
+    <span class="side-bell__count" style="position: relative; top: -10px;"></span>
+</div>
+
+
+<div id="header" style="position: relative;">
+    <div style="float:left;">
+            
+            <a href="/"><img src="http://st.codeforces.com/s/32849/images/codeforces-logo-with-telegram.png"/></a>
+    </div>
+    <div class="lang-chooser">
+        <div style="text-align: right;">
+            <a href="?mobile=true&amp;locale=en"><img src="http://st.codeforces.com/s/32849/images/flags/24/gb.png" title="In English" alt="In English"/></a>
+            <a href="?mobile=true&amp;locale=ru"><img src="http://st.codeforces.com/s/32849/images/flags/24/ru.png" title="По-русски" alt="По-русски"/></a>
+        </div>
+
+        <div>
+                    <a href="/enter?back=%2Fcontest%2F776%2Fsubmission%2F24918716%3Fmobile%3Dtrue">Enter</a>
+                     | 
+                    <a href="/register">Register</a>
+                    
+        </div>
+
+
+
+    </div>
+    <br style="clear: both;"/>
+</div>
+        
+
+    <div class="menu-box">
+    <div class="menu-list-container">
+    <ul class="menu-list main-menu-list">
+                <li class=""><a href="/">Home</a></li>
+                <li class="current"><a href="/contests">Contests</a></li>
+                <li class=""><a href="/gyms">Gym</a></li>
+                <li class=""><a href="/problemset">Problemset</a></li>
+                <li class=""><a href="/groups">Groups</a></li>
+                <li class=""><a href="/ratings">Rating</a></li>
+                <li class=""><a href="/api/help">API</a></li>
+                <li class=""><a href="/rcc2017">RCC <img class="icon" src="http://st.codeforces.com/images/icons/cup.png"/></a></li>
+                <li class=""><a href="/vkcup2017">VK Cup <img class="icon" src="http://st.codeforces.com/images/icons/cup.png"/></a></li>
+    </ul>
+        <form method="post" action="/search"><input type='hidden' name='csrf_token' value='10573205eeb97662f7495b514c00027c'/>
+            <input class="search" name="query" data-isPlaceholder="true" value=""/>
+        </form>
+    <br style="clear: both;"/>
+</div>
+
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("input.search").focus(function () {
+                if ($(this).attr("data-isPlaceholder") === "true") {
+                    $(this).val("");
+                    $(this).removeAttr("data-isPlaceholder");
+                }
+            });
+        });
+    </script>
+
+        <div style="position: relative;margin-top: 1em;">
+                <script type="text/javascript">
+                    $(function(){
+                        function openSidebar() {
+                            $("#swipe-sidebar").animate({right: 0}, 200, function() {
+                                $("html").addClass("swipe-sidebar-opened");
+                            });
+                        }
+
+                        function closeSidebar() {
+                            $("#swipe-sidebar").animate({right: "-600px"}, 200, function() {
+                                $(this).scrollTop(0);
+                                $("html").removeClass("swipe-sidebar-opened");
+                            });
+                        }
+
+                        function openMenuBox() {
+                            $(".menu-box").animate({left: "-40px"}, 200, function() {
+                                $("html").addClass("menu-box-opened");
+                            });
+                        }
+
+                        function closeMenuBox() {
+                            $(".menu-box").animate({left: "-450px"}, 200, function() {
+                                $("html").removeClass("menu-box-opened");
+                            });
+                        }
+
+                        $("html").swipe({
+                            left: function () {
+                                if ($("html").hasClass("menu-box-opened"))
+                                    closeMenuBox();
+                                else
+                                    openSidebar();
+                            },
+                            right: function () {
+                                if ($("html").hasClass("swipe-sidebar-opened"))
+                                    closeSidebar();
+                                else
+                                    openMenuBox();
+                            }
+                        });
+
+                        $("#pageContent").swipe({
+                            touch: function () {
+                                if ($("html").hasClass("menu-box-opened"))
+                                    closeMenuBox();
+                                if ($("html").hasClass("swipe-sidebar-opened"))
+                                    closeSidebar();
+                            }
+                        });
+
+                        $(".mobile-toolbar-menu").click(function() {
+                            if ($("html").hasClass("menu-box-opened"))
+                                closeMenuBox();
+                            else
+                                openMenuBox();
+                        });
+
+                        $(".mobile-toolbar-sidebar").click(function() {
+                            if ($("html").hasClass("swipe-sidebar-opened"))
+                                closeSidebar();
+                            else
+                                openSidebar();
+                        });
+
+                        //openSidebar();
+                        //openMenuBox();
+                    });
+                </script>
+
+                <div id="pageContent">
+                        <div class="second-level-menu">
+<ul class="second-level-menu-list">
+        <li><a
+                                        href="/contest/776">Problems</a></li>
+        <li><a
+                                        href="/contest/776/submit">Submit Code</a></li>
+        <li><a
+                                        href="/contest/776/my">My Submissions</a></li>
+        <li class="current selectedLava"><a
+                                        href="/contest/776/status">Status</a></li>
+        <li><a
+                                        href="/contest/776/hacks">Hacks</a></li>
+        <li><a
+                                        href="/contest/776/room/1">Room</a></li>
+        <li><a
+                                        href="/contest/776/standings">Standings</a></li>
+        <li><a
+                                        href="/contest/776/customtest">Custom Invocation</a></li>
+</ul>
+</div>
+
+
+<div class="datatable"
+     
+     style="background-color: #E1E1E1; padding-bottom: 3px;">
+            <div class="lt">&nbsp;</div>
+            <div class="rt">&nbsp;</div>
+            <div class="lb">&nbsp;</div>
+            <div class="rb">&nbsp;</div>
+
+            <div style="padding: 4px 0 0 6px;font-size:1.4rem;position:relative;">
+                General
+
+                <div style="position:absolute;right:0.25em;top:0.35em;">
+                    <span style="padding:0;position:relative;bottom:2px;" class="rowCount"></span>
+
+                    <img class="closed" src="http://st.codeforces.com/s/32849/images/icons/control.png"/>
+
+                    <span class="filter" style="display:none;">
+                        <img class="opened" src="http://st.codeforces.com/s/32849/images/icons/control-270.png"/>
+                        <input style="padding:0;position:relative;bottom:2px;border:1px solid #aaa;height:17px;font-size:1.3rem;"/>
+                    </span>
+                </div>
+            </div>
+            <div style="background-color: white;margin:0.3em 3px 0 3px;position:relative;">
+            <div class="ilt">&nbsp;</div>
+            <div class="irt">&nbsp;</div>
+            <table class="">
+<tr>
+    <th style="width:2em;">#</th>
+    <th style="width:12em;">Author</th>
+    <th style="width:2em;">Problem</th>
+    <th style="width:2em;">Lang</th>
+    <th style="width:8em;">Verdict</th>
+    <th style="width:2em;">Time</th>
+    <th style="width:2em;">Memory</th>
+    <th style="width:4em;">Sent</th>
+    <th style="width:4em;">Judged</th>
+    <th style="width:4em;">&nbsp;</th>
+</tr>
+<tr>
+    <td>24918716</td>
+    <td>
+            Contestant:<br/>
+<a href="/profile/tourist" title="Legendary grandmaster tourist" class="rated-user user-legendary"><span class="legendary-user-first-letter">t</span>ourist</a>    </td>
+    <td>
+        <a title="A - A Serial Killer" href="/contest/776/problem/A">776A</a>
+         - <span title="problem revision">24</span>
+    </td>
+    <td>
+    GNU C++11
+    </td>
+    <td>
+    <span class='verdict-accepted'>Accepted</span>
+    </td>
+    <td>
+        15 ms
+    </td>
+    <td>
+        2056 KB
+    </td>
+    <td>2017-02-23 17:51:02</td>
+    <td>2017-02-23 20:29:38</td>
+    <td>
+        <button style="padding: 0.05em; width: 80px;" class="showDiff" title="Compare">Compare</button>
+    </td>
+</tr>
+            </table>
+            </div>
+        </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+                // Create new ':containsIgnoreCase' selector for search
+                jQuery.expr[':'].containsIgnoreCase = function(a, i, m) {
+                    return jQuery(a).text().toUpperCase()
+                            .indexOf(m[3].toUpperCase()) >= 0;
+                };
+
+                if (window.updateDatatableFilter == undefined) {
+                    window.updateDatatableFilter = function(i) {
+                        var parent = $(i).parent().parent().parent().parent();
+                        $("tr.no-items", parent).remove();
+                        $("tr", parent).hide().removeClass('visible');
+                        var text = $(i).val();
+                        if (text) {
+                            $("tr" + ":containsIgnoreCase('" + text + "')", parent).show().addClass('visible');
+                        } else {
+                            parent.find(".rowCount").text("");
+                            $("tr", parent).show().addClass('visible');
+                        }
+
+                        var found = false;
+                        var visibleRowCount = 0;
+                        $("tr", parent).each(function () {
+                            if (!found) {
+                                if ($(this).find("th").size() > 0) {
+                                    $(this).show().addClass('visible');
+                                    found = true;
+                                }
+                            }
+                            if ($(this).hasClass('visible')) {
+                                visibleRowCount++;
+                            }
+                        });
+                        if (text) {
+                            parent.find(".rowCount").text("Matches: " + (visibleRowCount - (found ? 1 : 0)));
+                        }
+                        if (visibleRowCount == (found ? 1 : 0)) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo($(parent).find('table'));
+                        }
+                        $(parent).find("tr td").removeClass("dark");
+                        $(parent).find("tr.visible:odd td").addClass("dark");
+                    }
+
+                    $(".datatable .closed").click(function () {
+                        var parent = $(this).parent();
+                        $(this).hide();
+                        $(".filter", parent).fadeIn(function () {
+                            $("input", parent).val("").focus().css("border", "1px solid #aaa");
+                        });
+                    });
+
+                    $(".datatable .opened").click(function () {
+                        var parent = $(this).parent().parent();
+                        $(".filter", parent).fadeOut(function () {
+                            $(".closed", parent).show();
+                            $("input", parent).val("").each(function () {
+                                window.updateDatatableFilter(this);
+                            });
+                        });
+                    });
+
+                    $(".datatable .filter input").keyup(function(e) {
+                        window.updateDatatableFilter(this);
+                        e.preventDefault();
+                        e.stopPropagation();
+                    });
+
+                    $(".datatable table").each(function () {
+                        var found = false;
+                        $("tr", this).each(function () {
+                            if (!found && $(this).find("th").size() == 0) {
+                                found = true;
+                            }
+                        });
+                        if (!found) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo(this);
+                        }
+                    });
+
+                    // Applies styles to datatables.
+                    $(".datatable").each(function () {
+                        $(this).find("tr:first th").addClass("top");
+                        $(this).find("tr:last td").addClass("bottom");
+                        $(this).find("tr:odd td").addClass("dark");
+                        $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                        $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                    });
+
+                    $(".datatable table.tablesorter").each(function () {
+                        $(this).bind("sortEnd", function () {
+                            $(".datatable").each(function () {
+                                $(this).find("th, td")
+                                    .removeClass("top").removeClass("bottom")
+                                    .removeClass("left").removeClass("right")
+                                    .removeClass("dark");
+                                $(this).find("tr:first th").addClass("top");
+                                $(this).find("tr:last td").addClass("bottom");
+                                $(this).find("tr:odd td").addClass("dark");
+                                $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                                $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                            });
+                        });
+                    });
+                }
+        });
+    </script>
+
+    <div class="roundbox " style="margin-top:2em;font-size:1.1rem;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">&rarr; Source
+            <div class="top-links">
+            </div>
+        </div>
+    <pre class="prettyprint lang-cpp program-source" style="padding: 0.5em;">#include &lt;bits/stdc++.h&gt;
+
+using namespace std;
+
+int main() {
+  string x, y;
+  cin &gt;&gt; x &gt;&gt; y;
+  cout &lt;&lt; x &lt;&lt; &quot; &quot; &lt;&lt; y &lt;&lt; endl;
+  int n;
+  cin &gt;&gt; n;
+  while (n--) {
+    string a, b;
+    cin &gt;&gt; a &gt;&gt; b;
+    if (x == a) {
+      x = b;
+    } else {
+      y = b;
+    }
+    cout &lt;&lt; x &lt;&lt; &quot; &quot; &lt;&lt; y &lt;&lt; endl;
+  }
+  return 0;
+}
+</pre>
+    </div>
+
+
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">1
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2036 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>ross rachel
+4
+ross joey
+rachel phoebe
+phoebe monica
+monica chandler
+</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>ross rachel
+joey rachel
+joey phoebe
+joey monica
+joey chandler
+</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>ross rachel
+joey rachel
+joey phoebe
+joey monica
+joey chandler
+</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 5 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">2
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2040 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>icm codeforces
+1
+codeforces technex
+</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>icm codeforces
+icm technex
+</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>icm codeforces
+icm technex
+</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 2 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">3
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2048 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>a b
+3
+a c
+b d
+d e
+</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>a b
+c b
+c d
+c e
+</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>a b
+c b
+c d
+c e
+</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 4 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">4
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2036 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>ze udggmyop
+4
+ze szhrbmft
+udggmyop mjorab
+szhrbmft ojdtfnzxj
+ojdtfnzxj yjlkg
+</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>ze udggmyop
+szhrbmft udggmyop
+szhrbmft mjorab
+ojdtfnzxj mjorab
+yjlkg mjorab
+</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>ze udggmyop
+szhrbmft udggmyop
+szhrbmft mjorab
+ojdtfnzxj mjorab
+yjlkg mjorab
+</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 5 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">5
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2028 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>sy hczut
+935
+hczut hiytqlf
+hiytqlf v
+v ipufx
+ipufx ojlvkk
+ojlvkk vjhpjmcxei
+sy u
+vjhpjmcxei lcdiwj
+lcdiwj lpzwvknsyv
+u odpykti
+odpykti atrlieiik
+lpzwvknsyv ghix
+ghix k
+k siknju
+atrlieiik eltw
+eltw yhgab
+siknju wtcly
+yhgab quaoiqn
+wtcly oxnv
+quaoiqn vyhf
+oxnv ol
+vyhf nw
+ol kcgitde
+nw nzzv
+nzzv oll
+oll e
+e sn
+sn dvdarl
+dvdarl l
+kcgitde smg
+l ulzimadkzl
+ulzimadkzl ouk
+ouk eljdpjpxxd
+smg ooczhe
+ooczhe zgbp
+eljdpjpxxd gwrzoufq
+zgbp heg
+gwrzoufq kheh
+kheh xupri
+heg buwl
+b...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>sy hczut
+sy hiytqlf
+sy v
+sy ipufx
+sy ojlvkk
+sy vjhpjmcxei
+u vjhpjmcxei
+u lcdiwj
+u lpzwvknsyv
+odpykti lpzwvknsyv
+atrlieiik lpzwvknsyv
+atrlieiik ghix
+atrlieiik k
+atrlieiik siknju
+eltw siknju
+yhgab siknju
+yhgab wtcly
+quaoiqn wtcly
+quaoiqn oxnv
+vyhf oxnv
+vyhf ol
+nw ol
+nw kcgitde
+nzzv kcgitde
+oll kcgitde
+e kcgitde
+sn kcgitde
+dvdarl kcgitde
+l kcgitde
+l smg
+ulzimadkzl smg
+ouk smg
+eljdpjpxxd smg
+eljdpjpxxd ooczhe
+eljdpjpxxd zgbp
+gwrzoufq zgbp
+gwrzoufq heg
+kheh heg
+xupri heg
+x...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>sy hczut
+sy hiytqlf
+sy v
+sy ipufx
+sy ojlvkk
+sy vjhpjmcxei
+u vjhpjmcxei
+u lcdiwj
+u lpzwvknsyv
+odpykti lpzwvknsyv
+atrlieiik lpzwvknsyv
+atrlieiik ghix
+atrlieiik k
+atrlieiik siknju
+eltw siknju
+yhgab siknju
+yhgab wtcly
+quaoiqn wtcly
+quaoiqn oxnv
+vyhf oxnv
+vyhf ol
+nw ol
+nw kcgitde
+nzzv kcgitde
+oll kcgitde
+e kcgitde
+sn kcgitde
+dvdarl kcgitde
+l kcgitde
+l smg
+ulzimadkzl smg
+ouk smg
+eljdpjpxxd smg
+eljdpjpxxd ooczhe
+eljdpjpxxd zgbp
+gwrzoufq zgbp
+gwrzoufq heg
+kheh heg
+xupri heg
+x...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 936 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">6
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2040 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>q s
+10
+q b
+b j
+s g
+j f
+f m
+g c
+c a
+m d
+d z
+z o
+</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>q s
+b s
+j s
+j g
+f g
+m g
+m c
+m a
+d a
+z a
+o a
+</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>q s
+b s
+j s
+j g
+f g
+m g
+m c
+m a
+d a
+z a
+o a
+</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 11 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">7
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2044 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>iii iiiiii
+7
+iii iiiiiiiiii
+iiiiiiiiii iiii
+iiii i
+iiiiii iiiiiiii
+iiiiiiii iiiiiiiii
+i iiiii
+iiiii ii
+</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>iii iiiiii
+iiiiiiiiii iiiiii
+iiii iiiiii
+i iiiiii
+i iiiiiiii
+i iiiiiiiii
+iiiii iiiiiiiii
+ii iiiiiiiii
+</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>iii iiiiii
+iiiiiiiiii iiiiii
+iiii iiiiii
+i iiiiii
+i iiiiiiii
+i iiiiiiiii
+iiiii iiiiiiiii
+ii iiiiiiiii
+</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 8 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">8
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2044 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>hgzugsvhb ayuay
+49
+ayuay xbxf
+hgzugsvhb idrjrnxpqu
+idrjrnxpqu xtswv
+xtswv ngo
+ngo kbavh
+kbavh sqswc
+xbxf xszudiln
+sqswc ua
+ua onmwwd
+xszudiln urxopw
+onmwwd pmno
+pmno nvclamldu
+urxopw qyofyc
+qyofyc oaefuxff
+nvclamldu pb
+pb rkbqiifbsz
+rkbqiifbsz jwcnnbbre
+oaefuxff v
+jwcnnbbre idyiyrbtd
+idyiyrbtd mskviu
+v ok
+ok iecxkt
+mskviu ajyem
+ajyem iz
+iz crhpysopha
+crhpysopha itpheeco
+itpheeco lyfqoarnv
+lyfqoarnv irqagjkb
+irqagjkb edhstjpl
+iecxkt kb
+edhstjpl rvzrjsz
+kb twrs
+rvzrjsz mvqvv...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>hgzugsvhb ayuay
+hgzugsvhb xbxf
+idrjrnxpqu xbxf
+xtswv xbxf
+ngo xbxf
+kbavh xbxf
+sqswc xbxf
+sqswc xszudiln
+ua xszudiln
+onmwwd xszudiln
+onmwwd urxopw
+pmno urxopw
+nvclamldu urxopw
+nvclamldu qyofyc
+nvclamldu oaefuxff
+pb oaefuxff
+rkbqiifbsz oaefuxff
+jwcnnbbre oaefuxff
+jwcnnbbre v
+idyiyrbtd v
+mskviu v
+mskviu ok
+mskviu iecxkt
+ajyem iecxkt
+iz iecxkt
+crhpysopha iecxkt
+itpheeco iecxkt
+lyfqoarnv iecxkt
+irqagjkb iecxkt
+edhstjpl iecxkt
+edhstjpl kb
+rvzrjsz kb
+rvzrjsz twrs
+mvqvvas twrs
+aeo...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>hgzugsvhb ayuay
+hgzugsvhb xbxf
+idrjrnxpqu xbxf
+xtswv xbxf
+ngo xbxf
+kbavh xbxf
+sqswc xbxf
+sqswc xszudiln
+ua xszudiln
+onmwwd xszudiln
+onmwwd urxopw
+pmno urxopw
+nvclamldu urxopw
+nvclamldu qyofyc
+nvclamldu oaefuxff
+pb oaefuxff
+rkbqiifbsz oaefuxff
+jwcnnbbre oaefuxff
+jwcnnbbre v
+idyiyrbtd v
+mskviu v
+mskviu ok
+mskviu iecxkt
+ajyem iecxkt
+iz iecxkt
+crhpysopha iecxkt
+itpheeco iecxkt
+lyfqoarnv iecxkt
+irqagjkb iecxkt
+edhstjpl iecxkt
+edhstjpl kb
+rvzrjsz kb
+rvzrjsz twrs
+mvqvvas twrs
+aeo...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 50 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">9
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2028 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>bwyplnjn zkms
+26
+zkms nzmcsytxh
+nzmcsytxh yujsb
+bwyplnjn gtbzhudpb
+gtbzhudpb hpk
+yujsb xvy
+hpk wrwnfokml
+wrwnfokml ndouuikw
+ndouuikw ucgrja
+ucgrja tgfmpldz
+xvy nycrfphn
+nycrfphn quvs
+quvs htdy
+htdy k
+tgfmpldz xtdpkxm
+xtdpkxm suwqxs
+k fv
+suwqxs qckllwy
+qckllwy diun
+fv lefa
+lefa gdoqjysx
+diun dhpz
+gdoqjysx bdmqdyt
+dhpz dgz
+dgz v
+bdmqdyt aswy
+aswy ydkayhlrnm
+</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>bwyplnjn zkms
+bwyplnjn nzmcsytxh
+bwyplnjn yujsb
+gtbzhudpb yujsb
+hpk yujsb
+hpk xvy
+wrwnfokml xvy
+ndouuikw xvy
+ucgrja xvy
+tgfmpldz xvy
+tgfmpldz nycrfphn
+tgfmpldz quvs
+tgfmpldz htdy
+tgfmpldz k
+xtdpkxm k
+suwqxs k
+suwqxs fv
+qckllwy fv
+diun fv
+diun lefa
+diun gdoqjysx
+dhpz gdoqjysx
+dhpz bdmqdyt
+dgz bdmqdyt
+v bdmqdyt
+v aswy
+v ydkayhlrnm
+</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>bwyplnjn zkms
+bwyplnjn nzmcsytxh
+bwyplnjn yujsb
+gtbzhudpb yujsb
+hpk yujsb
+hpk xvy
+wrwnfokml xvy
+ndouuikw xvy
+ucgrja xvy
+tgfmpldz xvy
+tgfmpldz nycrfphn
+tgfmpldz quvs
+tgfmpldz htdy
+tgfmpldz k
+xtdpkxm k
+suwqxs k
+suwqxs fv
+qckllwy fv
+diun fv
+diun lefa
+diun gdoqjysx
+dhpz gdoqjysx
+dhpz bdmqdyt
+dgz bdmqdyt
+v bdmqdyt
+v aswy
+v ydkayhlrnm
+</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 27 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">10
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2052 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>llmi viunc
+311
+llmi tznucacsie
+viunc oyxoz
+tznucacsie hhrktfu
+oyxoz skgyqpmsh
+skgyqpmsh hxrsdepzh
+hxrsdepzh lxrfjbcnug
+lxrfjbcnug tiaci
+tiaci vmwe
+hhrktfu niku
+vmwe xijlemciek
+niku zrvgr
+zrvgr bun
+xijlemciek skvmds
+bun eq
+skvmds uhk
+eq xipcekma
+xipcekma juozy
+uhk kqn
+juozy e
+e ji
+ji drlvowfnmi
+kqn yxbxxnndsz
+yxbxxnndsz ibhj
+drlvowfnmi ghbone
+ghbone fvnvnud
+fvnvnud njzjdtrb
+ibhj rnhfqrdo
+rnhfqrdo iyzordesv
+njzjdtrb ctdaiakcn
+iyzordesv alc
+alc zsjb
+zsjb kghelruz
+kghelruz ikw...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>llmi viunc
+tznucacsie viunc
+tznucacsie oyxoz
+hhrktfu oyxoz
+hhrktfu skgyqpmsh
+hhrktfu hxrsdepzh
+hhrktfu lxrfjbcnug
+hhrktfu tiaci
+hhrktfu vmwe
+niku vmwe
+niku xijlemciek
+zrvgr xijlemciek
+bun xijlemciek
+bun skvmds
+eq skvmds
+eq uhk
+xipcekma uhk
+juozy uhk
+juozy kqn
+e kqn
+ji kqn
+drlvowfnmi kqn
+drlvowfnmi yxbxxnndsz
+drlvowfnmi ibhj
+ghbone ibhj
+fvnvnud ibhj
+njzjdtrb ibhj
+njzjdtrb rnhfqrdo
+njzjdtrb iyzordesv
+ctdaiakcn iyzordesv
+ctdaiakcn alc
+ctdaiakcn zsjb
+ctdaiakcn kghelruz
+ctdaiakc...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>llmi viunc
+tznucacsie viunc
+tznucacsie oyxoz
+hhrktfu oyxoz
+hhrktfu skgyqpmsh
+hhrktfu hxrsdepzh
+hhrktfu lxrfjbcnug
+hhrktfu tiaci
+hhrktfu vmwe
+niku vmwe
+niku xijlemciek
+zrvgr xijlemciek
+bun xijlemciek
+bun skvmds
+eq skvmds
+eq uhk
+xipcekma uhk
+juozy uhk
+juozy kqn
+e kqn
+ji kqn
+drlvowfnmi kqn
+drlvowfnmi yxbxxnndsz
+drlvowfnmi ibhj
+ghbone ibhj
+fvnvnud ibhj
+njzjdtrb ibhj
+njzjdtrb rnhfqrdo
+njzjdtrb iyzordesv
+ctdaiakcn iyzordesv
+ctdaiakcn alc
+ctdaiakcn zsjb
+ctdaiakcn kghelruz
+ctdaiakc...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 312 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">11
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2020 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>yr fpah
+436
+fpah wxy
+yr qxkpfrf
+qxkpfrf bix
+bix vrdzkck
+vrdzkck alma
+wxy buxesaxqg
+alma qc
+buxesaxqg dcgijymkr
+dcgijymkr qi
+qc lwevjs
+qi i
+i tomoxv
+tomoxv ylfcwsm
+lwevjs ymiwgrbdnx
+ymiwgrbdnx hyadratv
+ylfcwsm xzx
+xzx sgkrapnr
+hyadratv l
+sgkrapnr oraxwds
+l vyjfwqnrt
+oraxwds p
+p dcdmqg
+vyjfwqnrt lzmcguqc
+lzmcguqc n
+dcdmqg gxygyvdm
+n gpmosopvlv
+gxygyvdm xj
+gpmosopvlv ejdgdy
+xj wrydl
+wrydl iyem
+iyem thxppp
+ejdgdy akpzrgxj
+thxppp yfhsmfpjhg
+yfhsmfpjhg qrjrsrdq
+akpzrgxj pljxjn...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>yr fpah
+yr wxy
+qxkpfrf wxy
+bix wxy
+vrdzkck wxy
+alma wxy
+alma buxesaxqg
+qc buxesaxqg
+qc dcgijymkr
+qc qi
+lwevjs qi
+lwevjs i
+lwevjs tomoxv
+lwevjs ylfcwsm
+ymiwgrbdnx ylfcwsm
+hyadratv ylfcwsm
+hyadratv xzx
+hyadratv sgkrapnr
+l sgkrapnr
+l oraxwds
+vyjfwqnrt oraxwds
+vyjfwqnrt p
+vyjfwqnrt dcdmqg
+lzmcguqc dcdmqg
+n dcdmqg
+n gxygyvdm
+gpmosopvlv gxygyvdm
+gpmosopvlv xj
+ejdgdy xj
+ejdgdy wrydl
+ejdgdy iyem
+ejdgdy thxppp
+akpzrgxj thxppp
+akpzrgxj yfhsmfpjhg
+akpzrgxj qrjrsrdq
+pljxjnac qrjrsrdq...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>yr fpah
+yr wxy
+qxkpfrf wxy
+bix wxy
+vrdzkck wxy
+alma wxy
+alma buxesaxqg
+qc buxesaxqg
+qc dcgijymkr
+qc qi
+lwevjs qi
+lwevjs i
+lwevjs tomoxv
+lwevjs ylfcwsm
+ymiwgrbdnx ylfcwsm
+hyadratv ylfcwsm
+hyadratv xzx
+hyadratv sgkrapnr
+l sgkrapnr
+l oraxwds
+vyjfwqnrt oraxwds
+vyjfwqnrt p
+vyjfwqnrt dcdmqg
+lzmcguqc dcdmqg
+n dcdmqg
+n gxygyvdm
+gpmosopvlv gxygyvdm
+gpmosopvlv xj
+ejdgdy xj
+ejdgdy wrydl
+ejdgdy iyem
+ejdgdy thxppp
+akpzrgxj thxppp
+akpzrgxj yfhsmfpjhg
+akpzrgxj qrjrsrdq
+pljxjnac qrjrsrdq...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 437 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">12
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2028 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>zzb xf
+695
+zzb pvxdmnme
+xf xvfwlaksm
+xvfwlaksm wdjlprkyqv
+pvxdmnme r
+wdjlprkyqv lxnj
+lxnj syzzau
+syzzau atzeh
+atzeh zmje
+zmje vbgifwfv
+vbgifwfv opqfhjrdpw
+opqfhjrdpw yzdkcspqo
+yzdkcspqo dohylv
+dohylv kindr
+kindr xp
+xp qru
+r mcn
+qru twnlislds
+mcn hqejfkf
+twnlislds y
+y khpekmfs
+khpekmfs ixzkissj
+hqejfkf vphqp
+ixzkissj akvebzkpo
+vphqp k
+akvebzkpo o
+o ygprmovls
+k jnplslals
+ygprmovls aybxbp
+jnplslals shxn
+aybxbp wevakiu
+shxn ikozjzadf
+ikozjzadf beanpwqqwv
+wevakiu cthlosacw
+cth...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>zzb xf
+pvxdmnme xf
+pvxdmnme xvfwlaksm
+pvxdmnme wdjlprkyqv
+r wdjlprkyqv
+r lxnj
+r syzzau
+r atzeh
+r zmje
+r vbgifwfv
+r opqfhjrdpw
+r yzdkcspqo
+r dohylv
+r kindr
+r xp
+r qru
+mcn qru
+mcn twnlislds
+hqejfkf twnlislds
+hqejfkf y
+hqejfkf khpekmfs
+hqejfkf ixzkissj
+vphqp ixzkissj
+vphqp akvebzkpo
+k akvebzkpo
+k o
+k ygprmovls
+jnplslals ygprmovls
+jnplslals aybxbp
+shxn aybxbp
+shxn wevakiu
+ikozjzadf wevakiu
+beanpwqqwv wevakiu
+beanpwqqwv cthlosacw
+beanpwqqwv ryv
+pq ryv
+pq sariczshck
+pq wxvkh...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>zzb xf
+pvxdmnme xf
+pvxdmnme xvfwlaksm
+pvxdmnme wdjlprkyqv
+r wdjlprkyqv
+r lxnj
+r syzzau
+r atzeh
+r zmje
+r vbgifwfv
+r opqfhjrdpw
+r yzdkcspqo
+r dohylv
+r kindr
+r xp
+r qru
+mcn qru
+mcn twnlislds
+hqejfkf twnlislds
+hqejfkf y
+hqejfkf khpekmfs
+hqejfkf ixzkissj
+vphqp ixzkissj
+vphqp akvebzkpo
+k akvebzkpo
+k o
+k ygprmovls
+jnplslals ygprmovls
+jnplslals aybxbp
+shxn aybxbp
+shxn wevakiu
+ikozjzadf wevakiu
+beanpwqqwv wevakiu
+beanpwqqwv cthlosacw
+beanpwqqwv ryv
+pq ryv
+pq sariczshck
+pq wxvkh...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 696 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">13
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2052 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>n wbqhzwxv
+180
+wbqhzwxv cuftrlmot
+cuftrlmot cf
+n qwudjahqov
+qwudjahqov bdlniaa
+cf pxlsgis
+bdlniaa rypsfju
+rypsfju hemierhqi
+pxlsgis i
+i cuzpu
+cuzpu bnrllsl
+bnrllsl wgszetr
+wgszetr hgpzger
+hgpzger gvcbxgv
+hemierhqi sscuu
+sscuu ve
+gvcbxgv ol
+ol yb
+yb eoj
+ve c
+c mk
+mk farqpoo
+eoj znkxkfb
+farqpoo ekso
+ekso vqrwpr
+znkxkfb u
+u lpunnpsu
+vqrwpr ca
+lpunnpsu w
+w l
+ca xafbwhioop
+xafbwhioop vmu
+l uzryijzj
+uzryijzj vya
+vmu sosg
+vya kr
+kr igwd
+sosg einzukzo
+igwd r
+einzukzo oxahxsm...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>n wbqhzwxv
+n cuftrlmot
+n cf
+qwudjahqov cf
+bdlniaa cf
+bdlniaa pxlsgis
+rypsfju pxlsgis
+hemierhqi pxlsgis
+hemierhqi i
+hemierhqi cuzpu
+hemierhqi bnrllsl
+hemierhqi wgszetr
+hemierhqi hgpzger
+hemierhqi gvcbxgv
+sscuu gvcbxgv
+ve gvcbxgv
+ve ol
+ve yb
+ve eoj
+c eoj
+mk eoj
+farqpoo eoj
+farqpoo znkxkfb
+ekso znkxkfb
+vqrwpr znkxkfb
+vqrwpr u
+vqrwpr lpunnpsu
+ca lpunnpsu
+ca w
+ca l
+xafbwhioop l
+vmu l
+vmu uzryijzj
+vmu vya
+sosg vya
+sosg kr
+sosg igwd
+einzukzo igwd
+einzukzo r
+oxahxsmard r
+fey...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>n wbqhzwxv
+n cuftrlmot
+n cf
+qwudjahqov cf
+bdlniaa cf
+bdlniaa pxlsgis
+rypsfju pxlsgis
+hemierhqi pxlsgis
+hemierhqi i
+hemierhqi cuzpu
+hemierhqi bnrllsl
+hemierhqi wgszetr
+hemierhqi hgpzger
+hemierhqi gvcbxgv
+sscuu gvcbxgv
+ve gvcbxgv
+ve ol
+ve yb
+ve eoj
+c eoj
+mk eoj
+farqpoo eoj
+farqpoo znkxkfb
+ekso znkxkfb
+vqrwpr znkxkfb
+vqrwpr u
+vqrwpr lpunnpsu
+ca lpunnpsu
+ca w
+ca l
+xafbwhioop l
+vmu l
+vmu uzryijzj
+vmu vya
+sosg vya
+sosg kr
+sosg igwd
+einzukzo igwd
+einzukzo r
+oxahxsmard r
+fey...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 181 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">14
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2036 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>rkvty yldfrmhdp
+343
+rkvty makoz
+yldfrmhdp paq
+paq lwauw
+lwauw esbgste
+esbgste ou
+ou wvvd
+wvvd o
+o jsxdqf
+jsxdqf az
+makoz whbihev
+az bkyob
+whbihev bt
+bkyob odjd
+bt lthq
+lthq qhq
+qhq wsbm
+odjd ilzhwefr
+ilzhwefr wupvgj
+wupvgj lluubc
+lluubc cv
+wsbm lsopnkty
+lsopnkty pbx
+pbx fbcfwm
+cv nzeib
+fbcfwm xxal
+xxal w
+nzeib rbdjogxmy
+rbdjogxmy usueyt
+usueyt hs
+w udizysekg
+hs chmnfdtek
+udizysekg upgishev
+upgishev hadbaaonu
+chmnfdtek meu
+meu mqmjokpyxi
+mqmjokpyxi wzloptjzum
+wzloptjzum...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>rkvty yldfrmhdp
+makoz yldfrmhdp
+makoz paq
+makoz lwauw
+makoz esbgste
+makoz ou
+makoz wvvd
+makoz o
+makoz jsxdqf
+makoz az
+whbihev az
+whbihev bkyob
+bt bkyob
+bt odjd
+lthq odjd
+qhq odjd
+wsbm odjd
+wsbm ilzhwefr
+wsbm wupvgj
+wsbm lluubc
+wsbm cv
+lsopnkty cv
+pbx cv
+fbcfwm cv
+fbcfwm nzeib
+xxal nzeib
+w nzeib
+w rbdjogxmy
+w usueyt
+w hs
+udizysekg hs
+udizysekg chmnfdtek
+upgishev chmnfdtek
+hadbaaonu chmnfdtek
+hadbaaonu meu
+hadbaaonu mqmjokpyxi
+hadbaaonu wzloptjzum
+hadbaaonu fmrz
+hadbaaon...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>rkvty yldfrmhdp
+makoz yldfrmhdp
+makoz paq
+makoz lwauw
+makoz esbgste
+makoz ou
+makoz wvvd
+makoz o
+makoz jsxdqf
+makoz az
+whbihev az
+whbihev bkyob
+bt bkyob
+bt odjd
+lthq odjd
+qhq odjd
+wsbm odjd
+wsbm ilzhwefr
+wsbm wupvgj
+wsbm lluubc
+wsbm cv
+lsopnkty cv
+pbx cv
+fbcfwm cv
+fbcfwm nzeib
+xxal nzeib
+w nzeib
+w rbdjogxmy
+w usueyt
+w hs
+udizysekg hs
+udizysekg chmnfdtek
+upgishev chmnfdtek
+hadbaaonu chmnfdtek
+hadbaaonu meu
+hadbaaonu mqmjokpyxi
+hadbaaonu wzloptjzum
+hadbaaonu fmrz
+hadbaaon...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 344 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">15
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2012 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>w zxouafdhj
+276
+zxouafdhj oslmznhr
+oslmznhr rkgapech
+rkgapech mt
+mt lxmnjp
+w eqqqmoljcd
+lxmnjp v
+eqqqmoljcd yftd
+v urdo
+yftd owpfuicp
+urdo xkjrcgw
+xkjrcgw qrpia
+owpfuicp t
+t ucuwdeccm
+ucuwdeccm l
+l nvekze
+nvekze yj
+yj vpm
+qrpia ew
+ew yscm
+vpm jp
+yscm kuxhrwn
+jp saj
+saj ybuztlqp
+kuxhrwn zdxg
+zdxg ef
+ef rhmbsq
+ybuztlqp f
+rhmbsq abub
+abub eutnsifcnt
+eutnsifcnt kj
+f rmhddregti
+kj pcmuom
+pcmuom dteeltab
+rmhddregti k
+dteeltab zxogzbonj
+zxogzbonj qnlcp
+qnlcp ftx
+k gmik
+gmik...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>w zxouafdhj
+w oslmznhr
+w rkgapech
+w mt
+w lxmnjp
+eqqqmoljcd lxmnjp
+eqqqmoljcd v
+yftd v
+yftd urdo
+owpfuicp urdo
+owpfuicp xkjrcgw
+owpfuicp qrpia
+t qrpia
+ucuwdeccm qrpia
+l qrpia
+nvekze qrpia
+yj qrpia
+vpm qrpia
+vpm ew
+vpm yscm
+jp yscm
+jp kuxhrwn
+saj kuxhrwn
+ybuztlqp kuxhrwn
+ybuztlqp zdxg
+ybuztlqp ef
+ybuztlqp rhmbsq
+f rhmbsq
+f abub
+f eutnsifcnt
+f kj
+rmhddregti kj
+rmhddregti pcmuom
+rmhddregti dteeltab
+k dteeltab
+k zxogzbonj
+k qnlcp
+k ftx
+gmik ftx
+khdbmyr ftx
+khdbmyr fjltnar...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>w zxouafdhj
+w oslmznhr
+w rkgapech
+w mt
+w lxmnjp
+eqqqmoljcd lxmnjp
+eqqqmoljcd v
+yftd v
+yftd urdo
+owpfuicp urdo
+owpfuicp xkjrcgw
+owpfuicp qrpia
+t qrpia
+ucuwdeccm qrpia
+l qrpia
+nvekze qrpia
+yj qrpia
+vpm qrpia
+vpm ew
+vpm yscm
+jp yscm
+jp kuxhrwn
+saj kuxhrwn
+ybuztlqp kuxhrwn
+ybuztlqp zdxg
+ybuztlqp ef
+ybuztlqp rhmbsq
+f rhmbsq
+f abub
+f eutnsifcnt
+f kj
+rmhddregti kj
+rmhddregti pcmuom
+rmhddregti dteeltab
+k dteeltab
+k zxogzbonj
+k qnlcp
+k ftx
+gmik ftx
+khdbmyr ftx
+khdbmyr fjltnar...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 277 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">16
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2040 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>vxcvqit zn
+438
+vxcvqit kuvmjxdu
+kuvmjxdu tcncc
+tcncc fwvzp
+fwvzp aru
+aru cxgif
+zn mkmxbuv
+mkmxbuv pozzo
+cxgif tvu
+pozzo xe
+xe r
+tvu lwhkpw
+r kp
+lwhkpw qerfes
+kp jypigmk
+jypigmk bovvwhok
+bovvwhok kryw
+kryw a
+qerfes z
+a skzkaisyii
+z olp
+olp f
+f mh
+skzkaisyii tzc
+mh cqplne
+cqplne hsfqat
+hsfqat htvznmoygz
+htvznmoygz detifwznv
+detifwznv fkgaomr
+fkgaomr neuazgwb
+tzc jdatosetxl
+jdatosetxl iha
+iha awvo
+neuazgwb ak
+ak voppuyxlh
+voppuyxlh pefkppz
+awvo nrv
+pefkppz eyszzug
+eyszzu...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>vxcvqit zn
+kuvmjxdu zn
+tcncc zn
+fwvzp zn
+aru zn
+cxgif zn
+cxgif mkmxbuv
+cxgif pozzo
+tvu pozzo
+tvu xe
+tvu r
+lwhkpw r
+lwhkpw kp
+qerfes kp
+qerfes jypigmk
+qerfes bovvwhok
+qerfes kryw
+qerfes a
+z a
+z skzkaisyii
+olp skzkaisyii
+f skzkaisyii
+mh skzkaisyii
+mh tzc
+cqplne tzc
+hsfqat tzc
+htvznmoygz tzc
+detifwznv tzc
+fkgaomr tzc
+neuazgwb tzc
+neuazgwb jdatosetxl
+neuazgwb iha
+neuazgwb awvo
+ak awvo
+voppuyxlh awvo
+pefkppz awvo
+pefkppz nrv
+eyszzug nrv
+skzgv nrv
+j nrv
+odfyv nrv
+odfyv ln...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>vxcvqit zn
+kuvmjxdu zn
+tcncc zn
+fwvzp zn
+aru zn
+cxgif zn
+cxgif mkmxbuv
+cxgif pozzo
+tvu pozzo
+tvu xe
+tvu r
+lwhkpw r
+lwhkpw kp
+qerfes kp
+qerfes jypigmk
+qerfes bovvwhok
+qerfes kryw
+qerfes a
+z a
+z skzkaisyii
+olp skzkaisyii
+f skzkaisyii
+mh skzkaisyii
+mh tzc
+cqplne tzc
+hsfqat tzc
+htvznmoygz tzc
+detifwznv tzc
+fkgaomr tzc
+neuazgwb tzc
+neuazgwb jdatosetxl
+neuazgwb iha
+neuazgwb awvo
+ak awvo
+voppuyxlh awvo
+pefkppz awvo
+pefkppz nrv
+eyszzug nrv
+skzgv nrv
+j nrv
+odfyv nrv
+odfyv ln...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 439 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">17
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2012 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>pk ktfyjr
+911
+ktfyjr gftjfipn
+pk rhlgyz
+gftjfipn ndry
+ndry xergyvn
+rhlgyz lbnliz
+xergyvn opdvadxnt
+lbnliz mn
+mn wgqk
+wgqk njohwuq
+opdvadxnt xtyedmxma
+njohwuq il
+il twxrh
+twxrh tiefbyf
+xtyedmxma bsefjnfw
+bsefjnfw gre
+tiefbyf ny
+ny pqlkdzjha
+pqlkdzjha uudhcqd
+uudhcqd ojuujzhs
+ojuujzhs umvjg
+gre qrepn
+umvjg b
+b hruvfsvxcl
+qrepn kzc
+hruvfsvxcl axkp
+kzc e
+axkp j
+j ntqskmlyo
+e ictyxrz
+ictyxrz awy
+ntqskmlyo opfvgod
+opfvgod qb
+awy komedg
+komedg hvdnxsfft
+hvdnxsfft cghrkdeb
+cghr...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>pk ktfyjr
+pk gftjfipn
+rhlgyz gftjfipn
+rhlgyz ndry
+rhlgyz xergyvn
+lbnliz xergyvn
+lbnliz opdvadxnt
+mn opdvadxnt
+wgqk opdvadxnt
+njohwuq opdvadxnt
+njohwuq xtyedmxma
+il xtyedmxma
+twxrh xtyedmxma
+tiefbyf xtyedmxma
+tiefbyf bsefjnfw
+tiefbyf gre
+ny gre
+pqlkdzjha gre
+uudhcqd gre
+ojuujzhs gre
+umvjg gre
+umvjg qrepn
+b qrepn
+hruvfsvxcl qrepn
+hruvfsvxcl kzc
+axkp kzc
+axkp e
+j e
+ntqskmlyo e
+ntqskmlyo ictyxrz
+ntqskmlyo awy
+opfvgod awy
+qb awy
+qb komedg
+qb hvdnxsfft
+qb cghrkdeb
+qb ywraosnkz...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>pk ktfyjr
+pk gftjfipn
+rhlgyz gftjfipn
+rhlgyz ndry
+rhlgyz xergyvn
+lbnliz xergyvn
+lbnliz opdvadxnt
+mn opdvadxnt
+wgqk opdvadxnt
+njohwuq opdvadxnt
+njohwuq xtyedmxma
+il xtyedmxma
+twxrh xtyedmxma
+tiefbyf xtyedmxma
+tiefbyf bsefjnfw
+tiefbyf gre
+ny gre
+pqlkdzjha gre
+uudhcqd gre
+ojuujzhs gre
+umvjg gre
+umvjg qrepn
+b qrepn
+hruvfsvxcl qrepn
+hruvfsvxcl kzc
+axkp kzc
+axkp e
+j e
+ntqskmlyo e
+ntqskmlyo ictyxrz
+ntqskmlyo awy
+opfvgod awy
+qb awy
+qb komedg
+qb hvdnxsfft
+qb cghrkdeb
+qb ywraosnkz...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 912 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">18
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2012 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>gkdsp pty
+217
+pty pznxwu
+gkdsp pcsnppa
+pznxwu yj
+pcsnppa mdsngwmckc
+mdsngwmckc eafwlbbvok
+eafwlbbvok gv
+yj zhyneck
+zhyneck g
+gv kxqktmsx
+g hwn
+kxqktmsx klsvjvaifs
+hwn chdge
+klsvjvaifs daa
+daa xetzpdkjpu
+xetzpdkjpu y
+y zpnglmaukl
+chdge hzksmwocqk
+zpnglmaukl myjfwtr
+hzksmwocqk brugs
+myjfwtr cywhoikj
+cywhoikj mg
+brugs uerxoseaa
+mg eyxmmnl
+eyxmmnl hedcsbr
+uerxoseaa lqyar
+hedcsbr tmbmpy
+lqyar hxasjljvdf
+tmbmpy vg
+hxasjljvdf zpigkrycdj
+zpigkrycdj dqvbliohji
+vg mczm
+dqvbliohji qff...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>gkdsp pty
+gkdsp pznxwu
+pcsnppa pznxwu
+pcsnppa yj
+mdsngwmckc yj
+eafwlbbvok yj
+gv yj
+gv zhyneck
+gv g
+kxqktmsx g
+kxqktmsx hwn
+klsvjvaifs hwn
+klsvjvaifs chdge
+daa chdge
+xetzpdkjpu chdge
+y chdge
+zpnglmaukl chdge
+zpnglmaukl hzksmwocqk
+myjfwtr hzksmwocqk
+myjfwtr brugs
+cywhoikj brugs
+mg brugs
+mg uerxoseaa
+eyxmmnl uerxoseaa
+hedcsbr uerxoseaa
+hedcsbr lqyar
+tmbmpy lqyar
+tmbmpy hxasjljvdf
+vg hxasjljvdf
+vg zpigkrycdj
+vg dqvbliohji
+mczm dqvbliohji
+mczm qffq
+mczm xonzy
+mczm qoabvf
+mczm ...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>gkdsp pty
+gkdsp pznxwu
+pcsnppa pznxwu
+pcsnppa yj
+mdsngwmckc yj
+eafwlbbvok yj
+gv yj
+gv zhyneck
+gv g
+kxqktmsx g
+kxqktmsx hwn
+klsvjvaifs hwn
+klsvjvaifs chdge
+daa chdge
+xetzpdkjpu chdge
+y chdge
+zpnglmaukl chdge
+zpnglmaukl hzksmwocqk
+myjfwtr hzksmwocqk
+myjfwtr brugs
+cywhoikj brugs
+mg brugs
+mg uerxoseaa
+eyxmmnl uerxoseaa
+hedcsbr uerxoseaa
+hedcsbr lqyar
+tmbmpy lqyar
+tmbmpy hxasjljvdf
+vg hxasjljvdf
+vg zpigkrycdj
+vg dqvbliohji
+mczm dqvbliohji
+mczm qffq
+mczm xonzy
+mczm qoabvf
+mczm ...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 218 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">19
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2044 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>ciiyu noaqqfvad
+432
+ciiyu s
+noaqqfvad gq
+gq jqlv
+jqlv ncij
+ncij oqewtck
+oqewtck g
+s gavd
+gavd wvhnh
+g wzlobmz
+wzlobmz don
+don tithboixq
+wvhnh xaagvgzzyr
+xaagvgzzyr apqheyx
+tithboixq l
+l r
+apqheyx plql
+r byyhm
+byyhm zur
+zur crnesbia
+plql bhzjnzr
+bhzjnzr aytnasov
+crnesbia lggbnprugq
+aytnasov lyguhkumc
+lyguhkumc mhcqo
+lggbnprugq bprlxas
+mhcqo rfvcp
+rfvcp apuzwkbjlf
+bprlxas dhnmda
+apuzwkbjlf pzb
+pzb qko
+qko avljwaddp
+dhnmda pmis
+pmis gajxqkzal
+gajxqkzal eqd
+avljwaddp cdgnlhr...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>ciiyu noaqqfvad
+s noaqqfvad
+s gq
+s jqlv
+s ncij
+s oqewtck
+s g
+gavd g
+wvhnh g
+wvhnh wzlobmz
+wvhnh don
+wvhnh tithboixq
+xaagvgzzyr tithboixq
+apqheyx tithboixq
+apqheyx l
+apqheyx r
+plql r
+plql byyhm
+plql zur
+plql crnesbia
+bhzjnzr crnesbia
+aytnasov crnesbia
+aytnasov lggbnprugq
+lyguhkumc lggbnprugq
+mhcqo lggbnprugq
+mhcqo bprlxas
+rfvcp bprlxas
+apuzwkbjlf bprlxas
+apuzwkbjlf dhnmda
+pzb dhnmda
+qko dhnmda
+avljwaddp dhnmda
+avljwaddp pmis
+avljwaddp gajxqkzal
+avljwaddp eqd
+cdgnlhr eqd
+c...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>ciiyu noaqqfvad
+s noaqqfvad
+s gq
+s jqlv
+s ncij
+s oqewtck
+s g
+gavd g
+wvhnh g
+wvhnh wzlobmz
+wvhnh don
+wvhnh tithboixq
+xaagvgzzyr tithboixq
+apqheyx tithboixq
+apqheyx l
+apqheyx r
+plql r
+plql byyhm
+plql zur
+plql crnesbia
+bhzjnzr crnesbia
+aytnasov crnesbia
+aytnasov lggbnprugq
+lyguhkumc lggbnprugq
+mhcqo lggbnprugq
+mhcqo bprlxas
+rfvcp bprlxas
+apuzwkbjlf bprlxas
+apuzwkbjlf dhnmda
+pzb dhnmda
+qko dhnmda
+avljwaddp dhnmda
+avljwaddp pmis
+avljwaddp gajxqkzal
+avljwaddp eqd
+cdgnlhr eqd
+c...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 433 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">20
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2036 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>hpq sbk
+920
+hpq x
+sbk eg
+eg kcgfcdebm
+x euzbcb
+euzbcb wmcxs
+wmcxs wcqsidemqg
+wcqsidemqg z
+z qw
+kcgfcdebm kosfpyg
+kosfpyg y
+y orlqxt
+orlqxt cikevo
+qw bot
+bot sy
+sy yjcnierfua
+cikevo amgayly
+yjcnierfua iuzdd
+amgayly httgn
+iuzdd kfid
+httgn uvbakviyuu
+uvbakviyuu mjgzyg
+mjgzyg tzeydgy
+kfid hbqx
+tzeydgy zkxgvgu
+zkxgvgu ka
+ka anjsyrpv
+hbqx efdo
+efdo ak
+anjsyrpv jxzlay
+ak cmlpdlmtuz
+cmlpdlmtuz dsuom
+dsuom ieukkv
+jxzlay rftrvizgt
+rftrvizgt ma
+ma cbwi
+cbwi i
+i uxytdvg
+uxytdvg c...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>hpq sbk
+x sbk
+x eg
+x kcgfcdebm
+euzbcb kcgfcdebm
+wmcxs kcgfcdebm
+wcqsidemqg kcgfcdebm
+z kcgfcdebm
+qw kcgfcdebm
+qw kosfpyg
+qw y
+qw orlqxt
+qw cikevo
+bot cikevo
+sy cikevo
+yjcnierfua cikevo
+yjcnierfua amgayly
+iuzdd amgayly
+iuzdd httgn
+kfid httgn
+kfid uvbakviyuu
+kfid mjgzyg
+kfid tzeydgy
+hbqx tzeydgy
+hbqx zkxgvgu
+hbqx ka
+hbqx anjsyrpv
+efdo anjsyrpv
+ak anjsyrpv
+ak jxzlay
+cmlpdlmtuz jxzlay
+dsuom jxzlay
+ieukkv jxzlay
+ieukkv rftrvizgt
+ieukkv ma
+ieukkv cbwi
+ieukkv i
+ieukkv uxytdvg...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>hpq sbk
+x sbk
+x eg
+x kcgfcdebm
+euzbcb kcgfcdebm
+wmcxs kcgfcdebm
+wcqsidemqg kcgfcdebm
+z kcgfcdebm
+qw kcgfcdebm
+qw kosfpyg
+qw y
+qw orlqxt
+qw cikevo
+bot cikevo
+sy cikevo
+yjcnierfua cikevo
+yjcnierfua amgayly
+iuzdd amgayly
+iuzdd httgn
+kfid httgn
+kfid uvbakviyuu
+kfid mjgzyg
+kfid tzeydgy
+hbqx tzeydgy
+hbqx zkxgvgu
+hbqx ka
+hbqx anjsyrpv
+efdo anjsyrpv
+ak anjsyrpv
+ak jxzlay
+cmlpdlmtuz jxzlay
+dsuom jxzlay
+ieukkv jxzlay
+ieukkv rftrvizgt
+ieukkv ma
+ieukkv cbwi
+ieukkv i
+ieukkv uxytdvg...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 921 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">21
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2016 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>uhkdst qxrzrttrn
+357
+qxrzrttrn st
+st xojflwp
+xojflwp fl
+fl ah
+uhkdst btetxyezy
+ah atydkosokc
+atydkosokc rhupi
+btetxyezy nozax
+rhupi apvi
+apvi gdzplqt
+nozax afezig
+gdzplqt uwjhjdgqr
+afezig hysgr
+hysgr xwlf
+xwlf skaxk
+uwjhjdgqr dyoief
+skaxk ckfcg
+ckfcg ufesrt
+dyoief ir
+ir li
+li xzlrfgs
+ufesrt rwk
+xzlrfgs dty
+rwk bxrjmj
+dty ubxyyjvd
+ubxyyjvd lowol
+bxrjmj tc
+tc zpeupwdjo
+zpeupwdjo ihlsjdlusk
+ihlsjdlusk mwqf
+lowol zszjg
+zszjg b
+b jhvhtuemb
+jhvhtuemb tdetduy
+tdetduy rruiroyh
+...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>uhkdst qxrzrttrn
+uhkdst st
+uhkdst xojflwp
+uhkdst fl
+uhkdst ah
+btetxyezy ah
+btetxyezy atydkosokc
+btetxyezy rhupi
+nozax rhupi
+nozax apvi
+nozax gdzplqt
+afezig gdzplqt
+afezig uwjhjdgqr
+hysgr uwjhjdgqr
+xwlf uwjhjdgqr
+skaxk uwjhjdgqr
+skaxk dyoief
+ckfcg dyoief
+ufesrt dyoief
+ufesrt ir
+ufesrt li
+ufesrt xzlrfgs
+rwk xzlrfgs
+rwk dty
+bxrjmj dty
+bxrjmj ubxyyjvd
+bxrjmj lowol
+tc lowol
+zpeupwdjo lowol
+ihlsjdlusk lowol
+mwqf lowol
+mwqf zszjg
+mwqf b
+mwqf jhvhtuemb
+mwqf tdetduy
+mwqf rruiroyh...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>uhkdst qxrzrttrn
+uhkdst st
+uhkdst xojflwp
+uhkdst fl
+uhkdst ah
+btetxyezy ah
+btetxyezy atydkosokc
+btetxyezy rhupi
+nozax rhupi
+nozax apvi
+nozax gdzplqt
+afezig gdzplqt
+afezig uwjhjdgqr
+hysgr uwjhjdgqr
+xwlf uwjhjdgqr
+skaxk uwjhjdgqr
+skaxk dyoief
+ckfcg dyoief
+ufesrt dyoief
+ufesrt ir
+ufesrt li
+ufesrt xzlrfgs
+rwk xzlrfgs
+rwk dty
+bxrjmj dty
+bxrjmj ubxyyjvd
+bxrjmj lowol
+tc lowol
+zpeupwdjo lowol
+ihlsjdlusk lowol
+mwqf lowol
+mwqf zszjg
+mwqf b
+mwqf jhvhtuemb
+mwqf tdetduy
+mwqf rruiroyh...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 358 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">22
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2008 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>jojfpywk ladoeeuhx
+145
+jojfpywk gsos
+gsos wdbhhsrzk
+wdbhhsrzk uoku
+uoku wgdh
+ladoeeuhx ujx
+wgdh n
+ujx ahhrnshww
+ahhrnshww mpqgscj
+n lvlf
+mpqgscj btj
+lvlf g
+btj digedpksf
+digedpksf shvg
+g v
+shvg mfpa
+mfpa pqqvpiz
+pqqvpiz yjsz
+yjsz hibk
+hibk nogsziuiuk
+nogsziuiuk b
+v iautcnu
+b bhwzrsiu
+iautcnu p
+bhwzrsiu tqkbewvsmj
+p zxljlxesp
+tqkbewvsmj yoomrbpvw
+yoomrbpvw nqvcu
+zxljlxesp dy
+dy z
+z yhlq
+nqvcu ydbiv
+yhlq egxnyx
+ydbiv to
+egxnyx ysmpba
+to txbyd
+txbyd whwyuwx
+ysmpba gud
+gu...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>jojfpywk ladoeeuhx
+gsos ladoeeuhx
+wdbhhsrzk ladoeeuhx
+uoku ladoeeuhx
+wgdh ladoeeuhx
+wgdh ujx
+n ujx
+n ahhrnshww
+n mpqgscj
+lvlf mpqgscj
+lvlf btj
+g btj
+g digedpksf
+g shvg
+v shvg
+v mfpa
+v pqqvpiz
+v yjsz
+v hibk
+v nogsziuiuk
+v b
+iautcnu b
+iautcnu bhwzrsiu
+p bhwzrsiu
+p tqkbewvsmj
+zxljlxesp tqkbewvsmj
+zxljlxesp yoomrbpvw
+zxljlxesp nqvcu
+dy nqvcu
+z nqvcu
+yhlq nqvcu
+yhlq ydbiv
+egxnyx ydbiv
+egxnyx to
+ysmpba to
+ysmpba txbyd
+ysmpba whwyuwx
+gud whwyuwx
+rxigzy whwyuwx
+dzapvvwt whwyu...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>jojfpywk ladoeeuhx
+gsos ladoeeuhx
+wdbhhsrzk ladoeeuhx
+uoku ladoeeuhx
+wgdh ladoeeuhx
+wgdh ujx
+n ujx
+n ahhrnshww
+n mpqgscj
+lvlf mpqgscj
+lvlf btj
+g btj
+g digedpksf
+g shvg
+v shvg
+v mfpa
+v pqqvpiz
+v yjsz
+v hibk
+v nogsziuiuk
+v b
+iautcnu b
+iautcnu bhwzrsiu
+p bhwzrsiu
+p tqkbewvsmj
+zxljlxesp tqkbewvsmj
+zxljlxesp yoomrbpvw
+zxljlxesp nqvcu
+dy nqvcu
+z nqvcu
+yhlq nqvcu
+yhlq ydbiv
+egxnyx ydbiv
+egxnyx to
+ysmpba to
+ysmpba txbyd
+ysmpba whwyuwx
+gud whwyuwx
+rxigzy whwyuwx
+dzapvvwt whwyu...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 146 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">23
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2028 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>vqjzs fqxuizj
+168
+fqxuizj r
+vqjzs wfnpimjti
+wfnpimjti oq
+r trpruscnz
+trpruscnz azrrpog
+oq ajqlaiqmf
+ajqlaiqmf vsiahxynsi
+azrrpog na
+vsiahxynsi icdyeksbk
+icdyeksbk urcq
+urcq iiyg
+na vmcoadogmv
+vmcoadogmv ufv
+iiyg kllhu
+kllhu w
+w uuyqvyq
+uuyqvyq nwdztlbx
+nwdztlbx lvde
+lvde exjvn
+exjvn vhlbyp
+ufv drkiura
+drkiura qqld
+vhlbyp zkwcmgpbty
+qqld qy
+qy oxpqunyfan
+zkwcmgpbty k
+oxpqunyfan lt
+k susug
+lt rmlsqqbbkw
+rmlsqqbbkw ebtjtdyh
+susug jo
+ebtjtdyh prau
+jo hfwecci
+hfwecci mhexpfg
+...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>vqjzs fqxuizj
+vqjzs r
+wfnpimjti r
+oq r
+oq trpruscnz
+oq azrrpog
+ajqlaiqmf azrrpog
+vsiahxynsi azrrpog
+vsiahxynsi na
+icdyeksbk na
+urcq na
+iiyg na
+iiyg vmcoadogmv
+iiyg ufv
+kllhu ufv
+w ufv
+uuyqvyq ufv
+nwdztlbx ufv
+lvde ufv
+exjvn ufv
+vhlbyp ufv
+vhlbyp drkiura
+vhlbyp qqld
+zkwcmgpbty qqld
+zkwcmgpbty qy
+zkwcmgpbty oxpqunyfan
+k oxpqunyfan
+k lt
+susug lt
+susug rmlsqqbbkw
+susug ebtjtdyh
+jo ebtjtdyh
+jo prau
+hfwecci prau
+mhexpfg prau
+mhexpfg jtnvgsefr
+xrheuhehgk jtnvgsefr
+xrheuhehgk i...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>vqjzs fqxuizj
+vqjzs r
+wfnpimjti r
+oq r
+oq trpruscnz
+oq azrrpog
+ajqlaiqmf azrrpog
+vsiahxynsi azrrpog
+vsiahxynsi na
+icdyeksbk na
+urcq na
+iiyg na
+iiyg vmcoadogmv
+iiyg ufv
+kllhu ufv
+w ufv
+uuyqvyq ufv
+nwdztlbx ufv
+lvde ufv
+exjvn ufv
+vhlbyp ufv
+vhlbyp drkiura
+vhlbyp qqld
+zkwcmgpbty qqld
+zkwcmgpbty qy
+zkwcmgpbty oxpqunyfan
+k oxpqunyfan
+k lt
+susug lt
+susug rmlsqqbbkw
+susug ebtjtdyh
+jo ebtjtdyh
+jo prau
+hfwecci prau
+mhexpfg prau
+mhexpfg jtnvgsefr
+xrheuhehgk jtnvgsefr
+xrheuhehgk i...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 169 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">24
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2024 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>wxz hbeqwqp
+7
+hbeqwqp cpieghnszh
+cpieghnszh tlqrpd
+tlqrpd ttwrtio
+ttwrtio xapvds
+xapvds zk
+wxz yryk
+zk b
+</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>wxz hbeqwqp
+wxz cpieghnszh
+wxz tlqrpd
+wxz ttwrtio
+wxz xapvds
+wxz zk
+yryk zk
+yryk b
+</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>wxz hbeqwqp
+wxz cpieghnszh
+wxz tlqrpd
+wxz ttwrtio
+wxz xapvds
+wxz zk
+yryk zk
+yryk b
+</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 8 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">25
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2032 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>rurfn vpkfxb
+100
+rurfn dywuwp
+dywuwp ejjyemd
+ejjyemd s
+vpkfxb zi
+zi c
+c npxbj
+s rya
+rya dpbebnzya
+dpbebnzya gdpzpjp
+gdpzpjp gqdehysspb
+npxbj vnxckg
+gqdehysspb ercgk
+ercgk juisc
+vnxckg lvrdygey
+lvrdygey har
+har sgynskcoor
+sgynskcoor gbl
+gbl eugvnm
+juisc kecmqptd
+eugvnm zs
+zs wxofr
+kecmqptd g
+g pmfc
+pmfc xklpdaoz
+xklpdaoz ltnlgr
+wxofr sayifotuo
+sayifotuo oyme
+oyme qxwl
+ltnlgr faxhqierzm
+faxhqierzm yh
+yh v
+v j
+qxwl spsd
+spsd ofdbgu
+ofdbgu dwltz
+dwltz p
+j blgjnjcyyc
+blgjn...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>rurfn vpkfxb
+dywuwp vpkfxb
+ejjyemd vpkfxb
+s vpkfxb
+s zi
+s c
+s npxbj
+rya npxbj
+dpbebnzya npxbj
+gdpzpjp npxbj
+gqdehysspb npxbj
+gqdehysspb vnxckg
+ercgk vnxckg
+juisc vnxckg
+juisc lvrdygey
+juisc har
+juisc sgynskcoor
+juisc gbl
+juisc eugvnm
+kecmqptd eugvnm
+kecmqptd zs
+kecmqptd wxofr
+g wxofr
+pmfc wxofr
+xklpdaoz wxofr
+ltnlgr wxofr
+ltnlgr sayifotuo
+ltnlgr oyme
+ltnlgr qxwl
+faxhqierzm qxwl
+yh qxwl
+v qxwl
+j qxwl
+j spsd
+j ofdbgu
+j dwltz
+j p
+blgjnjcyyc p
+gymugdg p
+w p
+gpqubarp p
+b...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>rurfn vpkfxb
+dywuwp vpkfxb
+ejjyemd vpkfxb
+s vpkfxb
+s zi
+s c
+s npxbj
+rya npxbj
+dpbebnzya npxbj
+gdpzpjp npxbj
+gqdehysspb npxbj
+gqdehysspb vnxckg
+ercgk vnxckg
+juisc vnxckg
+juisc lvrdygey
+juisc har
+juisc sgynskcoor
+juisc gbl
+juisc eugvnm
+kecmqptd eugvnm
+kecmqptd zs
+kecmqptd wxofr
+g wxofr
+pmfc wxofr
+xklpdaoz wxofr
+ltnlgr wxofr
+ltnlgr sayifotuo
+ltnlgr oyme
+ltnlgr qxwl
+faxhqierzm qxwl
+yh qxwl
+v qxwl
+j qxwl
+j spsd
+j ofdbgu
+j dwltz
+j p
+blgjnjcyyc p
+gymugdg p
+w p
+gpqubarp p
+b...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 101 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">26
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2028 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>i bnlzkh
+106
+i aatypj
+aatypj nagmb
+nagmb sq
+bnlzkh lsmrx
+sq jd
+jd ltdfkjfiz
+lsmrx qblc
+ltdfkjfiz zpvxaieas
+zpvxaieas qf
+qblc l
+l ihbyhuqk
+ihbyhuqk og
+og gx
+qf isr
+isr xrhcbkbj
+xrhcbkbj iinuhyr
+iinuhyr b
+gx xrczuhrii
+xrczuhrii oocudeshf
+oocudeshf ngzum
+b se
+ngzum hmfjvb
+hmfjvb gwod
+se g
+g vrjt
+vrjt kfm
+kfm ln
+gwod t
+ln y
+t jatenhhpku
+jatenhhpku nv
+nv ilmixma
+y w
+ilmixma mqfpbzoqgy
+mqfpbzoqgy xbw
+xbw xh
+w dylecx
+xh hd
+dylecx jazninmw
+hd pxvxu
+pxvxu lehi
+jazninmw bhy...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>i bnlzkh
+aatypj bnlzkh
+nagmb bnlzkh
+sq bnlzkh
+sq lsmrx
+jd lsmrx
+ltdfkjfiz lsmrx
+ltdfkjfiz qblc
+zpvxaieas qblc
+qf qblc
+qf l
+qf ihbyhuqk
+qf og
+qf gx
+isr gx
+xrhcbkbj gx
+iinuhyr gx
+b gx
+b xrczuhrii
+b oocudeshf
+b ngzum
+se ngzum
+se hmfjvb
+se gwod
+g gwod
+vrjt gwod
+kfm gwod
+ln gwod
+ln t
+y t
+y jatenhhpku
+y nv
+y ilmixma
+w ilmixma
+w mqfpbzoqgy
+w xbw
+w xh
+dylecx xh
+dylecx hd
+jazninmw hd
+jazninmw pxvxu
+jazninmw lehi
+bhy lehi
+nyweh lehi
+nyweh vzrbdnfiz
+mp vzrbdnfiz
+mp aazjz...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>i bnlzkh
+aatypj bnlzkh
+nagmb bnlzkh
+sq bnlzkh
+sq lsmrx
+jd lsmrx
+ltdfkjfiz lsmrx
+ltdfkjfiz qblc
+zpvxaieas qblc
+qf qblc
+qf l
+qf ihbyhuqk
+qf og
+qf gx
+isr gx
+xrhcbkbj gx
+iinuhyr gx
+b gx
+b xrczuhrii
+b oocudeshf
+b ngzum
+se ngzum
+se hmfjvb
+se gwod
+g gwod
+vrjt gwod
+kfm gwod
+ln gwod
+ln t
+y t
+y jatenhhpku
+y nv
+y ilmixma
+w ilmixma
+w mqfpbzoqgy
+w xbw
+w xh
+dylecx xh
+dylecx hd
+jazninmw hd
+jazninmw pxvxu
+jazninmw lehi
+bhy lehi
+nyweh lehi
+nyweh vzrbdnfiz
+mp vzrbdnfiz
+mp aazjz...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 107 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">27
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2028 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>tmayoy amaiij
+954
+amaiij tjcvnlvl
+tmayoy zuimxhglt
+tjcvnlvl asmmrulgon
+zuimxhglt rfifkrgur
+rfifkrgur xhggoboa
+xhggoboa glpsl
+asmmrulgon dsbgbezxje
+glpsl aiyyityh
+aiyyityh vrvcdvyvs
+dsbgbezxje ftrinxclc
+ftrinxclc lgi
+vrvcdvyvs cjpn
+cjpn fd
+lgi knmikfe
+fd ur
+ur lweohkjmxl
+knmikfe qrvcbzavpc
+qrvcbzavpc mzhfaw
+lweohkjmxl wss
+mzhfaw eqqebegaw
+wss ztmm
+eqqebegaw rvd
+ztmm gyhu
+rvd zhbkrrhtgw
+zhbkrrhtgw slsivapyu
+slsivapyu nsgprz
+nsgprz jjbxvue
+gyhu qtkgp
+qtkgp apugztb
+apugztb hze
+h...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>tmayoy amaiij
+tmayoy tjcvnlvl
+zuimxhglt tjcvnlvl
+zuimxhglt asmmrulgon
+rfifkrgur asmmrulgon
+xhggoboa asmmrulgon
+glpsl asmmrulgon
+glpsl dsbgbezxje
+aiyyityh dsbgbezxje
+vrvcdvyvs dsbgbezxje
+vrvcdvyvs ftrinxclc
+vrvcdvyvs lgi
+cjpn lgi
+fd lgi
+fd knmikfe
+ur knmikfe
+lweohkjmxl knmikfe
+lweohkjmxl qrvcbzavpc
+lweohkjmxl mzhfaw
+wss mzhfaw
+wss eqqebegaw
+ztmm eqqebegaw
+ztmm rvd
+gyhu rvd
+gyhu zhbkrrhtgw
+gyhu slsivapyu
+gyhu nsgprz
+gyhu jjbxvue
+qtkgp jjbxvue
+apugztb jjbxvue
+hze jjbxvue
+sexcf j...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>tmayoy amaiij
+tmayoy tjcvnlvl
+zuimxhglt tjcvnlvl
+zuimxhglt asmmrulgon
+rfifkrgur asmmrulgon
+xhggoboa asmmrulgon
+glpsl asmmrulgon
+glpsl dsbgbezxje
+aiyyityh dsbgbezxje
+vrvcdvyvs dsbgbezxje
+vrvcdvyvs ftrinxclc
+vrvcdvyvs lgi
+cjpn lgi
+fd lgi
+fd knmikfe
+ur knmikfe
+lweohkjmxl knmikfe
+lweohkjmxl qrvcbzavpc
+lweohkjmxl mzhfaw
+wss mzhfaw
+wss eqqebegaw
+ztmm eqqebegaw
+ztmm rvd
+gyhu rvd
+gyhu zhbkrrhtgw
+gyhu slsivapyu
+gyhu nsgprz
+gyhu jjbxvue
+qtkgp jjbxvue
+apugztb jjbxvue
+hze jjbxvue
+sexcf j...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 955 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">28
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2048 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>zmg wvmakgh
+673
+wvmakgh b
+b zkhxb
+zkhxb pcmieu
+pcmieu u
+u pxrf
+zmg frgtqfqi
+frgtqfqi aif
+aif y
+pxrf flttprv
+flttprv shbizqkrgz
+shbizqkrgz nrt
+y gjec
+gjec eqxxwjx
+eqxxwjx oxq
+nrt uppxl
+uppxl lomfr
+lomfr hlh
+oxq yoyfnwj
+hlh vwvhu
+yoyfnwj au
+au r
+vwvhu zdbd
+r fx
+fx cx
+zdbd tkwwhbkmos
+tkwwhbkmos riyv
+riyv dndalcsz
+dndalcsz w
+w hqaw
+hqaw ca
+ca xwdyxgcne
+cx uftxugex
+uftxugex gkflckz
+xwdyxgcne bz
+bz ypqwk
+gkflckz oywu
+oywu rfk
+ypqwk kzsbylk
+kzsbylk etr
+etr z
+z wn
+rfk rn...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>zmg wvmakgh
+zmg b
+zmg zkhxb
+zmg pcmieu
+zmg u
+zmg pxrf
+frgtqfqi pxrf
+aif pxrf
+y pxrf
+y flttprv
+y shbizqkrgz
+y nrt
+gjec nrt
+eqxxwjx nrt
+oxq nrt
+oxq uppxl
+oxq lomfr
+oxq hlh
+yoyfnwj hlh
+yoyfnwj vwvhu
+au vwvhu
+r vwvhu
+r zdbd
+fx zdbd
+cx zdbd
+cx tkwwhbkmos
+cx riyv
+cx dndalcsz
+cx w
+cx hqaw
+cx ca
+cx xwdyxgcne
+uftxugex xwdyxgcne
+gkflckz xwdyxgcne
+gkflckz bz
+gkflckz ypqwk
+oywu ypqwk
+rfk ypqwk
+rfk kzsbylk
+rfk etr
+rfk z
+rfk wn
+rn wn
+rn nmzl
+ajzix nmzl
+mxiiwjn nmzl
+mxiiwjn o...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>zmg wvmakgh
+zmg b
+zmg zkhxb
+zmg pcmieu
+zmg u
+zmg pxrf
+frgtqfqi pxrf
+aif pxrf
+y pxrf
+y flttprv
+y shbizqkrgz
+y nrt
+gjec nrt
+eqxxwjx nrt
+oxq nrt
+oxq uppxl
+oxq lomfr
+oxq hlh
+yoyfnwj hlh
+yoyfnwj vwvhu
+au vwvhu
+r vwvhu
+r zdbd
+fx zdbd
+cx zdbd
+cx tkwwhbkmos
+cx riyv
+cx dndalcsz
+cx w
+cx hqaw
+cx ca
+cx xwdyxgcne
+uftxugex xwdyxgcne
+gkflckz xwdyxgcne
+gkflckz bz
+gkflckz ypqwk
+oywu ypqwk
+rfk ypqwk
+rfk kzsbylk
+rfk etr
+rfk z
+rfk wn
+rn wn
+rn nmzl
+ajzix nmzl
+mxiiwjn nmzl
+mxiiwjn o...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 674 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">29
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2024 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>vgqvl pd
+264
+pd sowcumrj
+sowcumrj lcbbzypm
+lcbbzypm orostyw
+orostyw kmxcfizxy
+vgqvl nrfq
+kmxcfizxy gexiozlnfb
+gexiozlnfb ppq
+ppq aoaq
+nrfq ajxtucxcq
+aoaq inoqk
+ajxtucxcq xdsc
+inoqk lmnd
+xdsc rkh
+rkh woipbw
+woipbw llm
+llm svymczfy
+svymczfy jcofh
+jcofh pzsy
+pzsy crevlg
+lmnd v
+v mjgehmvton
+crevlg gqpdj
+mjgehmvton hczngjaqak
+hczngjaqak vwmxnonse
+gqpdj ebtncuyqw
+vwmxnonse a
+a ui
+ui hdxskfbu
+ebtncuyqw luyhxp
+hdxskfbu raxgb
+raxgb duu
+luyhxp gpbqqdrza
+gpbqqdrza lymv
+duu qbxjea
+q...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>vgqvl pd
+vgqvl sowcumrj
+vgqvl lcbbzypm
+vgqvl orostyw
+vgqvl kmxcfizxy
+nrfq kmxcfizxy
+nrfq gexiozlnfb
+nrfq ppq
+nrfq aoaq
+ajxtucxcq aoaq
+ajxtucxcq inoqk
+xdsc inoqk
+xdsc lmnd
+rkh lmnd
+woipbw lmnd
+llm lmnd
+svymczfy lmnd
+jcofh lmnd
+pzsy lmnd
+crevlg lmnd
+crevlg v
+crevlg mjgehmvton
+gqpdj mjgehmvton
+gqpdj hczngjaqak
+gqpdj vwmxnonse
+ebtncuyqw vwmxnonse
+ebtncuyqw a
+ebtncuyqw ui
+ebtncuyqw hdxskfbu
+luyhxp hdxskfbu
+luyhxp raxgb
+luyhxp duu
+gpbqqdrza duu
+lymv duu
+lymv qbxjea
+lymv hxwju
+...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>vgqvl pd
+vgqvl sowcumrj
+vgqvl lcbbzypm
+vgqvl orostyw
+vgqvl kmxcfizxy
+nrfq kmxcfizxy
+nrfq gexiozlnfb
+nrfq ppq
+nrfq aoaq
+ajxtucxcq aoaq
+ajxtucxcq inoqk
+xdsc inoqk
+xdsc lmnd
+rkh lmnd
+woipbw lmnd
+llm lmnd
+svymczfy lmnd
+jcofh lmnd
+pzsy lmnd
+crevlg lmnd
+crevlg v
+crevlg mjgehmvton
+gqpdj mjgehmvton
+gqpdj hczngjaqak
+gqpdj vwmxnonse
+ebtncuyqw vwmxnonse
+ebtncuyqw a
+ebtncuyqw ui
+ebtncuyqw hdxskfbu
+luyhxp hdxskfbu
+luyhxp raxgb
+luyhxp duu
+gpbqqdrza duu
+lymv duu
+lymv qbxjea
+lymv hxwju
+...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 265 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">30
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2040 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>v wu
+856
+wu pv
+v oaj
+pv kvzfeucwjp
+kvzfeucwjp iwtgue
+iwtgue dwopfywwyf
+oaj lu
+lu ivhnfoafja
+dwopfywwyf r
+r xfsma
+xfsma h
+h qghkefzdo
+ivhnfoafja for
+for izstdupq
+izstdupq mvxarqxrbp
+qghkefzdo inxarkx
+inxarkx cbagn
+mvxarqxrbp ik
+ik lmcfs
+cbagn nfnzxyoxn
+lmcfs kfsmxbfrx
+nfnzxyoxn btn
+btn jlinqoaz
+kfsmxbfrx usdapci
+usdapci nwn
+nwn ndhjf
+ndhjf gwjfh
+jlinqoaz vlmvyjirhs
+vlmvyjirhs mmzfljbgw
+mmzfljbgw qkdrfu
+gwjfh leif
+leif sjvkqrxp
+qkdrfu avzi
+avzi xdt
+sjvkqrxp kinodeisxb
+kino...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>v wu
+v pv
+oaj pv
+oaj kvzfeucwjp
+oaj iwtgue
+oaj dwopfywwyf
+lu dwopfywwyf
+ivhnfoafja dwopfywwyf
+ivhnfoafja r
+ivhnfoafja xfsma
+ivhnfoafja h
+ivhnfoafja qghkefzdo
+for qghkefzdo
+izstdupq qghkefzdo
+mvxarqxrbp qghkefzdo
+mvxarqxrbp inxarkx
+mvxarqxrbp cbagn
+ik cbagn
+lmcfs cbagn
+lmcfs nfnzxyoxn
+kfsmxbfrx nfnzxyoxn
+kfsmxbfrx btn
+kfsmxbfrx jlinqoaz
+usdapci jlinqoaz
+nwn jlinqoaz
+ndhjf jlinqoaz
+gwjfh jlinqoaz
+gwjfh vlmvyjirhs
+gwjfh mmzfljbgw
+gwjfh qkdrfu
+leif qkdrfu
+sjvkqrxp qkdrfu
+sjvkqrx...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>v wu
+v pv
+oaj pv
+oaj kvzfeucwjp
+oaj iwtgue
+oaj dwopfywwyf
+lu dwopfywwyf
+ivhnfoafja dwopfywwyf
+ivhnfoafja r
+ivhnfoafja xfsma
+ivhnfoafja h
+ivhnfoafja qghkefzdo
+for qghkefzdo
+izstdupq qghkefzdo
+mvxarqxrbp qghkefzdo
+mvxarqxrbp inxarkx
+mvxarqxrbp cbagn
+ik cbagn
+lmcfs cbagn
+lmcfs nfnzxyoxn
+kfsmxbfrx nfnzxyoxn
+kfsmxbfrx btn
+kfsmxbfrx jlinqoaz
+usdapci jlinqoaz
+nwn jlinqoaz
+ndhjf jlinqoaz
+gwjfh jlinqoaz
+gwjfh vlmvyjirhs
+gwjfh mmzfljbgw
+gwjfh qkdrfu
+leif qkdrfu
+sjvkqrxp qkdrfu
+sjvkqrx...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 857 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">31
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2044 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>hk al
+665
+hk kloguvp
+al qpyzd
+kloguvp mpvb
+mpvb i
+i fjuvsu
+qpyzd p
+fjuvsu djufsopgaa
+p xwl
+xwl qvbbynz
+djufsopgaa uv
+qvbbynz elprqyhqlj
+elprqyhqlj nv
+nv srimbxfr
+uv xejhgddkz
+xejhgddkz rzvj
+rzvj hy
+hy ahd
+srimbxfr xseupqo
+xseupqo rrukaaxdjc
+ahd mwpogvi
+rrukaaxdjc mbx
+mbx q
+mwpogvi slrmnt
+slrmnt zzphkxitl
+zzphkxitl soghavhuxv
+soghavhuxv pdiqmcahj
+pdiqmcahj jebdfu
+jebdfu dxnq
+q tbnyuqlr
+tbnyuqlr lhjt
+dxnq yg
+lhjt kj
+kj mnfgxd
+mnfgxd cmginics
+yg gsc
+gsc gnbmk
+cmginics xnx...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>hk al
+kloguvp al
+kloguvp qpyzd
+mpvb qpyzd
+i qpyzd
+fjuvsu qpyzd
+fjuvsu p
+djufsopgaa p
+djufsopgaa xwl
+djufsopgaa qvbbynz
+uv qvbbynz
+uv elprqyhqlj
+uv nv
+uv srimbxfr
+xejhgddkz srimbxfr
+rzvj srimbxfr
+hy srimbxfr
+ahd srimbxfr
+ahd xseupqo
+ahd rrukaaxdjc
+mwpogvi rrukaaxdjc
+mwpogvi mbx
+mwpogvi q
+slrmnt q
+zzphkxitl q
+soghavhuxv q
+pdiqmcahj q
+jebdfu q
+dxnq q
+dxnq tbnyuqlr
+dxnq lhjt
+yg lhjt
+yg kj
+yg mnfgxd
+yg cmginics
+gsc cmginics
+gnbmk cmginics
+gnbmk xnxciu
+gnbmk hqfza
+gnbmk onb...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>hk al
+kloguvp al
+kloguvp qpyzd
+mpvb qpyzd
+i qpyzd
+fjuvsu qpyzd
+fjuvsu p
+djufsopgaa p
+djufsopgaa xwl
+djufsopgaa qvbbynz
+uv qvbbynz
+uv elprqyhqlj
+uv nv
+uv srimbxfr
+xejhgddkz srimbxfr
+rzvj srimbxfr
+hy srimbxfr
+ahd srimbxfr
+ahd xseupqo
+ahd rrukaaxdjc
+mwpogvi rrukaaxdjc
+mwpogvi mbx
+mwpogvi q
+slrmnt q
+zzphkxitl q
+soghavhuxv q
+pdiqmcahj q
+jebdfu q
+dxnq q
+dxnq tbnyuqlr
+dxnq lhjt
+yg lhjt
+yg kj
+yg mnfgxd
+yg cmginics
+gsc cmginics
+gnbmk cmginics
+gnbmk xnxciu
+gnbmk hqfza
+gnbmk onb...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 666 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">32
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2052 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>ipeugcqykm frhgi
+481
+frhgi aufvqe
+ipeugcqykm p
+aufvqe s
+s feowlrhfc
+feowlrhfc adw
+p rq
+adw r
+r zeadkgg
+zeadkgg wqbnapl
+rq van
+van l
+wqbnapl ovylvyjopo
+ovylvyjopo jssmwvni
+l iffh
+jssmwvni mfc
+mfc qslhmjyg
+qslhmjyg hgjbf
+hgjbf nepsur
+iffh xjbcy
+xjbcy ebg
+nepsur hbdikwn
+hbdikwn miji
+miji bchvqd
+bchvqd wacewfca
+ebg rkh
+rkh qj
+wacewfca z
+z aaczq
+aaczq usw
+qj zbjzfudt
+usw bzhhqx
+zbjzfudt gjnkpdcepy
+gjnkpdcepy lzqxys
+lzqxys yt
+yt pimnfwmr
+bzhhqx ytsiq
+ytsiq rzqcrsmec
+rzqcrsm...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>ipeugcqykm frhgi
+ipeugcqykm aufvqe
+p aufvqe
+p s
+p feowlrhfc
+p adw
+rq adw
+rq r
+rq zeadkgg
+rq wqbnapl
+van wqbnapl
+l wqbnapl
+l ovylvyjopo
+l jssmwvni
+iffh jssmwvni
+iffh mfc
+iffh qslhmjyg
+iffh hgjbf
+iffh nepsur
+xjbcy nepsur
+ebg nepsur
+ebg hbdikwn
+ebg miji
+ebg bchvqd
+ebg wacewfca
+rkh wacewfca
+qj wacewfca
+qj z
+qj aaczq
+qj usw
+zbjzfudt usw
+zbjzfudt bzhhqx
+gjnkpdcepy bzhhqx
+lzqxys bzhhqx
+yt bzhhqx
+pimnfwmr bzhhqx
+pimnfwmr ytsiq
+pimnfwmr rzqcrsmec
+pimnfwmr nrsznag
+pimnfwmr oijq...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>ipeugcqykm frhgi
+ipeugcqykm aufvqe
+p aufvqe
+p s
+p feowlrhfc
+p adw
+rq adw
+rq r
+rq zeadkgg
+rq wqbnapl
+van wqbnapl
+l wqbnapl
+l ovylvyjopo
+l jssmwvni
+iffh jssmwvni
+iffh mfc
+iffh qslhmjyg
+iffh hgjbf
+iffh nepsur
+xjbcy nepsur
+ebg nepsur
+ebg hbdikwn
+ebg miji
+ebg bchvqd
+ebg wacewfca
+rkh wacewfca
+qj wacewfca
+qj z
+qj aaczq
+qj usw
+zbjzfudt usw
+zbjzfudt bzhhqx
+gjnkpdcepy bzhhqx
+lzqxys bzhhqx
+yt bzhhqx
+pimnfwmr bzhhqx
+pimnfwmr ytsiq
+pimnfwmr rzqcrsmec
+pimnfwmr nrsznag
+pimnfwmr oijq...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 482 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">33
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2052 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>fxzuqhx ghojyzutwm
+217
+fxzuqhx cdyj
+cdyj tcdrozb
+tcdrozb krznlue
+ghojyzutwm avr
+avr ywen
+ywen hyxjffwyua
+krznlue jz
+hyxjffwyua calhd
+jz iupuomq
+calhd hgykqhel
+iupuomq eqwmgtbi
+hgykqhel ohjqd
+eqwmgtbi oii
+ohjqd bvymuj
+oii vo
+bvymuj jedfdpzgbs
+jedfdpzgbs bcbguhx
+bcbguhx cif
+cif wemk
+vo a
+a mw
+wemk jfbucic
+mw axztzgskkm
+jfbucic m
+m msfubv
+axztzgskkm wsgsfecap
+wsgsfecap jtrlofqf
+jtrlofqf xglx
+msfubv bpzsrwsfy
+bpzsrwsfy pg
+xglx b
+b y
+y ihcibp
+ihcibp hsj
+pg qyh
+hsj rsqjp
+rsq...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>fxzuqhx ghojyzutwm
+cdyj ghojyzutwm
+tcdrozb ghojyzutwm
+krznlue ghojyzutwm
+krznlue avr
+krznlue ywen
+krznlue hyxjffwyua
+jz hyxjffwyua
+jz calhd
+iupuomq calhd
+iupuomq hgykqhel
+eqwmgtbi hgykqhel
+eqwmgtbi ohjqd
+oii ohjqd
+oii bvymuj
+vo bvymuj
+vo jedfdpzgbs
+vo bcbguhx
+vo cif
+vo wemk
+a wemk
+mw wemk
+mw jfbucic
+axztzgskkm jfbucic
+axztzgskkm m
+axztzgskkm msfubv
+wsgsfecap msfubv
+jtrlofqf msfubv
+xglx msfubv
+xglx bpzsrwsfy
+xglx pg
+b pg
+y pg
+ihcibp pg
+hsj pg
+hsj qyh
+rsqjp qyh
+dhktgymd q...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>fxzuqhx ghojyzutwm
+cdyj ghojyzutwm
+tcdrozb ghojyzutwm
+krznlue ghojyzutwm
+krznlue avr
+krznlue ywen
+krznlue hyxjffwyua
+jz hyxjffwyua
+jz calhd
+iupuomq calhd
+iupuomq hgykqhel
+eqwmgtbi hgykqhel
+eqwmgtbi ohjqd
+oii ohjqd
+oii bvymuj
+vo bvymuj
+vo jedfdpzgbs
+vo bcbguhx
+vo cif
+vo wemk
+a wemk
+mw wemk
+mw jfbucic
+axztzgskkm jfbucic
+axztzgskkm m
+axztzgskkm msfubv
+wsgsfecap msfubv
+jtrlofqf msfubv
+xglx msfubv
+xglx bpzsrwsfy
+xglx pg
+b pg
+y pg
+ihcibp pg
+hsj pg
+hsj qyh
+rsqjp qyh
+dhktgymd q...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 218 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">34
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2036 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>woekcs fc
+696
+fc jmghj
+jmghj yu
+yu o
+woekcs ntvr
+ntvr bwkauw
+o nm
+bwkauw mobels
+nm feokfa
+mobels rumgind
+rumgind fha
+feokfa pmugln
+fha ozooc
+pmugln gqjuxc
+ozooc hqcxkzuy
+hqcxkzuy ukx
+ukx wyxpi
+wyxpi nqagzhx
+gqjuxc uk
+nqagzhx lrhltfr
+uk toslt
+lrhltfr vj
+toslt twuwajlc
+vj ppyjuayl
+twuwajlc ft
+ft uxp
+ppyjuayl kydyylr
+uxp j
+kydyylr gtsxa
+j twrfexobhi
+gtsxa isjhdhkut
+isjhdhkut ruu
+twrfexobhi racsneloxr
+racsneloxr imoptbb
+imoptbb fmztrohcnp
+ruu iegmkgsh
+iegmkgsh oepmwaeko
+fm...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>woekcs fc
+woekcs jmghj
+woekcs yu
+woekcs o
+ntvr o
+bwkauw o
+bwkauw nm
+mobels nm
+mobels feokfa
+rumgind feokfa
+fha feokfa
+fha pmugln
+ozooc pmugln
+ozooc gqjuxc
+hqcxkzuy gqjuxc
+ukx gqjuxc
+wyxpi gqjuxc
+nqagzhx gqjuxc
+nqagzhx uk
+lrhltfr uk
+lrhltfr toslt
+vj toslt
+vj twuwajlc
+ppyjuayl twuwajlc
+ppyjuayl ft
+ppyjuayl uxp
+kydyylr uxp
+kydyylr j
+gtsxa j
+gtsxa twrfexobhi
+isjhdhkut twrfexobhi
+ruu twrfexobhi
+ruu racsneloxr
+ruu imoptbb
+ruu fmztrohcnp
+iegmkgsh fmztrohcnp
+oepmwaeko fmztrohcnp...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>woekcs fc
+woekcs jmghj
+woekcs yu
+woekcs o
+ntvr o
+bwkauw o
+bwkauw nm
+mobels nm
+mobels feokfa
+rumgind feokfa
+fha feokfa
+fha pmugln
+ozooc pmugln
+ozooc gqjuxc
+hqcxkzuy gqjuxc
+ukx gqjuxc
+wyxpi gqjuxc
+nqagzhx gqjuxc
+nqagzhx uk
+lrhltfr uk
+lrhltfr toslt
+vj toslt
+vj twuwajlc
+ppyjuayl twuwajlc
+ppyjuayl ft
+ppyjuayl uxp
+kydyylr uxp
+kydyylr j
+gtsxa j
+gtsxa twrfexobhi
+isjhdhkut twrfexobhi
+ruu twrfexobhi
+ruu racsneloxr
+ruu imoptbb
+ruu fmztrohcnp
+iegmkgsh fmztrohcnp
+oepmwaeko fmztrohcnp...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 697 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">35
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2024 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>xpoxbhcqc icze
+197
+xpoxbhcqc gscvtcxjmo
+gscvtcxjmo rkvpbkzxtw
+rkvpbkzxtw jcb
+jcb gpdc
+icze blltmcqi
+blltmcqi drhkcji
+drhkcji pxh
+gpdc ftku
+pxh ridarofwm
+ridarofwm btn
+btn dfnjb
+dfnjb nnucnfqwqq
+nnucnfqwqq fowxxfsaad
+ftku gbbilivok
+fowxxfsaad jyun
+gbbilivok y
+y qpmwmnsbf
+jyun gfsswrszxy
+gfsswrszxy ymiqpuvgw
+ymiqpuvgw luhna
+qpmwmnsbf gcnboqlcl
+luhna th
+gcnboqlcl gv
+gv qtacuny
+qtacuny luhudj
+th rtkdhdxfy
+rtkdhdxfy b
+luhudj felo
+b mj
+mj lsubcf
+lsubcf em
+em lzj
+felo cwsomayj
+c...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>xpoxbhcqc icze
+gscvtcxjmo icze
+rkvpbkzxtw icze
+jcb icze
+gpdc icze
+gpdc blltmcqi
+gpdc drhkcji
+gpdc pxh
+ftku pxh
+ftku ridarofwm
+ftku btn
+ftku dfnjb
+ftku nnucnfqwqq
+ftku fowxxfsaad
+gbbilivok fowxxfsaad
+gbbilivok jyun
+y jyun
+qpmwmnsbf jyun
+qpmwmnsbf gfsswrszxy
+qpmwmnsbf ymiqpuvgw
+qpmwmnsbf luhna
+gcnboqlcl luhna
+gcnboqlcl th
+gv th
+qtacuny th
+luhudj th
+luhudj rtkdhdxfy
+luhudj b
+felo b
+felo mj
+felo lsubcf
+felo em
+felo lzj
+cwsomayj lzj
+ysvqbqje lzj
+x lzj
+x idricouco
+x eb
+x ddt...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>xpoxbhcqc icze
+gscvtcxjmo icze
+rkvpbkzxtw icze
+jcb icze
+gpdc icze
+gpdc blltmcqi
+gpdc drhkcji
+gpdc pxh
+ftku pxh
+ftku ridarofwm
+ftku btn
+ftku dfnjb
+ftku nnucnfqwqq
+ftku fowxxfsaad
+gbbilivok fowxxfsaad
+gbbilivok jyun
+y jyun
+qpmwmnsbf jyun
+qpmwmnsbf gfsswrszxy
+qpmwmnsbf ymiqpuvgw
+qpmwmnsbf luhna
+gcnboqlcl luhna
+gcnboqlcl th
+gv th
+qtacuny th
+luhudj th
+luhudj rtkdhdxfy
+luhudj b
+felo b
+felo mj
+felo lsubcf
+felo em
+felo lzj
+cwsomayj lzj
+ysvqbqje lzj
+x lzj
+x idricouco
+x eb
+x ddt...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 198 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">36
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2028 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>ajmubo x
+487
+ajmubo gnspvrwxtf
+x rnzqoce
+rnzqoce r
+gnspvrwxtf ooxfyvq
+ooxfyvq bo
+bo dkcdzko
+r tfpkg
+dkcdzko s
+tfpkg yvdiyn
+yvdiyn v
+v jvjrm
+s yiailicem
+yiailicem okocwdizk
+jvjrm op
+okocwdizk bdis
+op xrqkfktqk
+xrqkfktqk mfpi
+mfpi fhn
+fhn wyo
+wyo abgvtsnsf
+abgvtsnsf svnhfha
+svnhfha gfbjz
+gfbjz gayiyyn
+gayiyyn c
+bdis fvkimxr
+fvkimxr lnwgap
+c d
+lnwgap cscmsavr
+cscmsavr vlyxlgjto
+vlyxlgjto sgn
+sgn jumsstqa
+jumsstqa nrvbsvjxih
+nrvbsvjxih bnyno
+bnyno dhwmce
+dhwmce xchpzgif
+xch...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>ajmubo x
+gnspvrwxtf x
+gnspvrwxtf rnzqoce
+gnspvrwxtf r
+ooxfyvq r
+bo r
+dkcdzko r
+dkcdzko tfpkg
+s tfpkg
+s yvdiyn
+s v
+s jvjrm
+yiailicem jvjrm
+okocwdizk jvjrm
+okocwdizk op
+bdis op
+bdis xrqkfktqk
+bdis mfpi
+bdis fhn
+bdis wyo
+bdis abgvtsnsf
+bdis svnhfha
+bdis gfbjz
+bdis gayiyyn
+bdis c
+fvkimxr c
+lnwgap c
+lnwgap d
+cscmsavr d
+vlyxlgjto d
+sgn d
+jumsstqa d
+nrvbsvjxih d
+bnyno d
+dhwmce d
+xchpzgif d
+midhsnv d
+midhsnv luy
+dil luy
+ifuabzitu luy
+kmrxvpcda luy
+yyxwqunlq luy
+yyxwqunlq h...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>ajmubo x
+gnspvrwxtf x
+gnspvrwxtf rnzqoce
+gnspvrwxtf r
+ooxfyvq r
+bo r
+dkcdzko r
+dkcdzko tfpkg
+s tfpkg
+s yvdiyn
+s v
+s jvjrm
+yiailicem jvjrm
+okocwdizk jvjrm
+okocwdizk op
+bdis op
+bdis xrqkfktqk
+bdis mfpi
+bdis fhn
+bdis wyo
+bdis abgvtsnsf
+bdis svnhfha
+bdis gfbjz
+bdis gayiyyn
+bdis c
+fvkimxr c
+lnwgap c
+lnwgap d
+cscmsavr d
+vlyxlgjto d
+sgn d
+jumsstqa d
+nrvbsvjxih d
+bnyno d
+dhwmce d
+xchpzgif d
+midhsnv d
+midhsnv luy
+dil luy
+ifuabzitu luy
+kmrxvpcda luy
+yyxwqunlq luy
+yyxwqunlq h...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 488 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">37
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2028 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>vk ureoxgrk
+600
+vk tttq
+tttq lnzbzffrf
+lnzbzffrf mvdnmkq
+mvdnmkq g
+g yfypbmbpm
+ureoxgrk fiy
+fiy tmkzzxmjw
+tmkzzxmjw a
+yfypbmbpm zhaxz
+a tcgl
+tcgl jmc
+zhaxz damepieom
+damepieom nogwogyoks
+jmc wtpoh
+wtpoh wbfry
+wbfry q
+q qkv
+nogwogyoks bwmsqwi
+qkv uvjhxnpqv
+bwmsqwi l
+l dft
+uvjhxnpqv omzx
+dft rpxinz
+omzx xhw
+xhw mjl
+rpxinz cdpxieuj
+mjl yqznjz
+cdpxieuj xnefxret
+yqznjz oi
+xnefxret hvw
+oi nnqqo
+nnqqo onfidog
+onfidog cgxnu
+cgxnu rfeih
+rfeih al
+hvw udxiigsmmw
+udxiigsmmw ygrzl...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>vk ureoxgrk
+tttq ureoxgrk
+lnzbzffrf ureoxgrk
+mvdnmkq ureoxgrk
+g ureoxgrk
+yfypbmbpm ureoxgrk
+yfypbmbpm fiy
+yfypbmbpm tmkzzxmjw
+yfypbmbpm a
+zhaxz a
+zhaxz tcgl
+zhaxz jmc
+damepieom jmc
+nogwogyoks jmc
+nogwogyoks wtpoh
+nogwogyoks wbfry
+nogwogyoks q
+nogwogyoks qkv
+bwmsqwi qkv
+bwmsqwi uvjhxnpqv
+l uvjhxnpqv
+dft uvjhxnpqv
+dft omzx
+rpxinz omzx
+rpxinz xhw
+rpxinz mjl
+cdpxieuj mjl
+cdpxieuj yqznjz
+xnefxret yqznjz
+xnefxret oi
+hvw oi
+hvw nnqqo
+hvw onfidog
+hvw cgxnu
+hvw rfeih
+hvw al
+udxii...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>vk ureoxgrk
+tttq ureoxgrk
+lnzbzffrf ureoxgrk
+mvdnmkq ureoxgrk
+g ureoxgrk
+yfypbmbpm ureoxgrk
+yfypbmbpm fiy
+yfypbmbpm tmkzzxmjw
+yfypbmbpm a
+zhaxz a
+zhaxz tcgl
+zhaxz jmc
+damepieom jmc
+nogwogyoks jmc
+nogwogyoks wtpoh
+nogwogyoks wbfry
+nogwogyoks q
+nogwogyoks qkv
+bwmsqwi qkv
+bwmsqwi uvjhxnpqv
+l uvjhxnpqv
+dft uvjhxnpqv
+dft omzx
+rpxinz omzx
+rpxinz xhw
+rpxinz mjl
+cdpxieuj mjl
+cdpxieuj yqznjz
+xnefxret yqznjz
+xnefxret oi
+hvw oi
+hvw nnqqo
+hvw onfidog
+hvw cgxnu
+hvw rfeih
+hvw al
+udxii...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 601 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">38
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2028 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>tqr ci
+213
+tqr mc
+ci idxnqznmx
+mc eqwrsxmx
+idxnqznmx icztjmlw
+eqwrsxmx qdjzxupois
+icztjmlw m
+qdjzxupois w
+m wr
+w ezfuwxzjou
+ezfuwxzjou rkp
+wr kle
+kle ustizdix
+ustizdix zxhowkb
+rkp wvktcjcgci
+wvktcjcgci av
+av kssxb
+zxhowkb lqpimrecv
+lqpimrecv quea
+quea rxirjhup
+kssxb ickztjki
+ickztjki p
+rxirjhup a
+p pyxnooogq
+pyxnooogq oxkzfiuz
+oxkzfiuz vchfzqycmq
+a zrshh
+vchfzqycmq lyqpezjlz
+zrshh ljsqgg
+lyqpezjlz bduiflkwo
+bduiflkwo bc
+bc ifg
+ifg d
+ljsqgg hrqdzez
+d szvvgqepxg
+hrqdzez kq...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>tqr ci
+mc ci
+mc idxnqznmx
+eqwrsxmx idxnqznmx
+eqwrsxmx icztjmlw
+qdjzxupois icztjmlw
+qdjzxupois m
+w m
+w wr
+ezfuwxzjou wr
+rkp wr
+rkp kle
+rkp ustizdix
+rkp zxhowkb
+wvktcjcgci zxhowkb
+av zxhowkb
+kssxb zxhowkb
+kssxb lqpimrecv
+kssxb quea
+kssxb rxirjhup
+ickztjki rxirjhup
+p rxirjhup
+p a
+pyxnooogq a
+oxkzfiuz a
+vchfzqycmq a
+vchfzqycmq zrshh
+lyqpezjlz zrshh
+lyqpezjlz ljsqgg
+bduiflkwo ljsqgg
+bc ljsqgg
+ifg ljsqgg
+d ljsqgg
+d hrqdzez
+szvvgqepxg hrqdzez
+szvvgqepxg kqohqjcoj
+nfskauzs kqohq...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>tqr ci
+mc ci
+mc idxnqznmx
+eqwrsxmx idxnqznmx
+eqwrsxmx icztjmlw
+qdjzxupois icztjmlw
+qdjzxupois m
+w m
+w wr
+ezfuwxzjou wr
+rkp wr
+rkp kle
+rkp ustizdix
+rkp zxhowkb
+wvktcjcgci zxhowkb
+av zxhowkb
+kssxb zxhowkb
+kssxb lqpimrecv
+kssxb quea
+kssxb rxirjhup
+ickztjki rxirjhup
+p rxirjhup
+p a
+pyxnooogq a
+oxkzfiuz a
+vchfzqycmq a
+vchfzqycmq zrshh
+lyqpezjlz zrshh
+lyqpezjlz ljsqgg
+bduiflkwo ljsqgg
+bc ljsqgg
+ifg ljsqgg
+d ljsqgg
+d hrqdzez
+szvvgqepxg hrqdzez
+szvvgqepxg kqohqjcoj
+nfskauzs kqohq...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 214 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">39
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2040 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>is vtvudob
+997
+is bqvd
+vtvudob dj
+bqvd uxrojlcj
+uxrojlcj vocoub
+dj tlvvwjffx
+vocoub jtrljuslq
+tlvvwjffx zvcpkmuqn
+zvcpkmuqn ujg
+ujg qrmacwpqb
+qrmacwpqb ed
+ed euerqxxuik
+jtrljuslq evck
+euerqxxuik fsp
+evck doppdm
+fsp k
+k ns
+doppdm ukwip
+ukwip zrowuk
+ns aim
+zrowuk fagoo
+aim pkbkxnwq
+fagoo qcnwbe
+pkbkxnwq uzoh
+uzoh ozedq
+ozedq lys
+lys m
+qcnwbe ikdxvj
+m lxihtj
+ikdxvj zncdvtjr
+zncdvtjr nwt
+lxihtj z
+z icuvrjqv
+nwt cfwrgh
+cfwrgh mect
+mect n
+n zztuihyq
+icuvrjqv pocbwnqun
+pocbw...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>is vtvudob
+bqvd vtvudob
+bqvd dj
+uxrojlcj dj
+vocoub dj
+vocoub tlvvwjffx
+jtrljuslq tlvvwjffx
+jtrljuslq zvcpkmuqn
+jtrljuslq ujg
+jtrljuslq qrmacwpqb
+jtrljuslq ed
+jtrljuslq euerqxxuik
+evck euerqxxuik
+evck fsp
+doppdm fsp
+doppdm k
+doppdm ns
+ukwip ns
+zrowuk ns
+zrowuk aim
+fagoo aim
+fagoo pkbkxnwq
+qcnwbe pkbkxnwq
+qcnwbe uzoh
+qcnwbe ozedq
+qcnwbe lys
+qcnwbe m
+ikdxvj m
+ikdxvj lxihtj
+zncdvtjr lxihtj
+nwt lxihtj
+nwt z
+nwt icuvrjqv
+cfwrgh icuvrjqv
+mect icuvrjqv
+n icuvrjqv
+zztuihyq icuvrj...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>is vtvudob
+bqvd vtvudob
+bqvd dj
+uxrojlcj dj
+vocoub dj
+vocoub tlvvwjffx
+jtrljuslq tlvvwjffx
+jtrljuslq zvcpkmuqn
+jtrljuslq ujg
+jtrljuslq qrmacwpqb
+jtrljuslq ed
+jtrljuslq euerqxxuik
+evck euerqxxuik
+evck fsp
+doppdm fsp
+doppdm k
+doppdm ns
+ukwip ns
+zrowuk ns
+zrowuk aim
+fagoo aim
+fagoo pkbkxnwq
+qcnwbe pkbkxnwq
+qcnwbe uzoh
+qcnwbe ozedq
+qcnwbe lys
+qcnwbe m
+ikdxvj m
+ikdxvj lxihtj
+zncdvtjr lxihtj
+nwt lxihtj
+nwt z
+nwt icuvrjqv
+cfwrgh icuvrjqv
+mect icuvrjqv
+n icuvrjqv
+zztuihyq icuvrj...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 998 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">40
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2040 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>wdbmc rzpmuvixrn
+964
+wdbmc thnrgr
+thnrgr s
+s cryqmu
+cryqmu bjp
+bjp ncll
+rzpmuvixrn bzk
+bzk meselxvrm
+ncll qzretpaize
+meselxvrm fz
+qzretpaize fr
+fz bx
+fr rxtotwxjio
+rxtotwxjio taquwjjv
+bx fokdwfzxg
+taquwjjv a
+a kzcxbtjoy
+kzcxbtjoy vah
+fokdwfzxg gnjuii
+gnjuii yy
+yy vxhaacae
+vah az
+vxhaacae zhwgy
+zhwgy vbxaadqrbk
+vbxaadqrbk yux
+az jkaooq
+jkaooq vfpy
+yux rxepyfqgqv
+vfpy i
+i vd
+rxepyfqgqv asyzmkr
+asyzmkr mdjwo
+vd jzjojfvgtl
+mdjwo zwvivl
+zwvivl wrn
+wrn alf
+alf wif
+wif ila
+j...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>wdbmc rzpmuvixrn
+thnrgr rzpmuvixrn
+s rzpmuvixrn
+cryqmu rzpmuvixrn
+bjp rzpmuvixrn
+ncll rzpmuvixrn
+ncll bzk
+ncll meselxvrm
+qzretpaize meselxvrm
+qzretpaize fz
+fr fz
+fr bx
+rxtotwxjio bx
+taquwjjv bx
+taquwjjv fokdwfzxg
+a fokdwfzxg
+kzcxbtjoy fokdwfzxg
+vah fokdwfzxg
+vah gnjuii
+vah yy
+vah vxhaacae
+az vxhaacae
+az zhwgy
+az vbxaadqrbk
+az yux
+jkaooq yux
+vfpy yux
+vfpy rxepyfqgqv
+i rxepyfqgqv
+vd rxepyfqgqv
+vd asyzmkr
+vd mdjwo
+jzjojfvgtl mdjwo
+jzjojfvgtl zwvivl
+jzjojfvgtl wrn
+jzjojfvgtl ...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>wdbmc rzpmuvixrn
+thnrgr rzpmuvixrn
+s rzpmuvixrn
+cryqmu rzpmuvixrn
+bjp rzpmuvixrn
+ncll rzpmuvixrn
+ncll bzk
+ncll meselxvrm
+qzretpaize meselxvrm
+qzretpaize fz
+fr fz
+fr bx
+rxtotwxjio bx
+taquwjjv bx
+taquwjjv fokdwfzxg
+a fokdwfzxg
+kzcxbtjoy fokdwfzxg
+vah fokdwfzxg
+vah gnjuii
+vah yy
+vah vxhaacae
+az vxhaacae
+az zhwgy
+az vbxaadqrbk
+az yux
+jkaooq yux
+vfpy yux
+vfpy rxepyfqgqv
+i rxepyfqgqv
+vd rxepyfqgqv
+vd asyzmkr
+vd mdjwo
+jzjojfvgtl mdjwo
+jzjojfvgtl zwvivl
+jzjojfvgtl wrn
+jzjojfvgtl ...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 965 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">41
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2036 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>p aoodd
+835
+p gniwdjz
+aoodd xhjbppeha
+gniwdjz jcdhpv
+jcdhpv kc
+xhjbppeha adc
+adc kwppa
+kwppa quouzm
+kc kwexmllpv
+kwexmllpv vn
+quouzm qt
+qt heanamoedc
+heanamoedc hawp
+vn unjkmvcgdq
+unjkmvcgdq untjdnb
+hawp ziradslhw
+untjdnb ul
+ul phxq
+ziradslhw ityp
+ityp rxh
+phxq kzmnqa
+kzmnqa hjvertjpwa
+hjvertjpwa vcamid
+vcamid flcs
+rxh biwzgsd
+biwzgsd ovtt
+flcs pxtw
+ovtt mud
+mud lvu
+pxtw xxer
+lvu iijbgh
+xxer tqkb
+iijbgh bqkc
+bqkc xl
+xl kvklmdxe
+tqkb jum
+kvklmdxe hak
+jum ouvu
+ouvu slmn...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>p aoodd
+gniwdjz aoodd
+gniwdjz xhjbppeha
+jcdhpv xhjbppeha
+kc xhjbppeha
+kc adc
+kc kwppa
+kc quouzm
+kwexmllpv quouzm
+vn quouzm
+vn qt
+vn heanamoedc
+vn hawp
+unjkmvcgdq hawp
+untjdnb hawp
+untjdnb ziradslhw
+ul ziradslhw
+phxq ziradslhw
+phxq ityp
+phxq rxh
+kzmnqa rxh
+hjvertjpwa rxh
+vcamid rxh
+flcs rxh
+flcs biwzgsd
+flcs ovtt
+pxtw ovtt
+pxtw mud
+pxtw lvu
+xxer lvu
+xxer iijbgh
+tqkb iijbgh
+tqkb bqkc
+tqkb xl
+tqkb kvklmdxe
+jum kvklmdxe
+jum hak
+ouvu hak
+slmnh hak
+kovxhl hak
+kovxhl chqhnv...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>p aoodd
+gniwdjz aoodd
+gniwdjz xhjbppeha
+jcdhpv xhjbppeha
+kc xhjbppeha
+kc adc
+kc kwppa
+kc quouzm
+kwexmllpv quouzm
+vn quouzm
+vn qt
+vn heanamoedc
+vn hawp
+unjkmvcgdq hawp
+untjdnb hawp
+untjdnb ziradslhw
+ul ziradslhw
+phxq ziradslhw
+phxq ityp
+phxq rxh
+kzmnqa rxh
+hjvertjpwa rxh
+vcamid rxh
+flcs rxh
+flcs biwzgsd
+flcs ovtt
+pxtw ovtt
+pxtw mud
+pxtw lvu
+xxer lvu
+xxer iijbgh
+tqkb iijbgh
+tqkb bqkc
+tqkb xl
+tqkb kvklmdxe
+jum kvklmdxe
+jum hak
+ouvu hak
+slmnh hak
+kovxhl hak
+kovxhl chqhnv...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 836 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">42
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2052 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>gprjb zjllfypofe
+497
+zjllfypofe atvrkr
+atvrkr txhoq
+gprjb krdsnzj
+krdsnzj wnnuawhm
+wnnuawhm ljpdplxwbo
+txhoq ydutjlay
+ydutjlay e
+ljpdplxwbo kej
+e auuuizzisd
+kej idt
+idt iqlc
+iqlc zwxlscv
+auuuizzisd lwezerm
+lwezerm rcd
+zwxlscv cspl
+cspl zlq
+zlq lix
+lix zipk
+zipk tlsvivgdbr
+tlsvivgdbr wamqaiuufq
+rcd b
+wamqaiuufq lr
+lr dschujxll
+b mehyritv
+dschujxll zkkiui
+mehyritv wddqyfxix
+zkkiui xlwqfxhpv
+wddqyfxix dnsyq
+dnsyq hqx
+xlwqfxhpv eysge
+hqx i
+i pzplbniek
+pzplbniek kzbr
+eysge jjt...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>gprjb zjllfypofe
+gprjb atvrkr
+gprjb txhoq
+krdsnzj txhoq
+wnnuawhm txhoq
+ljpdplxwbo txhoq
+ljpdplxwbo ydutjlay
+ljpdplxwbo e
+kej e
+kej auuuizzisd
+idt auuuizzisd
+iqlc auuuizzisd
+zwxlscv auuuizzisd
+zwxlscv lwezerm
+zwxlscv rcd
+cspl rcd
+zlq rcd
+lix rcd
+zipk rcd
+tlsvivgdbr rcd
+wamqaiuufq rcd
+wamqaiuufq b
+lr b
+dschujxll b
+dschujxll mehyritv
+zkkiui mehyritv
+zkkiui wddqyfxix
+xlwqfxhpv wddqyfxix
+xlwqfxhpv dnsyq
+xlwqfxhpv hqx
+eysge hqx
+eysge i
+eysge pzplbniek
+eysge kzbr
+jjty kzbr
+jjty ...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>gprjb zjllfypofe
+gprjb atvrkr
+gprjb txhoq
+krdsnzj txhoq
+wnnuawhm txhoq
+ljpdplxwbo txhoq
+ljpdplxwbo ydutjlay
+ljpdplxwbo e
+kej e
+kej auuuizzisd
+idt auuuizzisd
+iqlc auuuizzisd
+zwxlscv auuuizzisd
+zwxlscv lwezerm
+zwxlscv rcd
+cspl rcd
+zlq rcd
+lix rcd
+zipk rcd
+tlsvivgdbr rcd
+wamqaiuufq rcd
+wamqaiuufq b
+lr b
+dschujxll b
+dschujxll mehyritv
+zkkiui mehyritv
+zkkiui wddqyfxix
+xlwqfxhpv wddqyfxix
+xlwqfxhpv dnsyq
+xlwqfxhpv hqx
+eysge hqx
+eysge i
+eysge pzplbniek
+eysge kzbr
+jjty kzbr
+jjty ...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 498 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">43
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2028 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>xjecnkrqo nwwdqnd
+195
+nwwdqnd adtiwamupw
+xjecnkrqo gulq
+gulq yrqt
+adtiwamupw ghem
+ghem cjcs
+yrqt jq
+jq ueoel
+ueoel ntb
+ntb efvy
+efvy xliep
+cjcs tw
+xliep qwtmajvbi
+qwtmajvbi wrvcx
+tw c
+wrvcx vu
+vu sgjhsl
+c o
+o nffhol
+sgjhsl efe
+nffhol wiimgqlsa
+wiimgqlsa escejin
+escejin ymrcrsphnm
+ymrcrsphnm watwroel
+efe uhw
+uhw s
+watwroel plyszfyac
+s tdsqv
+plyszfyac ocjqh
+ocjqh gxjh
+tdsqv sjaozo
+gxjh ofcgpsrr
+sjaozo xv
+xv ng
+ng xuwcsujvkj
+ofcgpsrr ajooxi
+xuwcsujvkj e
+e dnsszq
+dnsszq k...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>xjecnkrqo nwwdqnd
+xjecnkrqo adtiwamupw
+gulq adtiwamupw
+yrqt adtiwamupw
+yrqt ghem
+yrqt cjcs
+jq cjcs
+ueoel cjcs
+ntb cjcs
+efvy cjcs
+xliep cjcs
+xliep tw
+qwtmajvbi tw
+wrvcx tw
+wrvcx c
+vu c
+sgjhsl c
+sgjhsl o
+sgjhsl nffhol
+efe nffhol
+efe wiimgqlsa
+efe escejin
+efe ymrcrsphnm
+efe watwroel
+uhw watwroel
+s watwroel
+s plyszfyac
+tdsqv plyszfyac
+tdsqv ocjqh
+tdsqv gxjh
+sjaozo gxjh
+sjaozo ofcgpsrr
+xv ofcgpsrr
+ng ofcgpsrr
+xuwcsujvkj ofcgpsrr
+xuwcsujvkj ajooxi
+e ajooxi
+dnsszq ajooxi
+krap...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>xjecnkrqo nwwdqnd
+xjecnkrqo adtiwamupw
+gulq adtiwamupw
+yrqt adtiwamupw
+yrqt ghem
+yrqt cjcs
+jq cjcs
+ueoel cjcs
+ntb cjcs
+efvy cjcs
+xliep cjcs
+xliep tw
+qwtmajvbi tw
+wrvcx tw
+wrvcx c
+vu c
+sgjhsl c
+sgjhsl o
+sgjhsl nffhol
+efe nffhol
+efe wiimgqlsa
+efe escejin
+efe ymrcrsphnm
+efe watwroel
+uhw watwroel
+s watwroel
+s plyszfyac
+tdsqv plyszfyac
+tdsqv ocjqh
+tdsqv gxjh
+sjaozo gxjh
+sjaozo ofcgpsrr
+xv ofcgpsrr
+ng ofcgpsrr
+xuwcsujvkj ofcgpsrr
+xuwcsujvkj ajooxi
+e ajooxi
+dnsszq ajooxi
+krap...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 196 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">44
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2044 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>yfpqaujym hctp
+326
+yfpqaujym qmrn
+hctp pwgwblt
+pwgwblt lak
+qmrn pkxggnmssi
+lak yivjqysw
+pkxggnmssi iuqfjm
+iuqfjm bms
+yivjqysw lnow
+bms zgkvyl
+zgkvyl jowb
+lnow xblefyp
+jowb zqxcglaih
+xblefyp oruozgkq
+oruozgkq wfvfcjxhyy
+zqxcglaih nwvlpuxet
+nwvlpuxet zimlfo
+wfvfcjxhyy g
+zimlfo gjox
+gjox llkqln
+g rymkaksnrv
+rymkaksnrv i
+i sraxlgaxk
+sraxlgaxk dodau
+llkqln seevznh
+seevznh loosljpmnd
+dodau laddyn
+loosljpmnd lujxv
+laddyn yka
+yka isdmjfijdm
+isdmjfijdm gwzjrngz
+gwzjrngz avafcnvyi
+av...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>yfpqaujym hctp
+qmrn hctp
+qmrn pwgwblt
+qmrn lak
+pkxggnmssi lak
+pkxggnmssi yivjqysw
+iuqfjm yivjqysw
+bms yivjqysw
+bms lnow
+zgkvyl lnow
+jowb lnow
+jowb xblefyp
+zqxcglaih xblefyp
+zqxcglaih oruozgkq
+zqxcglaih wfvfcjxhyy
+nwvlpuxet wfvfcjxhyy
+zimlfo wfvfcjxhyy
+zimlfo g
+gjox g
+llkqln g
+llkqln rymkaksnrv
+llkqln i
+llkqln sraxlgaxk
+llkqln dodau
+seevznh dodau
+loosljpmnd dodau
+loosljpmnd laddyn
+lujxv laddyn
+lujxv yka
+lujxv isdmjfijdm
+lujxv gwzjrngz
+lujxv avafcnvyi
+lujxv akuqhx
+lujxv rpfin...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>yfpqaujym hctp
+qmrn hctp
+qmrn pwgwblt
+qmrn lak
+pkxggnmssi lak
+pkxggnmssi yivjqysw
+iuqfjm yivjqysw
+bms yivjqysw
+bms lnow
+zgkvyl lnow
+jowb lnow
+jowb xblefyp
+zqxcglaih xblefyp
+zqxcglaih oruozgkq
+zqxcglaih wfvfcjxhyy
+nwvlpuxet wfvfcjxhyy
+zimlfo wfvfcjxhyy
+zimlfo g
+gjox g
+llkqln g
+llkqln rymkaksnrv
+llkqln i
+llkqln sraxlgaxk
+llkqln dodau
+seevznh dodau
+loosljpmnd dodau
+loosljpmnd laddyn
+lujxv laddyn
+lujxv yka
+lujxv isdmjfijdm
+lujxv gwzjrngz
+lujxv avafcnvyi
+lujxv akuqhx
+lujxv rpfin...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 327 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">45
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2036 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>oejvuuo cviw
+735
+oejvuuo amxnxatne
+cviw by
+amxnxatne etork
+by etlekcew
+etlekcew hxqbf
+etork imvmru
+imvmru ta
+ta udmztkzell
+udmztkzell xt
+xt ynlst
+ynlst turxygn
+turxygn geico
+hxqbf l
+geico qcfqtl
+qcfqtl byvnbobace
+byvnbobace v
+v xejtnf
+xejtnf ftdoifogqj
+l xxrrdocm
+xxrrdocm ux
+ux joo
+ftdoifogqj w
+w n
+joo khmg
+khmg rc
+rc aqcdhifoyr
+n jihnr
+aqcdhifoyr wznqt
+jihnr qizmuonkwe
+wznqt lhr
+lhr xsutyjtxh
+qizmuonkwe uarzogb
+xsutyjtxh xdowus
+xdowus lozzypc
+lozzypc zknvp
+zknvp auulk...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>oejvuuo cviw
+amxnxatne cviw
+amxnxatne by
+etork by
+etork etlekcew
+etork hxqbf
+imvmru hxqbf
+ta hxqbf
+udmztkzell hxqbf
+xt hxqbf
+ynlst hxqbf
+turxygn hxqbf
+geico hxqbf
+geico l
+qcfqtl l
+byvnbobace l
+v l
+xejtnf l
+ftdoifogqj l
+ftdoifogqj xxrrdocm
+ftdoifogqj ux
+ftdoifogqj joo
+w joo
+n joo
+n khmg
+n rc
+n aqcdhifoyr
+jihnr aqcdhifoyr
+jihnr wznqt
+qizmuonkwe wznqt
+qizmuonkwe lhr
+qizmuonkwe xsutyjtxh
+uarzogb xsutyjtxh
+uarzogb xdowus
+uarzogb lozzypc
+uarzogb zknvp
+uarzogb auulk
+si auulk
+...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>oejvuuo cviw
+amxnxatne cviw
+amxnxatne by
+etork by
+etork etlekcew
+etork hxqbf
+imvmru hxqbf
+ta hxqbf
+udmztkzell hxqbf
+xt hxqbf
+ynlst hxqbf
+turxygn hxqbf
+geico hxqbf
+geico l
+qcfqtl l
+byvnbobace l
+v l
+xejtnf l
+ftdoifogqj l
+ftdoifogqj xxrrdocm
+ftdoifogqj ux
+ftdoifogqj joo
+w joo
+n joo
+n khmg
+n rc
+n aqcdhifoyr
+jihnr aqcdhifoyr
+jihnr wznqt
+qizmuonkwe wznqt
+qizmuonkwe lhr
+qizmuonkwe xsutyjtxh
+uarzogb xsutyjtxh
+uarzogb xdowus
+uarzogb lozzypc
+uarzogb zknvp
+uarzogb auulk
+si auulk
+...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 736 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">46
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2040 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>byhehac neydlyxyr
+672
+byhehac ypjypmiivy
+ypjypmiivy wfknshxoq
+neydlyxyr ifklyxm
+wfknshxoq xafpm
+ifklyxm vwzgc
+vwzgc icr
+icr yva
+yva zt
+xafpm jggxmwpbg
+zt mevsetzni
+mevsetzni zzdngj
+zzdngj dgqgolq
+jggxmwpbg l
+dgqgolq cmso
+l akutc
+akutc j
+j mabpxuwkah
+cmso jsnsaowdvh
+mabpxuwkah hiwlu
+jsnsaowdvh yyv
+hiwlu sffnzfc
+sffnzfc knwumn
+knwumn strcjq
+yyv wglwqc
+wglwqc x
+x wqtace
+strcjq xtdrihvm
+xtdrihvm q
+wqtace sttjdw
+q uwyr
+sttjdw axbcfpa
+axbcfpa yqipudrt
+uwyr wldkzucjya
+wldkzucjya...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>byhehac neydlyxyr
+ypjypmiivy neydlyxyr
+wfknshxoq neydlyxyr
+wfknshxoq ifklyxm
+xafpm ifklyxm
+xafpm vwzgc
+xafpm icr
+xafpm yva
+xafpm zt
+jggxmwpbg zt
+jggxmwpbg mevsetzni
+jggxmwpbg zzdngj
+jggxmwpbg dgqgolq
+l dgqgolq
+l cmso
+akutc cmso
+j cmso
+mabpxuwkah cmso
+mabpxuwkah jsnsaowdvh
+hiwlu jsnsaowdvh
+hiwlu yyv
+sffnzfc yyv
+knwumn yyv
+strcjq yyv
+strcjq wglwqc
+strcjq x
+strcjq wqtace
+xtdrihvm wqtace
+q wqtace
+q sttjdw
+uwyr sttjdw
+uwyr axbcfpa
+uwyr yqipudrt
+wldkzucjya yqipudrt
+xfyqkcskc yqi...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>byhehac neydlyxyr
+ypjypmiivy neydlyxyr
+wfknshxoq neydlyxyr
+wfknshxoq ifklyxm
+xafpm ifklyxm
+xafpm vwzgc
+xafpm icr
+xafpm yva
+xafpm zt
+jggxmwpbg zt
+jggxmwpbg mevsetzni
+jggxmwpbg zzdngj
+jggxmwpbg dgqgolq
+l dgqgolq
+l cmso
+akutc cmso
+j cmso
+mabpxuwkah cmso
+mabpxuwkah jsnsaowdvh
+hiwlu jsnsaowdvh
+hiwlu yyv
+sffnzfc yyv
+knwumn yyv
+strcjq yyv
+strcjq wglwqc
+strcjq x
+strcjq wqtace
+xtdrihvm wqtace
+q wqtace
+q sttjdw
+uwyr sttjdw
+uwyr axbcfpa
+uwyr yqipudrt
+wldkzucjya yqipudrt
+xfyqkcskc yqi...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 673 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">47
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2040 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>pf zhriu
+847
+zhriu msiktkry
+msiktkry hbo
+hbo f
+f dvz
+pf e
+dvz pnkykd
+e uixnth
+uixnth bj
+pnkykd rsvcj
+bj gdyodl
+rsvcj seijhlca
+seijhlca rvtdvob
+gdyodl fgm
+rvtdvob eh
+eh x
+fgm jzxixitg
+jzxixitg lwzkjquy
+lwzkjquy cikrivj
+x y
+y pcxv
+cikrivj wwidjnrzq
+wwidjnrzq j
+pcxv dgxcamv
+j rejytjrg
+rejytjrg lkgnbyo
+dgxcamv cknj
+cknj fzkhzxtyt
+lkgnbyo imi
+fzkhzxtyt rkdjrghf
+rkdjrghf ooiwpnm
+ooiwpnm jsyxx
+jsyxx qjvyl
+qjvyl lvgrdnfw
+lvgrdnfw vdkw
+vdkw enfbpzhtb
+enfbpzhtb adohl
+adohl aaxzh...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>pf zhriu
+pf msiktkry
+pf hbo
+pf f
+pf dvz
+e dvz
+e pnkykd
+uixnth pnkykd
+bj pnkykd
+bj rsvcj
+gdyodl rsvcj
+gdyodl seijhlca
+gdyodl rvtdvob
+fgm rvtdvob
+fgm eh
+fgm x
+jzxixitg x
+lwzkjquy x
+cikrivj x
+cikrivj y
+cikrivj pcxv
+wwidjnrzq pcxv
+j pcxv
+j dgxcamv
+rejytjrg dgxcamv
+lkgnbyo dgxcamv
+lkgnbyo cknj
+lkgnbyo fzkhzxtyt
+imi fzkhzxtyt
+imi rkdjrghf
+imi ooiwpnm
+imi jsyxx
+imi qjvyl
+imi lvgrdnfw
+imi vdkw
+imi enfbpzhtb
+imi adohl
+imi aaxzhqa
+imi fdvwdsrcq
+imi eaptyrh
+imi bn
+oymfhkhs bn...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>pf zhriu
+pf msiktkry
+pf hbo
+pf f
+pf dvz
+e dvz
+e pnkykd
+uixnth pnkykd
+bj pnkykd
+bj rsvcj
+gdyodl rsvcj
+gdyodl seijhlca
+gdyodl rvtdvob
+fgm rvtdvob
+fgm eh
+fgm x
+jzxixitg x
+lwzkjquy x
+cikrivj x
+cikrivj y
+cikrivj pcxv
+wwidjnrzq pcxv
+j pcxv
+j dgxcamv
+rejytjrg dgxcamv
+lkgnbyo dgxcamv
+lkgnbyo cknj
+lkgnbyo fzkhzxtyt
+imi fzkhzxtyt
+imi rkdjrghf
+imi ooiwpnm
+imi jsyxx
+imi qjvyl
+imi lvgrdnfw
+imi vdkw
+imi enfbpzhtb
+imi adohl
+imi aaxzhqa
+imi fdvwdsrcq
+imi eaptyrh
+imi bn
+oymfhkhs bn...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 848 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">48
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2012 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>hoybkatob zuav
+701
+hoybkatob vjxqcutvmm
+vjxqcutvmm wcsewawak
+wcsewawak oz
+zuav haz
+oz ger
+ger eqmlclssca
+haz ylxn
+eqmlclssca mruu
+mruu txcanmruji
+txcanmruji ruaxuu
+ylxn fsv
+fsv jei
+jei biy
+ruaxuu zlzwyvj
+biy a
+a lerpmv
+lerpmv i
+i zanb
+zanb hbck
+zlzwyvj soey
+hbck npdgk
+npdgk sxcab
+sxcab rxk
+rxk vrmrrlfgs
+vrmrrlfgs mv
+mv deqfg
+deqfg zikoqnwzz
+zikoqnwzz hd
+hd odakci
+odakci ida
+soey igqe
+igqe xnqcwpla
+xnqcwpla acxtnsnh
+ida gv
+gv hhjil
+acxtnsnh cxvxb
+cxvxb hcpp
+hcpp lwehbi...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>hoybkatob zuav
+vjxqcutvmm zuav
+wcsewawak zuav
+oz zuav
+oz haz
+ger haz
+eqmlclssca haz
+eqmlclssca ylxn
+mruu ylxn
+txcanmruji ylxn
+ruaxuu ylxn
+ruaxuu fsv
+ruaxuu jei
+ruaxuu biy
+zlzwyvj biy
+zlzwyvj a
+zlzwyvj lerpmv
+zlzwyvj i
+zlzwyvj zanb
+zlzwyvj hbck
+soey hbck
+soey npdgk
+soey sxcab
+soey rxk
+soey vrmrrlfgs
+soey mv
+soey deqfg
+soey zikoqnwzz
+soey hd
+soey odakci
+soey ida
+igqe ida
+xnqcwpla ida
+acxtnsnh ida
+acxtnsnh gv
+acxtnsnh hhjil
+cxvxb hhjil
+hcpp hhjil
+lwehbiv hhjil
+lwehbiv t...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>hoybkatob zuav
+vjxqcutvmm zuav
+wcsewawak zuav
+oz zuav
+oz haz
+ger haz
+eqmlclssca haz
+eqmlclssca ylxn
+mruu ylxn
+txcanmruji ylxn
+ruaxuu ylxn
+ruaxuu fsv
+ruaxuu jei
+ruaxuu biy
+zlzwyvj biy
+zlzwyvj a
+zlzwyvj lerpmv
+zlzwyvj i
+zlzwyvj zanb
+zlzwyvj hbck
+soey hbck
+soey npdgk
+soey sxcab
+soey rxk
+soey vrmrrlfgs
+soey mv
+soey deqfg
+soey zikoqnwzz
+soey hd
+soey odakci
+soey ida
+igqe ida
+xnqcwpla ida
+acxtnsnh ida
+acxtnsnh gv
+acxtnsnh hhjil
+cxvxb hhjil
+hcpp hhjil
+lwehbiv hhjil
+lwehbiv t...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 702 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">49
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2056 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>wced gnsgv
+23
+gnsgv japawpaf
+japawpaf nnvpeu
+nnvpeu a
+a ddupputljq
+ddupputljq qyhnvbh
+qyhnvbh pqwijl
+wced khuvs
+khuvs bjkh
+pqwijl ysacmboc
+bjkh srf
+srf jknoz
+jknoz hodf
+ysacmboc xqtkoyh
+hodf rfp
+xqtkoyh bivgnwqvoe
+bivgnwqvoe nknf
+nknf wuig
+rfp e
+e bqqknq
+wuig sznhhhu
+bqqknq dhrtdld
+dhrtdld n
+sznhhhu bguylf
+</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>wced gnsgv
+wced japawpaf
+wced nnvpeu
+wced a
+wced ddupputljq
+wced qyhnvbh
+wced pqwijl
+khuvs pqwijl
+bjkh pqwijl
+bjkh ysacmboc
+srf ysacmboc
+jknoz ysacmboc
+hodf ysacmboc
+hodf xqtkoyh
+rfp xqtkoyh
+rfp bivgnwqvoe
+rfp nknf
+rfp wuig
+e wuig
+bqqknq wuig
+bqqknq sznhhhu
+dhrtdld sznhhhu
+n sznhhhu
+n bguylf
+</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>wced gnsgv
+wced japawpaf
+wced nnvpeu
+wced a
+wced ddupputljq
+wced qyhnvbh
+wced pqwijl
+khuvs pqwijl
+bjkh pqwijl
+bjkh ysacmboc
+srf ysacmboc
+jknoz ysacmboc
+hodf ysacmboc
+hodf xqtkoyh
+rfp xqtkoyh
+rfp bivgnwqvoe
+rfp nknf
+rfp wuig
+e wuig
+bqqknq wuig
+bqqknq sznhhhu
+dhrtdld sznhhhu
+n sznhhhu
+n bguylf
+</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 24 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">50
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2012 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>zztkpbvx ljdofujun
+1000
+zztkpbvx lhjbsr
+lhjbsr kysoaw
+kysoaw ewquib
+ljdofujun cpqcxuudq
+ewquib zdohllhvnb
+zdohllhvnb n
+cpqcxuudq xor
+n ezy
+ezy g
+xor ups
+ups vlppxaw
+vlppxaw up
+up nrxjubmg
+g paba
+paba ic
+ic bneuvadvky
+bneuvadvky cjtn
+nrxjubmg uif
+uif gfpvunuh
+cjtn hjpig
+hjpig tfq
+gfpvunuh dctwerjcxk
+dctwerjcxk na
+na eoricxip
+tfq cuepqjzk
+cuepqjzk spkisq
+spkisq hp
+hp npn
+eoricxip lfawda
+npn ttm
+lfawda bcgvboix
+bcgvboix vzcqyx
+vzcqyx emkhrfbfqp
+emkhrfbfqp murjppe
+murjppe pt...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>zztkpbvx ljdofujun
+lhjbsr ljdofujun
+kysoaw ljdofujun
+ewquib ljdofujun
+ewquib cpqcxuudq
+zdohllhvnb cpqcxuudq
+n cpqcxuudq
+n xor
+ezy xor
+g xor
+g ups
+g vlppxaw
+g up
+g nrxjubmg
+paba nrxjubmg
+ic nrxjubmg
+bneuvadvky nrxjubmg
+cjtn nrxjubmg
+cjtn uif
+cjtn gfpvunuh
+hjpig gfpvunuh
+tfq gfpvunuh
+tfq dctwerjcxk
+tfq na
+tfq eoricxip
+cuepqjzk eoricxip
+spkisq eoricxip
+hp eoricxip
+npn eoricxip
+npn lfawda
+ttm lfawda
+ttm bcgvboix
+ttm vzcqyx
+ttm emkhrfbfqp
+ttm murjppe
+ttm ptnklhxjcb
+ttm tbnivg...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>zztkpbvx ljdofujun
+lhjbsr ljdofujun
+kysoaw ljdofujun
+ewquib ljdofujun
+ewquib cpqcxuudq
+zdohllhvnb cpqcxuudq
+n cpqcxuudq
+n xor
+ezy xor
+g xor
+g ups
+g vlppxaw
+g up
+g nrxjubmg
+paba nrxjubmg
+ic nrxjubmg
+bneuvadvky nrxjubmg
+cjtn nrxjubmg
+cjtn uif
+cjtn gfpvunuh
+hjpig gfpvunuh
+tfq gfpvunuh
+tfq dctwerjcxk
+tfq na
+tfq eoricxip
+cuepqjzk eoricxip
+spkisq eoricxip
+hp eoricxip
+npn eoricxip
+npn lfawda
+ttm lfawda
+ttm bcgvboix
+ttm vzcqyx
+ttm emkhrfbfqp
+ttm murjppe
+ttm ptnklhxjcb
+ttm tbnivg...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 1001 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">51
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2052 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>free ojjnks
+52
+free fpdoc
+fpdoc yos
+yos oxntasmny
+oxntasmny gcmruvfxy
+gcmruvfxy a
+a cvix
+cvix rdrxchd
+rdrxchd amtssdp
+ojjnks s
+s fydrzvbim
+amtssdp dgxsdhlfs
+dgxsdhlfs khfefdjvsk
+khfefdjvsk epkesjw
+epkesjw h
+h wzcsvhw
+fydrzvbim oycijz
+oycijz rfzqqqn
+wzcsvhw dwxipydcr
+dwxipydcr th
+rfzqqqn igmwx
+th enjbpwyslt
+enjbpwyslt oqocqxhgbi
+igmwx mfmm
+oqocqxhgbi keqwrodlfc
+keqwrodlfc wklkwnna
+mfmm fqwvethoqf
+fqwvethoqf tzg
+wklkwnna npqxcjcfra
+tzg glvshiuhx
+npqxcjcfra anih
+glvshiuhx ictse...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>free ojjnks
+fpdoc ojjnks
+yos ojjnks
+oxntasmny ojjnks
+gcmruvfxy ojjnks
+a ojjnks
+cvix ojjnks
+rdrxchd ojjnks
+amtssdp ojjnks
+amtssdp s
+amtssdp fydrzvbim
+dgxsdhlfs fydrzvbim
+khfefdjvsk fydrzvbim
+epkesjw fydrzvbim
+h fydrzvbim
+wzcsvhw fydrzvbim
+wzcsvhw oycijz
+wzcsvhw rfzqqqn
+dwxipydcr rfzqqqn
+th rfzqqqn
+th igmwx
+enjbpwyslt igmwx
+oqocqxhgbi igmwx
+oqocqxhgbi mfmm
+keqwrodlfc mfmm
+wklkwnna mfmm
+wklkwnna fqwvethoqf
+wklkwnna tzg
+npqxcjcfra tzg
+npqxcjcfra glvshiuhx
+anih glvshiuhx
+anih icts...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>free ojjnks
+fpdoc ojjnks
+yos ojjnks
+oxntasmny ojjnks
+gcmruvfxy ojjnks
+a ojjnks
+cvix ojjnks
+rdrxchd ojjnks
+amtssdp ojjnks
+amtssdp s
+amtssdp fydrzvbim
+dgxsdhlfs fydrzvbim
+khfefdjvsk fydrzvbim
+epkesjw fydrzvbim
+h fydrzvbim
+wzcsvhw fydrzvbim
+wzcsvhw oycijz
+wzcsvhw rfzqqqn
+dwxipydcr rfzqqqn
+th rfzqqqn
+th igmwx
+enjbpwyslt igmwx
+oqocqxhgbi igmwx
+oqocqxhgbi mfmm
+keqwrodlfc mfmm
+wklkwnna mfmm
+wklkwnna fqwvethoqf
+wklkwnna tzg
+npqxcjcfra tzg
+npqxcjcfra glvshiuhx
+anih glvshiuhx
+anih icts...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 53 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">52
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2036 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>vfyowldxno puhnodp
+264
+puhnodp u
+u nffsop
+nffsop igd
+vfyowldxno bvz
+igd casduo
+bvz zkxncbzx
+zkxncbzx aeoffsamgf
+casduo vbdpcfoy
+aeoffsamgf zjigpney
+vbdpcfoy jqruiijne
+jqruiijne yysbrpaulc
+yysbrpaulc ktru
+ktru yodup
+zjigpney cgwi
+cgwi my
+yodup zqmjkiuf
+zqmjkiuf idp
+my gh
+gh m
+idp gdodet
+m gkdtcpahd
+gdodet ppxdun
+ppxdun doqj
+gkdtcpahd urxgajtr
+doqj hecfuuprk
+urxgajtr xjbdoxlijh
+xjbdoxlijh p
+hecfuuprk ilpxm
+ilpxm mnnbo
+p odabpo
+mnnbo azcnqqavp
+odabpo mmwp
+azcnqqavp grmsxotn
+...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>vfyowldxno puhnodp
+vfyowldxno u
+vfyowldxno nffsop
+vfyowldxno igd
+bvz igd
+bvz casduo
+zkxncbzx casduo
+aeoffsamgf casduo
+aeoffsamgf vbdpcfoy
+zjigpney vbdpcfoy
+zjigpney jqruiijne
+zjigpney yysbrpaulc
+zjigpney ktru
+zjigpney yodup
+cgwi yodup
+my yodup
+my zqmjkiuf
+my idp
+gh idp
+m idp
+m gdodet
+gkdtcpahd gdodet
+gkdtcpahd ppxdun
+gkdtcpahd doqj
+urxgajtr doqj
+urxgajtr hecfuuprk
+xjbdoxlijh hecfuuprk
+p hecfuuprk
+p ilpxm
+p mnnbo
+odabpo mnnbo
+odabpo azcnqqavp
+mmwp azcnqqavp
+mmwp grmsxotn
+mm...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>vfyowldxno puhnodp
+vfyowldxno u
+vfyowldxno nffsop
+vfyowldxno igd
+bvz igd
+bvz casduo
+zkxncbzx casduo
+aeoffsamgf casduo
+aeoffsamgf vbdpcfoy
+zjigpney vbdpcfoy
+zjigpney jqruiijne
+zjigpney yysbrpaulc
+zjigpney ktru
+zjigpney yodup
+cgwi yodup
+my yodup
+my zqmjkiuf
+my idp
+gh idp
+m idp
+m gdodet
+gkdtcpahd gdodet
+gkdtcpahd ppxdun
+gkdtcpahd doqj
+urxgajtr doqj
+urxgajtr hecfuuprk
+xjbdoxlijh hecfuuprk
+p hecfuuprk
+p ilpxm
+p mnnbo
+odabpo mnnbo
+odabpo azcnqqavp
+mmwp azcnqqavp
+mmwp grmsxotn
+mm...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 265 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">53
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2052 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>ynq dadt
+183
+dadt q
+ynq jzvsj
+jzvsj xq
+q hlwbydhs
+hlwbydhs bnwe
+xq zwp
+zwp sky
+bnwe jvhrpnpx
+sky ynvwwchtdy
+jvhrpnpx bl
+bl fse
+ynvwwchtdy a
+fse zxns
+a uvzak
+uvzak wwgqbbcp
+zxns wucepqsv
+wucepqsv kpfl
+wwgqbbcp ro
+ro xg
+kpfl kmv
+xg asgsxemi
+kmv txtei
+asgsxemi euybys
+txtei cashgr
+cashgr zuisqp
+euybys opoddqt
+zuisqp rgyhnrtat
+opoddqt dxdbdaxxjc
+rgyhnrtat hrbzdjwdj
+hrbzdjwdj ylqihofa
+dxdbdaxxjc rk
+rk hvktupuawn
+ylqihofa spkotaeuna
+spkotaeuna gxpfh
+gxpfh e
+e eyvmtr
+eyvmtr yl...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>ynq dadt
+ynq q
+jzvsj q
+xq q
+xq hlwbydhs
+xq bnwe
+zwp bnwe
+sky bnwe
+sky jvhrpnpx
+ynvwwchtdy jvhrpnpx
+ynvwwchtdy bl
+ynvwwchtdy fse
+a fse
+a zxns
+uvzak zxns
+wwgqbbcp zxns
+wwgqbbcp wucepqsv
+wwgqbbcp kpfl
+ro kpfl
+xg kpfl
+xg kmv
+asgsxemi kmv
+asgsxemi txtei
+euybys txtei
+euybys cashgr
+euybys zuisqp
+opoddqt zuisqp
+opoddqt rgyhnrtat
+dxdbdaxxjc rgyhnrtat
+dxdbdaxxjc hrbzdjwdj
+dxdbdaxxjc ylqihofa
+rk ylqihofa
+hvktupuawn ylqihofa
+hvktupuawn spkotaeuna
+hvktupuawn gxpfh
+hvktupuawn e
+hvktup...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>ynq dadt
+ynq q
+jzvsj q
+xq q
+xq hlwbydhs
+xq bnwe
+zwp bnwe
+sky bnwe
+sky jvhrpnpx
+ynvwwchtdy jvhrpnpx
+ynvwwchtdy bl
+ynvwwchtdy fse
+a fse
+a zxns
+uvzak zxns
+wwgqbbcp zxns
+wwgqbbcp wucepqsv
+wwgqbbcp kpfl
+ro kpfl
+xg kpfl
+xg kmv
+asgsxemi kmv
+asgsxemi txtei
+euybys txtei
+euybys cashgr
+euybys zuisqp
+opoddqt zuisqp
+opoddqt rgyhnrtat
+dxdbdaxxjc rgyhnrtat
+dxdbdaxxjc hrbzdjwdj
+dxdbdaxxjc ylqihofa
+rk ylqihofa
+hvktupuawn ylqihofa
+hvktupuawn spkotaeuna
+hvktupuawn gxpfh
+hvktupuawn e
+hvktup...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 184 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">54
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2056 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>udpiknbp v
+694
+v et
+et j
+j xjkwdtkrnz
+xjkwdtkrnz pw
+udpiknbp afctbsqzy
+pw d
+afctbsqzy kjdzaem
+kjdzaem esebo
+d y
+y rda
+rda zzcm
+zzcm gwsb
+esebo omv
+gwsb vvz
+omv xat
+xat ilolc
+vvz vtunxsdebe
+vtunxsdebe ynjf
+ilolc nypwdmw
+ynjf emxuotrh
+nypwdmw vxcfb
+emxuotrh fgbp
+fgbp bjgtizzw
+bjgtizzw frka
+vxcfb qjflcviu
+qjflcviu sbqbp
+frka shzfer
+sbqbp itb
+shzfer lmx
+itb zuil
+zuil frlfvlknvf
+lmx qesfzufg
+frlfvlknvf nejcd
+qesfzufg clcjwuttil
+clcjwuttil vicbud
+vicbud fahu
+fahu fktlgo
+nej...</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>udpiknbp v
+udpiknbp et
+udpiknbp j
+udpiknbp xjkwdtkrnz
+udpiknbp pw
+afctbsqzy pw
+afctbsqzy d
+kjdzaem d
+esebo d
+esebo y
+esebo rda
+esebo zzcm
+esebo gwsb
+omv gwsb
+omv vvz
+xat vvz
+ilolc vvz
+ilolc vtunxsdebe
+ilolc ynjf
+nypwdmw ynjf
+nypwdmw emxuotrh
+vxcfb emxuotrh
+vxcfb fgbp
+vxcfb bjgtizzw
+vxcfb frka
+qjflcviu frka
+sbqbp frka
+sbqbp shzfer
+itb shzfer
+itb lmx
+zuil lmx
+frlfvlknvf lmx
+frlfvlknvf qesfzufg
+nejcd qesfzufg
+nejcd clcjwuttil
+nejcd vicbud
+nejcd fahu
+nejcd fktlgo
+rkapypqza...</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>udpiknbp v
+udpiknbp et
+udpiknbp j
+udpiknbp xjkwdtkrnz
+udpiknbp pw
+afctbsqzy pw
+afctbsqzy d
+kjdzaem d
+esebo d
+esebo y
+esebo rda
+esebo zzcm
+esebo gwsb
+omv gwsb
+omv vvz
+xat vvz
+ilolc vvz
+ilolc vtunxsdebe
+ilolc ynjf
+nypwdmw ynjf
+nypwdmw emxuotrh
+vxcfb emxuotrh
+vxcfb fgbp
+vxcfb bjgtizzw
+vxcfb frka
+qjflcviu frka
+sbqbp frka
+sbqbp shzfer
+itb shzfer
+itb lmx
+zuil lmx
+frlfvlknvf lmx
+frlfvlknvf qesfzufg
+nejcd qesfzufg
+nejcd clcjwuttil
+nejcd vicbud
+nejcd fahu
+nejcd fktlgo
+rkapypqza...</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 695 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">55
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 15 ms, <strong>memory</strong>: 2032 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>qqqqqqqqqq qqqqqqqq
+3
+qqqqqqqq qqqqqqqqq
+qqqqqqqqq qqqqq
+qqqqq q
+</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>qqqqqqqqqq qqqqqqqq
+qqqqqqqqqq qqqqqqqqq
+qqqqqqqqqq qqqqq
+qqqqqqqqqq q
+</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>qqqqqqqqqq qqqqqqqq
+qqqqqqqqqq qqqqqqqqq
+qqqqqqqqqq qqqqq
+qqqqqqqqqq q
+</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 4 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">56
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2040 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>wwwww w
+8
+wwwww wwwwwwww
+wwwwwwww wwwwwwwww
+wwwwwwwww wwwwwwwwww
+w www
+wwwwwwwwww wwww
+wwww ww
+www wwwwww
+wwwwww wwwwwww
+</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>wwwww w
+wwwwwwww w
+wwwwwwwww w
+wwwwwwwwww w
+wwwwwwwwww www
+wwww www
+ww www
+ww wwwwww
+ww wwwwwww
+</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>wwwww w
+wwwwwwww w
+wwwwwwwww w
+wwwwwwwwww w
+wwwwwwwwww www
+wwww www
+ww www
+ww wwwwww
+ww wwwwwww
+</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 9 lines
+</pre></div>
+</div>
+    </div>
+
+    <div class="roundbox " style="margin-top:2em;font-size:0.8em;">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">57
+            <div class="top-links">
+            </div>
+        </div>
+    <div class="infoline"><strong>Time</strong>: 0 ms, <strong>memory</strong>: 2024 KB</div>
+<div class="infoline">
+<div class="welldone" >Verdict: OK</div>
+</div>
+
+<div class="file input-view">
+    <div class="name">Input</div>
+    <div class="text"><pre>k d
+17
+k l
+d v
+v z
+l r
+z i
+r s
+s p
+p w
+w j
+j h
+i c
+h m
+m q
+c o
+o g
+q x
+x n
+</pre></div>
+</div>
+<div class="file output-view">
+    <div class="name">Participant's output</div>
+    <div class="text"><pre>k d
+l d
+l v
+l z
+r z
+r i
+s i
+p i
+w i
+j i
+h i
+h c
+m c
+q c
+q o
+q g
+x g
+n g
+</pre></div>
+</div>
+<div class="file answer-view">
+    <div class="name">Jury's answer</div>
+    <div class="text"><pre>k d
+l d
+l v
+l z
+r z
+r i
+s i
+p i
+w i
+j i
+h i
+h c
+m c
+q c
+q o
+q g
+x g
+n g
+</pre></div>
+</div>
+
+<div class="file checker-comment-view">
+    <div class="name">Checker comment</div>
+    <div class="text"><pre>ok 18 lines
+</pre></div>
+</div>
+    </div>
+
+
+
+<div class="submissions-diff-popup"  style="display:none;width:900px;height:500px;overflow:auto;padding:1em;margin:1em;font-size:1.2rem;">
+
+<div>
+    <form class="getDiffForm" method="post" action="#"><input type='hidden' name='csrf_token' value='10573205eeb97662f7495b514c00027c'/>
+        <table>
+            <tbody>
+            <tr>
+                <td style="padding-right: 1em !important;">
+                    <label for="previousSubmissionId">Previous Submission:</label>
+                    <input type="text" name="previousSubmissionId" value=""/>
+         <div class="shiftUp error__previousSubmissionId">
+             <span class="error for__previousSubmissionId " style="display: none;">&nbsp;</span>
+             <span class="notice for__previousSubmissionId ">&nbsp;</span>
+         </div>
+                </td>
+                <td style="padding-right: 1em !important;">
+                    <label for="previousSubmissionId">Current Submission:</label>
+                    <input type="text" name="currentSubmissionId" value="24918716"/>
+         <div class="shiftUp error__currentSubmissionId">
+             <span class="error for__currentSubmissionId " style="display: none;">&nbsp;</span>
+             <span class="notice for__currentSubmissionId ">&nbsp;</span>
+         </div>
+                </td>
+                <td>
+                    <input type="submit" value="Compare"/>
+                    <img class="waitingIndicator" style="display: none" src="http://st.codeforces.com/s/32849/images/indicator.gif" alt="waiting...">
+         <div class="shiftUp error__diffFormSubmit">
+             <span class="error for__diffFormSubmit " style="display: none;">&nbsp;</span>
+             <span class="notice for__diffFormSubmit ">&nbsp;</span>
+         </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+    <div class="diffHtmlTarget"></div>
+</div>
+<script type="text/javascript">
+    Codeforces.getDiffFormSubmitListener = function (event) {
+        Codeforces.clearAjaxFormErrors();
+        var waitingIndicator = $(this).find(".waitingIndicator");
+        waitingIndicator.show();
+
+        var previousSubmissionId = $(this).find("input[name='previousSubmissionId']").val();
+        var currentSubmissionId = $(this).find("input[name='currentSubmissionId']").val();
+        var targetDiv = $(this).next();
+        $.post("/data/submissionsDiff",
+            {action: "getDiff", previousSubmissionId: previousSubmissionId, currentSubmissionId: currentSubmissionId},
+            function (response) {
+                waitingIndicator.hide();
+                targetDiv.html("");
+
+                if (response["success"] == "true") {
+                    targetDiv.html("<pre class=\"prettyprint\">" + response["diffHtml"] + "</pre>");
+                    prettyPrint();
+                } else {
+                    Codeforces.setAjaxFormErrors(".getDiffForm", response);
+                }
+            },
+            "json"
+        );
+        return false;
+    };
+</script></div>
+
+<div class="add-submission-to-problem-solutions-box" style="display: none; width: 500px">
+    <form method="POST"><input type='hidden' name='csrf_token' value='10573205eeb97662f7495b514c00027c'/>
+        <h5>Add solution to problem</h5>
+        <hr/>
+        <table class="table-form">
+            <body>
+                <tr>
+                    <td class="field-name">Filename:</td>
+                    <td><input style="width: 300px;box-sizing: border-box;" class="filename-field" type="text" value="a-serial-killer_tourist.cpp"/></td>
+                </tr>
+                <tr>
+                    <td class="field-name">Solution tag:</td>
+                    <td>
+                        <select class="solutionTag-field" style="width: 300px">
+                                <option>ACCEPTED</option>
+                                <option>REJECTED</option>
+                                <option>TIME_LIMIT_EXCEEDED</option>
+                                <option>WRONG_ANSWER</option>
+                                <option>PRESENTATION_ERROR</option>
+                                <option>MEMORY_LIMIT_EXCEEDED</option>
+                                <option>FAILED</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <input type="submit" class="submit" value="Add"/>
+                    </td>
+                </tr>
+            </body>
+        </table>
+    </form>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("button.showDiff").click(function () {
+            Codeforces.facebox(".submissions-diff-popup", "http://st.codeforces.com/s/32849");
+            var getDiffForms = $(".getDiffForm");
+            getDiffForms.submit(Codeforces.getDiffFormSubmitListener);
+        });
+
+        $("button.challengeButton").click(function () {
+            Codeforces.redirect($(this).attr("data-href"));
+        });
+
+        $("form.add-submission-to-problem-solutions").submit(function () {
+            var a = $(this);
+            Codeforces.facebox(".add-submission-to-problem-solutions-box", "http://st.codeforces.com/s/32849");
+            $(".add-submission-to-problem-solutions-box form").submit(function() {
+                var filenameField = $(this).find(".filename-field");
+                var filename = filenameField.val();
+                var solutionTag = $(this).find(".solutionTag-field").val();
+                $.post("/data/submissionAddToProblemSolutions", {
+                        action: "addToProblemSolutions", submissionId: 24918716, filename: filename, solutionTag: solutionTag}, function(json) {
+                    if (json.success == "true") {
+                        window.alert("The solution has been added!");
+                        Codeforces.reload();
+                    } else {
+                        window.alert("Can't add solution: " + json.error);
+                    }
+                }, "json");
+                return false;
+            });
+            return false;
+        });
+    });
+</script>                </div>
+
+        </div>
+            <br style="clear: both;"/>
+            <div id="footer">
+                <div><a href="http://codeforces.com/">Codeforces</a> (c) Copyright 2010-2017 Mike Mirzayanov</div>
+                <div>The only programming contests Web 2.0 platform</div>
+                    <div>Server time: <span class="format-timewithseconds" data-locale="en">Mar/25/2017 18:45:47</span> (p1).</div>
+                    Mobile version, switch to <a rel="nofollow" class="switchToDesktop" href="?mobile=false">desktop version</a>.
+
+            </div>
+        <script type="text/javascript">
+            $(function() {
+                $(".switchToMobile").click(function() {
+                    Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", "true"));
+                    return false;
+                });
+                $(".switchToDesktop").click(function() {
+                    Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", "false"));
+                    return false;
+                });
+            });
+        </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if ($(window).width() < 1600) {
+                $('.button-up').css('width', '30px').css('line-height', '30px').css('font-size', '20px');
+            }
+
+            if ($(window).width() >= 1200) {
+                $ (window).scroll (function () {
+                    if ($ (this).scrollTop () > 100) {
+                        $ ('.button-up').fadeIn();
+                    } else {
+                        $ ('.button-up').fadeOut();
+                    }
+                });
+
+                $('.button-up').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 500);
+                    return false;
+                });
+
+                $('.button-up').hover(function () {
+                    $(this).animate({
+                        'opacity':'1'
+                    }).css({'background-color':'#e7ebf0','color':'#6a86a4'});
+                }, function () {
+                    $(this).animate({
+                        'opacity':'0.7'
+                    }).css({'background':'none','color':'#d3dbe4'});;
+                });
+            }
+            Codeforces.focusOnError();
+        });
+    </script>
+
+        <div class="userListsFacebox" style="display:none;">
+            <div style="padding: 0.5em; width: 600px; max-height: 200px; overflow-y: auto">
+<div class="datatable"
+     
+     style="background-color: #E1E1E1; padding-bottom: 3px;">
+            <div class="lt">&nbsp;</div>
+            <div class="rt">&nbsp;</div>
+            <div class="lb">&nbsp;</div>
+            <div class="rb">&nbsp;</div>
+
+            <div style="padding: 4px 0 0 6px;font-size:1.4rem;position:relative;">
+                User lists
+
+                <div style="position:absolute;right:0.25em;top:0.35em;">
+                    <span style="padding:0;position:relative;bottom:2px;" class="rowCount"></span>
+
+                    <img class="closed" src="http://st.codeforces.com/s/32849/images/icons/control.png"/>
+
+                    <span class="filter" style="display:none;">
+                        <img class="opened" src="http://st.codeforces.com/s/32849/images/icons/control-270.png"/>
+                        <input style="padding:0;position:relative;bottom:2px;border:1px solid #aaa;height:17px;font-size:1.3rem;"/>
+                    </span>
+                </div>
+            </div>
+            <div style="background-color: white;margin:0.3em 3px 0 3px;position:relative;">
+            <div class="ilt">&nbsp;</div>
+            <div class="irt">&nbsp;</div>
+            <table class="">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+            </table>
+            </div>
+        </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+                // Create new ':containsIgnoreCase' selector for search
+                jQuery.expr[':'].containsIgnoreCase = function(a, i, m) {
+                    return jQuery(a).text().toUpperCase()
+                            .indexOf(m[3].toUpperCase()) >= 0;
+                };
+
+                if (window.updateDatatableFilter == undefined) {
+                    window.updateDatatableFilter = function(i) {
+                        var parent = $(i).parent().parent().parent().parent();
+                        $("tr.no-items", parent).remove();
+                        $("tr", parent).hide().removeClass('visible');
+                        var text = $(i).val();
+                        if (text) {
+                            $("tr" + ":containsIgnoreCase('" + text + "')", parent).show().addClass('visible');
+                        } else {
+                            parent.find(".rowCount").text("");
+                            $("tr", parent).show().addClass('visible');
+                        }
+
+                        var found = false;
+                        var visibleRowCount = 0;
+                        $("tr", parent).each(function () {
+                            if (!found) {
+                                if ($(this).find("th").size() > 0) {
+                                    $(this).show().addClass('visible');
+                                    found = true;
+                                }
+                            }
+                            if ($(this).hasClass('visible')) {
+                                visibleRowCount++;
+                            }
+                        });
+                        if (text) {
+                            parent.find(".rowCount").text("Matches: " + (visibleRowCount - (found ? 1 : 0)));
+                        }
+                        if (visibleRowCount == (found ? 1 : 0)) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo($(parent).find('table'));
+                        }
+                        $(parent).find("tr td").removeClass("dark");
+                        $(parent).find("tr.visible:odd td").addClass("dark");
+                    }
+
+                    $(".datatable .closed").click(function () {
+                        var parent = $(this).parent();
+                        $(this).hide();
+                        $(".filter", parent).fadeIn(function () {
+                            $("input", parent).val("").focus().css("border", "1px solid #aaa");
+                        });
+                    });
+
+                    $(".datatable .opened").click(function () {
+                        var parent = $(this).parent().parent();
+                        $(".filter", parent).fadeOut(function () {
+                            $(".closed", parent).show();
+                            $("input", parent).val("").each(function () {
+                                window.updateDatatableFilter(this);
+                            });
+                        });
+                    });
+
+                    $(".datatable .filter input").keyup(function(e) {
+                        window.updateDatatableFilter(this);
+                        e.preventDefault();
+                        e.stopPropagation();
+                    });
+
+                    $(".datatable table").each(function () {
+                        var found = false;
+                        $("tr", this).each(function () {
+                            if (!found && $(this).find("th").size() == 0) {
+                                found = true;
+                            }
+                        });
+                        if (!found) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo(this);
+                        }
+                    });
+
+                    // Applies styles to datatables.
+                    $(".datatable").each(function () {
+                        $(this).find("tr:first th").addClass("top");
+                        $(this).find("tr:last td").addClass("bottom");
+                        $(this).find("tr:odd td").addClass("dark");
+                        $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                        $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                    });
+
+                    $(".datatable table.tablesorter").each(function () {
+                        $(this).bind("sortEnd", function () {
+                            $(".datatable").each(function () {
+                                $(this).find("th, td")
+                                    .removeClass("top").removeClass("bottom")
+                                    .removeClass("left").removeClass("right")
+                                    .removeClass("dark");
+                                $(this).find("tr:first th").addClass("top");
+                                $(this).find("tr:last td").addClass("bottom");
+                                $(this).find("tr:odd td").addClass("dark");
+                                $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                                $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                            });
+                        });
+                    });
+                }
+        });
+    </script>
+            </div>
+        </div>
+        <script type="application/javascript">
+            $(function() {
+                $(".userListMarker").click(function() {
+                    $.post("/data/lists", {action: "findTouched"}, function(json) {
+                        Codeforces.facebox(".userListsFacebox");
+                        var tbody = $("#facebox tbody");
+                        tbody.empty();
+                        for (var i in json) {
+                            tbody.append(
+                                    $("<tr></tr>").append(
+                                            $("<td></td>").attr("data-readKey", json[i].readKey).text(json[i].name)
+                                    )
+                            );
+                        }
+                        Codeforces.updateDatatables();
+                        tbody.find("td").css("cursor", "pointer").click(function() {
+                            document.location = Codeforces.updateUrlParameter(document.location.href, "list", $(this).attr("data-readKey"));
+                        });
+                    }, "json");
+                });
+            });
+        </script>
+</body>
+</html>
