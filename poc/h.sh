@@ -5,18 +5,28 @@ ini () {
     trap 'rm -rf $t' 1 2 13 15
 }
 
-ccurl () { # cached curl call
-    curl_rc=0 # curl return code
-    curl -s "$@"
+curl_raw () {
+    curl_rc=0 # return code
+    curl "$@"
     curl_rc=$?
+}
+
+curl_cash () {
+    c=.c/c0
+    if test ! -f $c; then mkdir -p .c; curl_raw "$@" > $c; fi
+    cp $c $t/l
+}
+
+curl0 () {
+    ps="http://codeforces.com/api/problemset.problems"
+    if test "$@" = "$ps"; then curl_cash "$@"; else curl_raw "$@" > $t/l; fi
 }
 
 api0 () {
     # sets curl_rc, $t/l: last; $t/r: result
-    ccurl http://codeforces.com/api/$1 > $t/l
+    curl0 http://codeforces.com/api/$1
     status=`jq .status $t/l | tr -d '"'`
     echo '(h.sh) status:' $status 2>&1
-    
     jq .result $t/l > $t/r
 }
 
