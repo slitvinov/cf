@@ -1,5 +1,7 @@
 #!/usr/bin/awk -f
 
+# Keep only some items in a database
+
 function kv(s) { # split into [k]ey and [v]alue
     k = v = s
     sub(   /\t.*/, "", k)

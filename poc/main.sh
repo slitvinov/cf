@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/bin/sh
+
+# create a database of user's submissions
 
 ini () {
     h=tourist # handle
@@ -38,7 +40,7 @@ api0 () {
     jq .result $t/l > $t/r
 }
 
-api () { # api m a=1 b=2 -> api0 m?a=1&b=2
+api () { # better interface to api m a=1 b=2 -> api0 m?a=1&b=2
     arg=`awk 'BEGIN {
            i = 1; a = ARGV[i++]
            sep = "?"
@@ -90,9 +92,10 @@ stream_contest () { # see `stream_problemset`
 }
 
 ini
-api problemset.problems
+api problemset.problems # make a database of all problems
 stream_problemset | s2d $mg     > .d/d0
 
+# make a database of all contests user `handle` took part
 clist=`awk '/^contestId/ {print $2}' .d/d0 | sort -g | uniq`
 for c in $clist; do
     api contest.status contestId=$c handle=$h
@@ -100,9 +103,14 @@ for c in $clist; do
     stream_contest | s2d $mg
 done > .d/d1
 
+# joint databases using two fields
 ./join2.awk  .d/d0 .d/d1 contestId index > .d/d3
+
+# filter
 ./filter.awk .d/d3 verdict OK > .d/d.tmp && mv .d/d.tmp .d/d3
+
+# add urls for the problem and for submission
 ./url.awk    .d/d3            > .d/d.tmp && mv .d/d.tmp .d/d3
 
+# fetch code and add code field to a database
 ./code.awk   .d/d3 $cc        > .d/d.tmp && mv .d/d.tmp .d/d3
-# curl http://codeforces.com/contest/776/submission/24918716?mobile=true > d

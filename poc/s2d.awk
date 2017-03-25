@@ -1,5 +1,7 @@
 #!/usr/bin/awk -f
 
+# stream to database converter (see main.sh)
+
 $1 == mg {
     ff[nf++] = f = $2; i = 0; next
 }

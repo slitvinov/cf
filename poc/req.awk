@@ -1,5 +1,7 @@
 #!/usr/bin/awk -f
 
+# return fields from a data base
+
 BEGIN {
     sep = " " # output separator
     RS = ""; FS = "\n"

@@ -1,5 +1,7 @@
 #!/usr/bin/awk -f
 
+# get code from submission url
+
 BEGIN {
     q = "\"" # quatation mark
     p = "<pre class=\"prettyprint" # begin pattern
