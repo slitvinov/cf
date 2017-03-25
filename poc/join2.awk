@@ -50,13 +50,14 @@ function read2() {
 }
 
 BEGIN {
-    k1 = "index"
-    k2 = "contestId"
-
     RS = ""; FS = "\n"
 
-    file1 = ".d/d0"
-    file2 = ".d/d1"
+    i = 1
+    file1 = ARGV[i++] # ".d/d0"
+    file2 = ARGV[i++] # ".d/d1"
+
+    k1 = ARGV[i++] # "index"
+    k2 = ARGV[i++] # "contestId"
 
     read1()
     read2()

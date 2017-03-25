@@ -93,7 +93,9 @@ for c in $clist; do
     api contest.status contestId=$c handle=tourist
     if test ! $status = OK; then break; fi
     stream_contest | s2d $mg
-    if test   $c = 100; then break; fi
+    # if test   $c = 100; then break; fi
 done > .d/d1
+
+./join2.awk .d/d0 .d/d1 contestId index > .d/d3
 
 # curl http://codeforces.com/contest/776/submission/24918716?mobile=true > d

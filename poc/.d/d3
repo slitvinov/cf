@@ -1,0 +1,10554 @@
+contestId	1
+index	A
+verdict	OK
+id	545140
+programmingLanguage	Delphi
+solvedCount	48033
+name	Theatre Square
+
+contestId	2
+index	C
+verdict	RUNTIME_ERROR
+id	7994
+programmingLanguage	Delphi
+solvedCount	603
+name	Commentator problem
+
+contestId	2
+index	C
+verdict	RUNTIME_ERROR
+id	7983
+programmingLanguage	Delphi
+solvedCount	603
+name	Commentator problem
+
+contestId	2
+index	C
+verdict	RUNTIME_ERROR
+id	7962
+programmingLanguage	Delphi
+solvedCount	603
+name	Commentator problem
+
+contestId	2
+index	C
+verdict	RUNTIME_ERROR
+id	7913
+programmingLanguage	Delphi
+solvedCount	603
+name	Commentator problem
+
+contestId	2
+index	C
+verdict	WRONG_ANSWER
+id	7874
+programmingLanguage	Delphi
+solvedCount	603
+name	Commentator problem
+
+contestId	2
+index	C
+verdict	WRONG_ANSWER
+id	7848
+programmingLanguage	Delphi
+solvedCount	603
+name	Commentator problem
+
+contestId	2
+index	B
+verdict	OK
+id	7531
+programmingLanguage	Delphi
+solvedCount	2830
+name	The least round way
+tag0	dp
+
+contestId	2
+index	B
+verdict	WRONG_ANSWER
+id	7476
+programmingLanguage	Delphi
+solvedCount	2830
+name	The least round way
+tag0	dp
+
+contestId	2
+index	B
+verdict	TIME_LIMIT_EXCEEDED
+id	7421
+programmingLanguage	Delphi
+solvedCount	2830
+name	The least round way
+tag0	dp
+
+contestId	2
+index	A
+verdict	OK
+id	7331
+programmingLanguage	Delphi
+solvedCount	5760
+name	Winner
+tag0	hashing
+
+contestId	2
+index	A
+verdict	WRONG_ANSWER
+id	7267
+programmingLanguage	Delphi
+solvedCount	5760
+name	Winner
+tag0	hashing
+
+contestId	5
+index	C
+verdict	OK
+id	24745
+programmingLanguage	Delphi
+solvedCount	2344
+name	Longest Regular Bracket Sequence
+tag0	constructive algorithms
+tag1	data structures
+tag2	dp
+tag3	greedy
+tag4	sortings
+
+contestId	8
+index	E
+verdict	OK
+id	36668
+programmingLanguage	Delphi
+solvedCount	257
+name	Beads
+tag0	dp
+
+contestId	8
+index	C
+verdict	OK
+id	34987
+programmingLanguage	Delphi
+solvedCount	963
+name	Looking for Order
+tag0	bitmasks
+
+contestId	8
+index	B
+verdict	OK
+id	34203
+programmingLanguage	Delphi
+solvedCount	1474
+name	Obsession with Robots
+tag0	constructive algorithms
+tag1	graphs
+
+contestId	8
+index	A
+verdict	OK
+id	34121
+programmingLanguage	Delphi
+solvedCount	2181
+name	Train and Peter
+
+contestId	10
+index	C
+verdict	OK
+id	45477
+programmingLanguage	Delphi
+solvedCount	675
+name	Digital Root
+
+contestId	10
+index	C
+verdict	WRONG_ANSWER
+id	45475
+programmingLanguage	Delphi
+solvedCount	675
+name	Digital Root
+
+contestId	10
+index	E
+verdict	WRONG_ANSWER
+id	45325
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	WRONG_ANSWER
+id	45318
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	TIME_LIMIT_EXCEEDED
+id	45310
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	TIME_LIMIT_EXCEEDED
+id	45308
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	WRONG_ANSWER
+id	45307
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	TIME_LIMIT_EXCEEDED
+id	45304
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	TIME_LIMIT_EXCEEDED
+id	45295
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	TIME_LIMIT_EXCEEDED
+id	45293
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	RUNTIME_ERROR
+id	45266
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	WRONG_ANSWER
+id	45251
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	WRONG_ANSWER
+id	45247
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	WRONG_ANSWER
+id	45212
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	WRONG_ANSWER
+id	45198
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	WRONG_ANSWER
+id	45183
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	WRONG_ANSWER
+id	45138
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	WRONG_ANSWER
+id	44982
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	WRONG_ANSWER
+id	44903
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	WRONG_ANSWER
+id	44792
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	WRONG_ANSWER
+id	44542
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	E
+verdict	WRONG_ANSWER
+id	44404
+programmingLanguage	Delphi
+solvedCount	252
+name	Greedy Change
+
+contestId	10
+index	C
+verdict	OK
+id	43384
+programmingLanguage	Delphi
+solvedCount	675
+name	Digital Root
+
+contestId	10
+index	B
+verdict	OK
+id	43251
+programmingLanguage	Delphi
+solvedCount	826
+name	Cinema Cashier
+tag0	dp
+
+contestId	10
+index	A
+verdict	OK
+id	43119
+programmingLanguage	Delphi
+solvedCount	1961
+name	Power Consumption Calculation
+
+contestId	13
+index	D
+verdict	WRONG_ANSWER
+id	58629
+programmingLanguage	GNU C++
+solvedCount	272
+name	Triangles
+tag0	dp
+
+contestId	13
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	58573
+programmingLanguage	GNU C++
+solvedCount	272
+name	Triangles
+tag0	dp
+
+contestId	13
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	58526
+programmingLanguage	GNU C++
+solvedCount	272
+name	Triangles
+tag0	dp
+
+contestId	13
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	58497
+programmingLanguage	GNU C++
+solvedCount	272
+name	Triangles
+tag0	dp
+
+contestId	13
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	58422
+programmingLanguage	GNU C++
+solvedCount	272
+name	Triangles
+tag0	dp
+
+contestId	13
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	58415
+programmingLanguage	MS C++
+solvedCount	272
+name	Triangles
+tag0	dp
+
+contestId	13
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	58296
+programmingLanguage	GNU C++
+solvedCount	272
+name	Triangles
+tag0	dp
+
+contestId	13
+index	D
+verdict	COMPILATION_ERROR
+id	58264
+programmingLanguage	GNU C++
+solvedCount	272
+name	Triangles
+tag0	dp
+
+contestId	13
+index	C
+verdict	OK
+id	56502
+programmingLanguage	Delphi
+solvedCount	924
+name	Sequence
+tag0	dp
+
+contestId	13
+index	B
+verdict	OK
+id	56172
+programmingLanguage	Delphi
+solvedCount	415
+name	Letter A
+tag0	geometry
+
+contestId	13
+index	A
+verdict	OK
+id	55780
+programmingLanguage	Delphi
+solvedCount	2759
+name	Numbers
+tag0	implementation
+
+contestId	15
+index	B
+verdict	OK
+id	68680
+programmingLanguage	MS C++
+solvedCount	632
+name	Laser
+
+contestId	15
+index	B
+verdict	OK
+id	68679
+programmingLanguage	MS C++
+solvedCount	632
+name	Laser
+
+contestId	15
+index	B
+verdict	OK
+id	68678
+programmingLanguage	GNU C++
+solvedCount	632
+name	Laser
+
+contestId	15
+index	C
+verdict	OK
+id	67704
+programmingLanguage	Delphi
+solvedCount	799
+name	Industrial Nim
+
+contestId	15
+index	E
+verdict	OK
+id	67700
+programmingLanguage	Delphi
+solvedCount	229
+name	Triangles
+tag0	combinatorics
+
+contestId	15
+index	D
+verdict	OK
+id	66031
+programmingLanguage	Delphi
+solvedCount	246
+name	Map
+tag0	data structures
+tag1	implementation
+
+contestId	15
+index	D
+verdict	WRONG_ANSWER
+id	65884
+programmingLanguage	Delphi
+solvedCount	246
+name	Map
+tag0	data structures
+tag1	implementation
+
+contestId	15
+index	E
+verdict	OK
+id	65699
+programmingLanguage	Delphi
+solvedCount	229
+name	Triangles
+tag0	combinatorics
+
+contestId	15
+index	C
+verdict	OK
+id	65227
+programmingLanguage	Delphi
+solvedCount	799
+name	Industrial Nim
+
+contestId	15
+index	B
+verdict	OK
+id	65213
+programmingLanguage	Delphi
+solvedCount	632
+name	Laser
+
+contestId	15
+index	A
+verdict	OK
+id	65192
+programmingLanguage	Delphi
+solvedCount	1447
+name	Cottage Village
+tag0	implementation
+
+contestId	16
+index	D
+verdict	OK
+id	69874
+programmingLanguage	Delphi
+solvedCount	608
+name	Logging
+tag0	implementation
+
+contestId	16
+index	E
+verdict	OK
+id	69700
+programmingLanguage	Delphi
+solvedCount	856
+name	Fish
+tag0	bitmasks
+tag1	dp
+
+contestId	16
+index	C
+verdict	OK
+id	69548
+programmingLanguage	Delphi
+solvedCount	1548
+name	Monitor
+tag0	binary search
+
+contestId	16
+index	B
+verdict	OK
+id	69460
+programmingLanguage	Delphi
+solvedCount	2199
+name	Burglar and Matches
+tag0	greedy
+tag1	implementation
+
+contestId	16
+index	A
+verdict	OK
+id	69426
+programmingLanguage	Delphi
+solvedCount	3929
+name	Flag
+
+contestId	19
+index	E
+verdict	OK
+id	88480
+programmingLanguage	Delphi
+solvedCount	344
+name	Fairy
+tag0	dfs and similar
+tag1	divide and conquer
+
+contestId	19
+index	E
+verdict	PRESENTATION_ERROR
+id	88439
+programmingLanguage	Delphi
+solvedCount	344
+name	Fairy
+tag0	dfs and similar
+tag1	divide and conquer
+
+contestId	19
+index	C
+verdict	OK
+id	87216
+programmingLanguage	Delphi
+solvedCount	397
+name	Deletion of Repeats
+tag0	greedy
+tag1	hashing
+
+contestId	19
+index	A
+verdict	OK
+id	86678
+programmingLanguage	Delphi
+solvedCount	1139
+name	World Football Cup
+
+contestId	19
+index	B
+verdict	OK
+id	86568
+programmingLanguage	Delphi
+solvedCount	935
+name	Checkout Assistant
+
+contestId	21
+index	D
+verdict	OK
+id	92236
+programmingLanguage	Delphi
+solvedCount	258
+name	Traveling Graph
+tag0	bitmasks
+tag1	graph matchings
+
+contestId	21
+index	D
+verdict	WRONG_ANSWER
+id	92173
+programmingLanguage	Delphi
+solvedCount	258
+name	Traveling Graph
+tag0	bitmasks
+tag1	graph matchings
+
+contestId	21
+index	B
+verdict	OK
+id	92166
+programmingLanguage	Delphi
+solvedCount	627
+name	Intersection
+tag0	implementation
+
+contestId	21
+index	D
+verdict	CHALLENGED
+id	91160
+programmingLanguage	Delphi
+solvedCount	258
+name	Traveling Graph
+tag0	bitmasks
+tag1	graph matchings
+
+contestId	21
+index	C
+verdict	OK
+id	91035
+programmingLanguage	Delphi
+solvedCount	734
+name	Stripe 2
+tag0	binary search
+tag1	dp
+
+contestId	21
+index	B
+verdict	CHALLENGED
+id	90968
+programmingLanguage	Delphi
+solvedCount	627
+name	Intersection
+tag0	implementation
+
+contestId	21
+index	A
+verdict	OK
+id	90961
+programmingLanguage	Delphi
+solvedCount	694
+name	Jabber ID
+
+contestId	23
+index	C
+verdict	WRONG_ANSWER
+id	99402
+programmingLanguage	Delphi
+solvedCount	414
+name	Oranges and Apples
+tag0	constructive algorithms
+
+contestId	23
+index	C
+verdict	PRESENTATION_ERROR
+id	99377
+programmingLanguage	Delphi
+solvedCount	414
+name	Oranges and Apples
+tag0	constructive algorithms
+
+contestId	23
+index	D
+verdict	WRONG_ANSWER
+id	99164
+programmingLanguage	Delphi
+solvedCount	188
+name	Tetragon
+tag0	geometry
+
+contestId	23
+index	D
+verdict	WRONG_ANSWER
+id	99039
+programmingLanguage	Delphi
+solvedCount	188
+name	Tetragon
+tag0	geometry
+
+contestId	23
+index	D
+verdict	WRONG_ANSWER
+id	99029
+programmingLanguage	Delphi
+solvedCount	188
+name	Tetragon
+tag0	geometry
+
+contestId	23
+index	D
+verdict	WRONG_ANSWER
+id	98962
+programmingLanguage	Delphi
+solvedCount	188
+name	Tetragon
+tag0	geometry
+
+contestId	23
+index	E
+verdict	OK
+id	98637
+programmingLanguage	Delphi
+solvedCount	274
+name	Tree
+
+contestId	23
+index	E
+verdict	WRONG_ANSWER
+id	98618
+programmingLanguage	Delphi
+solvedCount	274
+name	Tree
+
+contestId	23
+index	C
+verdict	WRONG_ANSWER
+id	98301
+programmingLanguage	Delphi
+solvedCount	414
+name	Oranges and Apples
+tag0	constructive algorithms
+
+contestId	23
+index	B
+verdict	OK
+id	97315
+programmingLanguage	Delphi
+solvedCount	1073
+name	Party
+tag0	constructive algorithms
+tag1	graphs
+
+contestId	23
+index	A
+verdict	OK
+id	97171
+programmingLanguage	Delphi
+solvedCount	1812
+name	You're Given a String...
+tag0	brute force
+
+contestId	24
+index	C
+verdict	COMPILATION_ERROR
+id	105839
+programmingLanguage	MS C++
+solvedCount	649
+name	Sequence of points
+tag0	geometry
+tag1	implementation
+
+contestId	24
+index	C
+verdict	COMPILATION_ERROR
+id	105838
+programmingLanguage	GNU C++
+solvedCount	649
+name	Sequence of points
+tag0	geometry
+tag1	implementation
+
+contestId	24
+index	C
+verdict	WRONG_ANSWER
+id	105835
+programmingLanguage	GNU C++
+solvedCount	649
+name	Sequence of points
+tag0	geometry
+tag1	implementation
+
+contestId	24
+index	C
+verdict	COMPILATION_ERROR
+id	105834
+programmingLanguage	MS C++
+solvedCount	649
+name	Sequence of points
+tag0	geometry
+tag1	implementation
+
+contestId	24
+index	C
+verdict	RUNTIME_ERROR
+id	105661
+programmingLanguage	MS C++
+solvedCount	649
+name	Sequence of points
+tag0	geometry
+tag1	implementation
+
+contestId	24
+index	C
+verdict	RUNTIME_ERROR
+id	105660
+programmingLanguage	MS C++
+solvedCount	649
+name	Sequence of points
+tag0	geometry
+tag1	implementation
+
+contestId	24
+index	E
+verdict	OK
+id	103129
+programmingLanguage	Delphi
+solvedCount	389
+name	Berland collider
+
+contestId	24
+index	E
+verdict	WRONG_ANSWER
+id	103079
+programmingLanguage	Delphi
+solvedCount	389
+name	Berland collider
+
+contestId	24
+index	E
+verdict	WRONG_ANSWER
+id	103050
+programmingLanguage	Delphi
+solvedCount	389
+name	Berland collider
+
+contestId	24
+index	C
+verdict	OK
+id	101328
+programmingLanguage	Delphi
+solvedCount	649
+name	Sequence of points
+tag0	geometry
+tag1	implementation
+
+contestId	24
+index	A
+verdict	OK
+id	101176
+programmingLanguage	Delphi
+solvedCount	1644
+name	Ring road
+
+contestId	24
+index	B
+verdict	OK
+id	101112
+programmingLanguage	Delphi
+solvedCount	847
+name	F1 Champions
+
+contestId	28
+index	E
+verdict	WRONG_ANSWER
+id	123388
+programmingLanguage	Delphi
+solvedCount	26
+name	DravDe saves the world
+tag0	geometry
+
+contestId	28
+index	E
+verdict	WRONG_ANSWER
+id	123386
+programmingLanguage	Delphi
+solvedCount	26
+name	DravDe saves the world
+tag0	geometry
+
+contestId	28
+index	E
+verdict	WRONG_ANSWER
+id	123118
+programmingLanguage	Delphi
+solvedCount	26
+name	DravDe saves the world
+tag0	geometry
+
+contestId	28
+index	D
+verdict	WRONG_ANSWER
+id	122639
+programmingLanguage	Delphi
+solvedCount	254
+name	Don't fear, DravDe is kind
+tag0	binary search
+tag1	data structures
+tag2	dp
+
+contestId	28
+index	A
+verdict	OK
+id	122374
+programmingLanguage	Delphi
+solvedCount	487
+name	Bender Problem
+
+contestId	28
+index	C
+verdict	OK
+id	122318
+programmingLanguage	Delphi
+solvedCount	350
+name	Bath Queue
+tag0	combinatorics
+tag1	dp
+
+contestId	28
+index	B
+verdict	OK
+id	122267
+programmingLanguage	Delphi
+solvedCount	1303
+name	pSort
+tag0	dfs and similar
+tag1	dsu
+
+contestId	33
+index	E
+verdict	OK
+id	143381
+programmingLanguage	Delphi
+solvedCount	63
+
+contestId	33
+index	D
+verdict	OK
+id	142284
+programmingLanguage	Delphi
+solvedCount	463
+name	Knights
+tag0	geometry
+tag1	graphs
+tag2	shortest paths
+
+contestId	33
+index	C
+verdict	OK
+id	141949
+programmingLanguage	Delphi
+solvedCount	959
+name	Wonderful Randomized Sum
+
+contestId	33
+index	A
+verdict	OK
+id	141731
+programmingLanguage	Delphi
+solvedCount	1632
+name	What is for dinner?
+tag0	greedy
+
+contestId	33
+index	B
+verdict	OK
+id	141602
+programmingLanguage	Delphi
+solvedCount	878
+name	String Problem
+
+contestId	37
+index	D
+verdict	OK
+id	167166
+programmingLanguage	Delphi
+solvedCount	192
+name	Lesson Timetable
+tag0	combinatorics
+tag1	dp
+
+contestId	37
+index	C
+verdict	OK
+id	166680
+programmingLanguage	Delphi
+solvedCount	585
+name	Old Berland Language
+tag0	data structures
+tag1	greedy
+
+contestId	37
+index	D
+verdict	WRONG_ANSWER
+id	166322
+programmingLanguage	Delphi
+solvedCount	192
+name	Lesson Timetable
+tag0	combinatorics
+tag1	dp
+
+contestId	37
+index	B
+verdict	OK
+id	165840
+programmingLanguage	Delphi
+solvedCount	549
+name	Computer Game
+tag0	greedy
+
+contestId	37
+index	A
+verdict	OK
+id	165296
+programmingLanguage	Delphi
+solvedCount	7766
+name	Towers
+
+contestId	38
+index	H
+verdict	OK
+id	173421
+programmingLanguage	Delphi
+solvedCount	72
+name	The Great Marathon
+
+contestId	38
+index	G
+verdict	OK
+id	172928
+programmingLanguage	Delphi
+solvedCount	247
+name	Queue
+
+contestId	38
+index	G
+verdict	WRONG_ANSWER
+id	172301
+programmingLanguage	Delphi
+solvedCount	247
+name	Queue
+
+contestId	38
+index	G
+verdict	WRONG_ANSWER
+id	172197
+programmingLanguage	Delphi
+solvedCount	247
+name	Queue
+
+contestId	38
+index	F
+verdict	OK
+id	171950
+programmingLanguage	Delphi
+solvedCount	222
+name	Smart Boy
+tag0	dp
+tag1	games
+
+contestId	38
+index	E
+verdict	OK
+id	170950
+programmingLanguage	Delphi
+solvedCount	691
+name	Let's Go Rolling!
+tag0	dp
+
+contestId	38
+index	D
+verdict	OK
+id	170802
+programmingLanguage	Delphi
+solvedCount	320
+name	Vasya the Architect
+
+contestId	38
+index	C
+verdict	OK
+id	170531
+programmingLanguage	Delphi
+solvedCount	1116
+name	Blinds
+
+contestId	38
+index	B
+verdict	OK
+id	170374
+programmingLanguage	Delphi
+solvedCount	1666
+name	Chess
+tag0	brute force
+tag1	implementation
+
+contestId	38
+index	A
+verdict	OK
+id	170294
+programmingLanguage	Delphi
+solvedCount	6201
+name	Army
+
+contestId	40
+index	E
+verdict	OK
+id	181132
+programmingLanguage	Delphi
+solvedCount	229
+name	Number Table
+
+contestId	40
+index	C
+verdict	OK
+id	179486
+programmingLanguage	Delphi
+solvedCount	156
+name	Berland Square
+
+contestId	40
+index	D
+verdict	OK
+id	179344
+programmingLanguage	Delphi
+solvedCount	60
+name	Interesting Sequence
+
+contestId	40
+index	E
+verdict	OK
+id	178836
+programmingLanguage	Delphi
+solvedCount	229
+name	Number Table
+
+contestId	40
+index	E
+verdict	WRONG_ANSWER
+id	178785
+programmingLanguage	Delphi
+solvedCount	229
+name	Number Table
+
+contestId	40
+index	B
+verdict	OK
+id	177740
+programmingLanguage	Delphi
+solvedCount	654
+name	Repaintings
+
+contestId	40
+index	A
+verdict	OK
+id	177581
+programmingLanguage	Delphi
+solvedCount	1387
+name	Find Color
+tag0	constructive algorithms
+tag1	implementation
+
+contestId	42
+index	B
+verdict	OK
+id	198344
+programmingLanguage	Delphi
+solvedCount	507
+name	Game of chess unfinished
+
+contestId	42
+index	E
+verdict	OK
+id	198036
+programmingLanguage	Delphi
+solvedCount	85
+name	Baldman and the military
+tag0	dfs and similar
+
+contestId	42
+index	C
+verdict	OK
+id	197927
+programmingLanguage	Delphi
+solvedCount	278
+name	Safe cracking
+tag0	brute force
+
+contestId	42
+index	B
+verdict	SKIPPED
+id	197535
+programmingLanguage	Delphi
+solvedCount	507
+name	Game of chess unfinished
+
+contestId	42
+index	D
+verdict	OK
+id	197286
+programmingLanguage	Delphi
+solvedCount	226
+name	Strange town
+tag0	constructive algorithms
+
+contestId	42
+index	C
+verdict	RUNTIME_ERROR
+id	196864
+programmingLanguage	Delphi
+solvedCount	278
+name	Safe cracking
+tag0	brute force
+
+contestId	42
+index	C
+verdict	RUNTIME_ERROR
+id	196834
+programmingLanguage	Delphi
+solvedCount	278
+name	Safe cracking
+tag0	brute force
+
+contestId	42
+index	A
+verdict	OK
+id	196493
+programmingLanguage	Delphi
+solvedCount	1262
+name	Guilty --- to the kitchen!
+tag0	greedy
+
+contestId	42
+index	A
+verdict	WRONG_ANSWER
+id	196485
+programmingLanguage	Delphi
+solvedCount	1262
+name	Guilty --- to the kitchen!
+tag0	greedy
+
+contestId	46
+index	F
+verdict	OK
+id	208902
+programmingLanguage	Delphi
+solvedCount	180
+name	Hercule Poirot Problem
+tag0	dsu
+
+contestId	46
+index	G
+verdict	OK
+id	208494
+programmingLanguage	Delphi
+solvedCount	46
+name	Emperor's Problem
+
+contestId	46
+index	G
+verdict	WRONG_ANSWER
+id	208228
+programmingLanguage	Delphi
+solvedCount	46
+name	Emperor's Problem
+
+contestId	46
+index	D
+verdict	OK
+id	206944
+programmingLanguage	Delphi
+solvedCount	627
+name	Parking Lot
+tag0	data structures
+
+contestId	46
+index	E
+verdict	OK
+id	206566
+programmingLanguage	Delphi
+solvedCount	448
+name	Comb
+tag0	data structures
+
+contestId	46
+index	A
+verdict	OK
+id	206251
+programmingLanguage	Delphi
+solvedCount	3106
+name	Ball Game
+tag0	brute force
+
+contestId	46
+index	B
+verdict	OK
+id	206222
+programmingLanguage	Delphi
+solvedCount	1406
+name	T-shirts from Sponsor
+
+contestId	46
+index	C
+verdict	OK
+id	206176
+programmingLanguage	Delphi
+solvedCount	1023
+name	Hamsters and Tigers
+
+contestId	50
+index	C
+verdict	OK
+id	227503
+programmingLanguage	Delphi
+solvedCount	424
+name	Happy Farm 5
+
+contestId	50
+index	D
+verdict	OK
+id	227374
+programmingLanguage	Delphi
+solvedCount	351
+name	Bombing
+tag0	binary search
+tag1	dp
+
+contestId	50
+index	E
+verdict	OK
+id	227046
+programmingLanguage	Delphi
+solvedCount	214
+name	Square Equation Roots
+
+contestId	50
+index	B
+verdict	OK
+id	226131
+programmingLanguage	Delphi
+solvedCount	2309
+name	Choosing Symbol Pairs
+
+contestId	50
+index	A
+verdict	OK
+id	225875
+programmingLanguage	Delphi
+solvedCount	26394
+name	Domino piling
+tag0	greedy
+
+contestId	51
+index	F
+verdict	OK
+id	234330
+programmingLanguage	Delphi
+solvedCount	168
+name	Caterpillar
+tag0	dfs and similar
+tag1	dp
+tag2	graphs
+
+contestId	51
+index	F
+verdict	WRONG_ANSWER
+id	233117
+programmingLanguage	Delphi
+solvedCount	168
+name	Caterpillar
+tag0	dfs and similar
+tag1	dp
+tag2	graphs
+
+contestId	51
+index	E
+verdict	OK
+id	232373
+programmingLanguage	Delphi
+solvedCount	156
+name	Pentagon
+tag0	combinatorics
+tag1	graphs
+
+contestId	51
+index	D
+verdict	OK
+id	231965
+programmingLanguage	Delphi
+solvedCount	266
+name	Geometrical problem
+
+contestId	51
+index	C
+verdict	OK
+id	231526
+programmingLanguage	Delphi
+solvedCount	613
+name	Three Base Stations
+tag0	binary search
+
+contestId	51
+index	B
+verdict	OK
+id	231286
+programmingLanguage	Delphi
+solvedCount	577
+name	bHTML Tables Analisys
+
+contestId	51
+index	A
+verdict	OK
+id	231222
+programmingLanguage	Delphi
+solvedCount	1078
+name	Cheaterius's Problem
+
+contestId	57
+index	D
+verdict	OK
+id	262995
+programmingLanguage	Delphi
+solvedCount	184
+name	Journey
+tag0	dp
+
+contestId	57
+index	C
+verdict	OK
+id	262068
+programmingLanguage	Delphi
+solvedCount	697
+name	Array
+tag0	combinatorics
+
+contestId	57
+index	B
+verdict	OK
+id	261938
+programmingLanguage	Delphi
+solvedCount	703
+name	Martian Architecture
+
+contestId	57
+index	B
+verdict	WRONG_ANSWER
+id	261913
+programmingLanguage	Delphi
+solvedCount	703
+name	Martian Architecture
+
+contestId	57
+index	A
+verdict	OK
+id	261854
+programmingLanguage	Delphi
+solvedCount	1389
+name	Square Earth?
+tag0	dfs and similar
+tag1	greedy
+
+contestId	60
+index	C
+verdict	OK
+id	291432
+programmingLanguage	Delphi
+solvedCount	348
+name	Mushroom Strife
+tag0	brute force
+
+contestId	60
+index	C
+verdict	RUNTIME_ERROR
+id	290338
+programmingLanguage	Delphi
+solvedCount	348
+name	Mushroom Strife
+tag0	brute force
+
+contestId	60
+index	E
+verdict	OK
+id	289984
+programmingLanguage	Delphi
+solvedCount	178
+name	Mushroom Gnomes
+tag0	math
+
+contestId	60
+index	D
+verdict	OK
+id	289434
+programmingLanguage	Delphi
+solvedCount	190
+name	Savior
+tag0	brute force
+tag1	dsu
+
+contestId	60
+index	D
+verdict	WRONG_ANSWER
+id	289425
+programmingLanguage	Delphi
+solvedCount	190
+name	Savior
+tag0	brute force
+tag1	dsu
+
+contestId	60
+index	B
+verdict	OK
+id	288636
+programmingLanguage	Delphi
+solvedCount	1824
+name	Serial Time!
+tag0	dfs and similar
+
+contestId	60
+index	A
+verdict	OK
+id	288077
+programmingLanguage	Delphi
+solvedCount	1791
+name	Where Are My Flakes?
+tag0	implementation
+
+contestId	62
+index	C
+verdict	OK
+id	305881
+programmingLanguage	Delphi
+solvedCount	165
+name	Inquisition
+tag0	geometry
+tag1	implementation
+
+contestId	62
+index	D
+verdict	OK
+id	304933
+programmingLanguage	Delphi
+solvedCount	207
+name	Wormhouse
+tag0	dfs and similar
+
+contestId	62
+index	B
+verdict	OK
+id	303176
+programmingLanguage	Delphi
+solvedCount	794
+name	Tyndex.Brome
+tag0	binary search
+
+contestId	62
+index	A
+verdict	OK
+id	302385
+programmingLanguage	Delphi
+solvedCount	1893
+name	A Student's Dream
+tag0	greedy
+
+contestId	64
+index	E
+verdict	OK
+id	294082
+programmingLanguage	Tcl
+solvedCount	145
+name	Prime Segment
+
+contestId	64
+index	D
+verdict	OK
+id	293935
+programmingLanguage	Tcl
+solvedCount	185
+name	Presents
+
+contestId	64
+index	C
+verdict	OK
+id	293796
+programmingLanguage	Tcl
+solvedCount	215
+name	Table
+tag0	greedy
+tag1	implementation
+
+contestId	64
+index	B
+verdict	OK
+id	293669
+programmingLanguage	Tcl
+solvedCount	317
+name	Expression
+
+contestId	64
+index	A
+verdict	OK
+id	293654
+programmingLanguage	Tcl
+solvedCount	427
+name	Factorial
+
+contestId	67
+index	C
+verdict	OK
+id	334436
+programmingLanguage	Delphi
+solvedCount	229
+name	Sequence of Balls
+
+contestId	67
+index	C
+verdict	SKIPPED
+id	334088
+programmingLanguage	Delphi
+solvedCount	229
+name	Sequence of Balls
+
+contestId	67
+index	E
+verdict	OK
+id	333977
+programmingLanguage	Delphi
+solvedCount	176
+name	Save the City!
+
+contestId	67
+index	E
+verdict	SKIPPED
+id	333780
+programmingLanguage	Delphi
+solvedCount	176
+name	Save the City!
+
+contestId	67
+index	B
+verdict	OK
+id	333379
+programmingLanguage	Delphi
+solvedCount	487
+name	Restoration of the Permutation
+
+contestId	67
+index	D
+verdict	OK
+id	332980
+programmingLanguage	Delphi
+solvedCount	611
+name	Optical Experiment
+tag0	binary search
+tag1	data structures
+
+contestId	67
+index	A
+verdict	OK
+id	332655
+programmingLanguage	Delphi
+solvedCount	1021
+name	Partial Teacher
+tag0	dp
+tag1	graphs
+tag2	greedy
+
+contestId	73
+index	F
+verdict	RUNTIME_ERROR
+id	376402
+programmingLanguage	Delphi
+solvedCount	32
+name	Plane of Tanks
+tag0	brute force
+
+contestId	73
+index	F
+verdict	RUNTIME_ERROR
+id	376007
+programmingLanguage	Delphi
+solvedCount	32
+name	Plane of Tanks
+tag0	brute force
+
+contestId	73
+index	B
+verdict	OK
+id	375099
+programmingLanguage	Delphi
+solvedCount	320
+name	Need For Brake
+tag0	binary search
+tag1	greedy
+
+contestId	73
+index	D
+verdict	OK
+id	374698
+programmingLanguage	Delphi
+solvedCount	301
+name	FreeDiv
+tag0	dfs and similar
+tag1	graphs
+
+contestId	73
+index	E
+verdict	OK
+id	374570
+programmingLanguage	Delphi
+solvedCount	159
+name	Morrowindows
+tag0	math
+
+contestId	73
+index	B
+verdict	WRONG_ANSWER
+id	374374
+programmingLanguage	Delphi
+solvedCount	320
+name	Need For Brake
+tag0	binary search
+tag1	greedy
+
+contestId	73
+index	E
+verdict	WRONG_ANSWER
+id	373647
+programmingLanguage	Delphi
+solvedCount	159
+name	Morrowindows
+tag0	math
+
+contestId	73
+index	C
+verdict	OK
+id	373031
+programmingLanguage	Delphi
+solvedCount	728
+name	LionAge II
+
+contestId	73
+index	A
+verdict	OK
+id	372713
+programmingLanguage	Delphi
+solvedCount	838
+name	The Elder Trolls IV: Oblivon
+tag0	greedy
+
+contestId	74
+index	D
+verdict	OK
+id	392379
+programmingLanguage	GNU C++
+solvedCount	230
+name	Hanger
+
+contestId	74
+index	D
+verdict	SKIPPED
+id	392085
+programmingLanguage	GNU C++
+solvedCount	230
+name	Hanger
+
+contestId	74
+index	C
+verdict	OK
+id	391314
+programmingLanguage	Delphi
+solvedCount	528
+name	Chessboard Billiard
+tag0	dfs and similar
+tag1	dsu
+tag2	graphs
+
+contestId	74
+index	E
+verdict	OK
+id	391186
+programmingLanguage	Delphi
+solvedCount	49
+name	Shift It!
+
+contestId	74
+index	B
+verdict	OK
+id	389940
+programmingLanguage	Delphi
+solvedCount	958
+name	Train
+tag0	dp
+tag1	games
+
+contestId	74
+index	A
+verdict	OK
+id	388976
+programmingLanguage	Delphi
+solvedCount	2652
+name	Room Leader
+
+contestId	76
+index	F
+verdict	OK
+id	380317
+programmingLanguage	Delphi
+solvedCount	301
+name	Tourist
+tag0	binary search
+tag1	data structures
+
+contestId	76
+index	E
+verdict	OK
+id	380153
+programmingLanguage	Delphi
+solvedCount	866
+name	Points
+tag0	implementation
+
+contestId	76
+index	D
+verdict	OK
+id	380057
+programmingLanguage	FPC
+solvedCount	727
+name	Plus and xor
+tag0	dp
+tag1	greedy
+
+contestId	76
+index	D
+verdict	WRONG_ANSWER
+id	380024
+programmingLanguage	Delphi
+solvedCount	727
+name	Plus and xor
+tag0	dp
+tag1	greedy
+
+contestId	76
+index	C
+verdict	OK
+id	379997
+programmingLanguage	Delphi
+solvedCount	70
+name	Mutation
+tag0	bitmasks
+tag1	dp
+
+contestId	76
+index	C
+verdict	WRONG_ANSWER
+id	379980
+programmingLanguage	Delphi
+solvedCount	70
+name	Mutation
+tag0	bitmasks
+tag1	dp
+
+contestId	76
+index	C
+verdict	WRONG_ANSWER
+id	379847
+programmingLanguage	Delphi
+solvedCount	70
+name	Mutation
+tag0	bitmasks
+tag1	dp
+
+contestId	76
+index	B
+verdict	OK
+id	379575
+programmingLanguage	Delphi
+solvedCount	246
+name	Mice
+tag0	greedy
+
+contestId	76
+index	A
+verdict	OK
+id	379437
+programmingLanguage	Delphi
+solvedCount	369
+name	Gift
+tag0	dsu
+tag1	graphs
+tag2	sortings
+
+contestId	76
+index	A
+verdict	WRONG_ANSWER
+id	379425
+programmingLanguage	Delphi
+solvedCount	369
+name	Gift
+tag0	dsu
+tag1	graphs
+tag2	sortings
+
+contestId	76
+index	A
+verdict	WRONG_ANSWER
+id	379402
+programmingLanguage	Delphi
+solvedCount	369
+name	Gift
+tag0	dsu
+tag1	graphs
+tag2	sortings
+
+contestId	77
+index	C
+verdict	OK
+id	401718
+programmingLanguage	Delphi
+solvedCount	531
+name	Beavermuncher-0xFF
+tag0	dfs and similar
+tag1	dp
+tag2	dsu
+tag3	greedy
+
+contestId	77
+index	D
+verdict	OK
+id	399134
+programmingLanguage	Delphi
+solvedCount	188
+name	Domino Carpet
+tag0	dp
+
+contestId	77
+index	B
+verdict	CHALLENGED
+id	397610
+programmingLanguage	Delphi
+solvedCount	1165
+name	Falling Anvils
+tag0	math
+
+contestId	77
+index	B
+verdict	CHALLENGED
+id	397530
+programmingLanguage	Delphi
+solvedCount	1165
+name	Falling Anvils
+tag0	math
+
+contestId	77
+index	A
+verdict	OK
+id	396904
+programmingLanguage	Delphi
+solvedCount	1076
+name	Heroes
+tag0	brute force
+
+contestId	82
+index	E
+verdict	OK
+id	440001
+programmingLanguage	Delphi
+solvedCount	159
+name	Corridor
+
+contestId	82
+index	C
+verdict	OK
+id	436895
+programmingLanguage	Delphi
+solvedCount	629
+name	General Mobilization
+tag0	data structures
+tag1	dfs and similar
+
+contestId	82
+index	B
+verdict	OK
+id	436323
+programmingLanguage	Delphi
+solvedCount	1301
+name	Sets
+tag0	constructive algorithms
+tag1	hashing
+
+contestId	82
+index	D
+verdict	OK
+id	435779
+programmingLanguage	Delphi
+solvedCount	734
+name	Two out of Three
+
+contestId	82
+index	B
+verdict	SKIPPED
+id	434974
+programmingLanguage	Delphi
+solvedCount	1301
+name	Sets
+tag0	constructive algorithms
+tag1	hashing
+
+contestId	82
+index	A
+verdict	OK
+id	434354
+programmingLanguage	Delphi
+solvedCount	12677
+name	Double Cola
+tag0	implementation
+
+contestId	83
+index	E
+verdict	OK
+id	450578
+programmingLanguage	Delphi
+solvedCount	180
+name	Two Subsequences
+tag0	bitmasks
+
+contestId	83
+index	D
+verdict	OK
+id	449796
+programmingLanguage	Delphi
+solvedCount	366
+name	Numbers
+tag0	dp
+tag1	math
+
+contestId	83
+index	C
+verdict	OK
+id	449025
+programmingLanguage	Delphi
+solvedCount	256
+name	Track
+tag0	graphs
+tag1	greedy
+
+contestId	83
+index	C
+verdict	WRONG_ANSWER
+id	449008
+programmingLanguage	Delphi
+solvedCount	256
+name	Track
+tag0	graphs
+tag1	greedy
+
+contestId	83
+index	B
+verdict	OK
+id	447077
+programmingLanguage	Delphi
+solvedCount	907
+name	Doctor
+tag0	binary search
+tag1	math
+
+contestId	83
+index	A
+verdict	OK
+id	446358
+programmingLanguage	Delphi
+solvedCount	2449
+name	Magical Array
+
+contestId	85
+index	C
+verdict	OK
+id	463260
+programmingLanguage	Delphi
+solvedCount	397
+name	Petya and Tree
+tag0	binary search
+tag1	dfs and similar
+tag2	probabilities
+tag3	sortings
+
+contestId	85
+index	C
+verdict	WRONG_ANSWER
+id	463084
+programmingLanguage	Delphi
+solvedCount	397
+name	Petya and Tree
+tag0	binary search
+tag1	dfs and similar
+tag2	probabilities
+tag3	sortings
+
+contestId	85
+index	D
+verdict	OK
+id	462588
+programmingLanguage	Delphi
+solvedCount	763
+name	Sum of Medians
+tag0	binary search
+tag1	brute force
+tag2	data structures
+
+contestId	85
+index	E
+verdict	OK
+id	461951
+programmingLanguage	Delphi
+solvedCount	267
+name	Guard Towers
+tag0	binary search
+tag1	dsu
+tag2	geometry
+tag3	graphs
+
+contestId	85
+index	B
+verdict	OK
+id	460605
+programmingLanguage	Delphi
+solvedCount	760
+name	Embassy Queue
+
+contestId	85
+index	A
+verdict	OK
+id	460184
+programmingLanguage	Delphi
+solvedCount	1262
+name	Domino
+tag0	constructive algorithms
+
+contestId	86
+index	B
+verdict	OK
+id	467658
+programmingLanguage	Delphi
+solvedCount	230
+name	Tetris revisited
+tag0	constructive algorithms
+tag1	graph matchings
+tag2	greedy
+
+contestId	86
+index	C
+verdict	OK
+id	467636
+programmingLanguage	Delphi
+solvedCount	257
+name	Genetic engineering
+tag0	dp
+tag1	string suffix structures
+
+contestId	86
+index	C
+verdict	WRONG_ANSWER
+id	467570
+programmingLanguage	Delphi
+solvedCount	257
+name	Genetic engineering
+tag0	dp
+tag1	string suffix structures
+
+contestId	86
+index	C
+verdict	WRONG_ANSWER
+id	467500
+programmingLanguage	Delphi
+solvedCount	257
+name	Genetic engineering
+tag0	dp
+tag1	string suffix structures
+
+contestId	86
+index	C
+verdict	WRONG_ANSWER
+id	467471
+programmingLanguage	Delphi
+solvedCount	257
+name	Genetic engineering
+tag0	dp
+tag1	string suffix structures
+
+contestId	86
+index	C
+verdict	WRONG_ANSWER
+id	467390
+programmingLanguage	Delphi
+solvedCount	257
+name	Genetic engineering
+tag0	dp
+tag1	string suffix structures
+
+contestId	86
+index	C
+verdict	WRONG_ANSWER
+id	467319
+programmingLanguage	Delphi
+solvedCount	257
+name	Genetic engineering
+tag0	dp
+tag1	string suffix structures
+
+contestId	86
+index	C
+verdict	WRONG_ANSWER
+id	467316
+programmingLanguage	Delphi
+solvedCount	257
+name	Genetic engineering
+tag0	dp
+tag1	string suffix structures
+
+contestId	86
+index	C
+verdict	WRONG_ANSWER
+id	467270
+programmingLanguage	Delphi
+solvedCount	257
+name	Genetic engineering
+tag0	dp
+tag1	string suffix structures
+
+contestId	86
+index	B
+verdict	WRONG_ANSWER
+id	467179
+programmingLanguage	Delphi
+solvedCount	230
+name	Tetris revisited
+tag0	constructive algorithms
+tag1	graph matchings
+tag2	greedy
+
+contestId	86
+index	E
+verdict	OK
+id	466889
+programmingLanguage	Delphi
+solvedCount	121
+name	Long sequence
+tag0	brute force
+tag1	math
+
+contestId	86
+index	D
+verdict	OK
+id	466535
+programmingLanguage	Delphi
+solvedCount	2052
+name	Powerful array
+tag0	data structures
+tag1	implementation
+tag2	math
+
+contestId	86
+index	A
+verdict	OK
+id	466215
+programmingLanguage	Delphi
+solvedCount	672
+name	Reflection
+
+contestId	86
+index	A
+verdict	WRONG_ANSWER
+id	466198
+programmingLanguage	Delphi
+solvedCount	672
+name	Reflection
+
+contestId	87
+index	E
+verdict	OK
+id	481093
+programmingLanguage	Delphi
+solvedCount	94
+name	Mogohu-Rea Idol
+
+contestId	87
+index	E
+verdict	RUNTIME_ERROR
+id	481083
+programmingLanguage	Delphi
+solvedCount	94
+name	Mogohu-Rea Idol
+
+contestId	87
+index	E
+verdict	RUNTIME_ERROR
+id	480940
+programmingLanguage	Delphi
+solvedCount	94
+name	Mogohu-Rea Idol
+
+contestId	87
+index	E
+verdict	RUNTIME_ERROR
+id	480685
+programmingLanguage	Delphi
+solvedCount	94
+name	Mogohu-Rea Idol
+
+contestId	87
+index	D
+verdict	OK
+id	479186
+programmingLanguage	Delphi
+solvedCount	351
+name	Beautiful Road
+tag0	dfs and similar
+tag1	dp
+tag2	dsu
+tag3	implementation
+tag4	sortings
+
+contestId	87
+index	D
+verdict	SKIPPED
+id	478867
+programmingLanguage	Delphi
+solvedCount	351
+name	Beautiful Road
+tag0	dfs and similar
+tag1	dp
+tag2	dsu
+tag3	implementation
+tag4	sortings
+
+contestId	87
+index	B
+verdict	OK
+id	478182
+programmingLanguage	Delphi
+solvedCount	659
+name	Vasya and Types
+tag0	implementation
+
+contestId	87
+index	B
+verdict	WRONG_ANSWER
+id	478090
+programmingLanguage	Delphi
+solvedCount	659
+name	Vasya and Types
+tag0	implementation
+
+contestId	87
+index	B
+verdict	WRONG_ANSWER
+id	478058
+programmingLanguage	Delphi
+solvedCount	659
+name	Vasya and Types
+tag0	implementation
+
+contestId	87
+index	B
+verdict	WRONG_ANSWER
+id	477967
+programmingLanguage	Delphi
+solvedCount	659
+name	Vasya and Types
+tag0	implementation
+
+contestId	87
+index	C
+verdict	OK
+id	477330
+programmingLanguage	Delphi
+solvedCount	710
+name	Interesting Game
+tag0	dp
+
+contestId	87
+index	A
+verdict	OK
+id	477177
+programmingLanguage	Delphi
+solvedCount	1630
+name	Trains
+
+contestId	89
+index	E
+verdict	WRONG_ANSWER
+id	493592
+programmingLanguage	Delphi
+solvedCount	30
+name	Fire and Ice
+
+contestId	89
+index	B
+verdict	OK
+id	492381
+programmingLanguage	Delphi
+solvedCount	346
+name	Widget Library
+tag0	dp
+tag1	expression parsing
+tag2	graphs
+
+contestId	89
+index	B
+verdict	SKIPPED
+id	492051
+programmingLanguage	Delphi
+solvedCount	346
+name	Widget Library
+tag0	dp
+tag1	expression parsing
+tag2	graphs
+
+contestId	89
+index	D
+verdict	OK
+id	491352
+programmingLanguage	Delphi
+solvedCount	172
+name	Space mines
+
+contestId	89
+index	C
+verdict	OK
+id	490286
+programmingLanguage	Delphi
+solvedCount	366
+name	Chip Play
+tag0	brute force
+tag1	data structures
+
+contestId	89
+index	A
+verdict	OK
+id	489326
+programmingLanguage	Delphi
+solvedCount	979
+name	Robbery
+
+contestId	96
+index	A
+verdict	OK
+id	546632
+programmingLanguage	Delphi
+solvedCount	21645
+name	Football
+tag0	implementation
+
+contestId	97
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	547844
+programmingLanguage	Delphi
+solvedCount	84
+name	Robot in Basement
+tag0	bitmasks
+tag1	brute force
+
+contestId	97
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	547840
+programmingLanguage	Delphi
+solvedCount	84
+name	Robot in Basement
+tag0	bitmasks
+tag1	brute force
+
+contestId	97
+index	D
+verdict	OK
+id	547799
+programmingLanguage	Delphi
+solvedCount	84
+name	Robot in Basement
+tag0	bitmasks
+tag1	brute force
+
+contestId	97
+index	D
+verdict	WRONG_ANSWER
+id	547794
+programmingLanguage	Delphi
+solvedCount	84
+name	Robot in Basement
+tag0	bitmasks
+tag1	brute force
+
+contestId	97
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	547789
+programmingLanguage	Delphi
+solvedCount	84
+name	Robot in Basement
+tag0	bitmasks
+tag1	brute force
+
+contestId	97
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	547787
+programmingLanguage	Delphi
+solvedCount	84
+name	Robot in Basement
+tag0	bitmasks
+tag1	brute force
+
+contestId	97
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	547783
+programmingLanguage	Delphi
+solvedCount	84
+name	Robot in Basement
+tag0	bitmasks
+tag1	brute force
+
+contestId	97
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	547781
+programmingLanguage	Delphi
+solvedCount	84
+name	Robot in Basement
+tag0	bitmasks
+tag1	brute force
+
+contestId	97
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	547780
+programmingLanguage	Delphi
+solvedCount	84
+name	Robot in Basement
+tag0	bitmasks
+tag1	brute force
+
+contestId	97
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	547778
+programmingLanguage	Delphi
+solvedCount	84
+name	Robot in Basement
+tag0	bitmasks
+tag1	brute force
+
+contestId	97
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	547776
+programmingLanguage	Delphi
+solvedCount	84
+name	Robot in Basement
+tag0	bitmasks
+tag1	brute force
+
+contestId	97
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	547775
+programmingLanguage	GNU C++
+solvedCount	84
+name	Robot in Basement
+tag0	bitmasks
+tag1	brute force
+
+contestId	97
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	547758
+programmingLanguage	Delphi
+solvedCount	84
+name	Robot in Basement
+tag0	bitmasks
+tag1	brute force
+
+contestId	97
+index	D
+verdict	RUNTIME_ERROR
+id	547756
+programmingLanguage	Delphi
+solvedCount	84
+name	Robot in Basement
+tag0	bitmasks
+tag1	brute force
+
+contestId	97
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	547491
+programmingLanguage	Delphi
+solvedCount	84
+name	Robot in Basement
+tag0	bitmasks
+tag1	brute force
+
+contestId	97
+index	A
+verdict	OK
+id	547154
+programmingLanguage	Delphi
+solvedCount	163
+name	Domino
+tag0	brute force
+
+contestId	97
+index	C
+verdict	OK
+id	547022
+programmingLanguage	Delphi
+solvedCount	154
+name	Winning Strategy
+tag0	binary search
+tag1	graphs
+tag2	math
+
+contestId	97
+index	B
+verdict	OK
+id	546823
+programmingLanguage	Delphi
+solvedCount	273
+name	Superset
+tag0	constructive algorithms
+
+contestId	101
+index	C
+verdict	OK
+id	582749
+programmingLanguage	Delphi
+solvedCount	410
+name	Vectors
+tag0	implementation
+
+contestId	101
+index	C
+verdict	WRONG_ANSWER
+id	581281
+programmingLanguage	Delphi
+solvedCount	410
+name	Vectors
+tag0	implementation
+
+contestId	101
+index	D
+verdict	OK
+id	580677
+programmingLanguage	Delphi
+solvedCount	240
+name	Castle
+tag0	dp
+tag1	greedy
+tag2	probabilities
+tag3	sortings
+
+contestId	101
+index	E
+verdict	OK
+id	579938
+programmingLanguage	Delphi
+solvedCount	204
+name	Candies and Stones
+tag0	divide and conquer
+
+contestId	101
+index	B
+verdict	OK
+id	578791
+programmingLanguage	Delphi
+solvedCount	849
+name	Buses
+tag0	binary search
+tag1	data structures
+
+contestId	101
+index	A
+verdict	OK
+id	577918
+programmingLanguage	Delphi
+solvedCount	1791
+name	Homework
+
+contestId	105
+index	C
+verdict	OK
+id	606942
+programmingLanguage	Delphi
+solvedCount	195
+name	Item World
+tag0	brute force
+tag1	implementation
+
+contestId	105
+index	B
+verdict	OK
+id	605713
+programmingLanguage	Delphi
+solvedCount	597
+name	Dark Assembly
+tag0	brute force
+
+contestId	105
+index	A
+verdict	OK
+id	605392
+programmingLanguage	Delphi
+solvedCount	1147
+name	Transmigration
+
+contestId	106
+index	E
+verdict	WRONG_ANSWER
+id	620835
+programmingLanguage	Delphi
+solvedCount	375
+name	Space Rescuers
+tag0	geometry
+
+contestId	106
+index	E
+verdict	WRONG_ANSWER
+id	618447
+programmingLanguage	Delphi
+solvedCount	375
+name	Space Rescuers
+tag0	geometry
+
+contestId	106
+index	E
+verdict	WRONG_ANSWER
+id	618284
+programmingLanguage	Delphi
+solvedCount	375
+name	Space Rescuers
+tag0	geometry
+
+contestId	106
+index	A
+verdict	OK
+id	617478
+programmingLanguage	Delphi
+solvedCount	3212
+name	Card Game
+
+contestId	106
+index	D
+verdict	OK
+id	617273
+programmingLanguage	Delphi
+solvedCount	697
+name	Treasure Island
+tag0	brute force
+
+contestId	106
+index	B
+verdict	OK
+id	615888
+programmingLanguage	Delphi
+solvedCount	2524
+name	Choosing Laptop
+tag0	brute force
+
+contestId	106
+index	C
+verdict	OK
+id	615679
+programmingLanguage	Delphi
+solvedCount	1601
+name	Buns
+tag0	chinese remainder theorem
+
+contestId	107
+index	C
+verdict	OK
+id	633250
+programmingLanguage	Delphi
+solvedCount	205
+name	Arrangement
+tag0	bitmasks
+
+contestId	107
+index	D
+verdict	OK
+id	632367
+programmingLanguage	Delphi
+solvedCount	200
+name	Crime Management
+tag0	dp
+
+contestId	107
+index	C
+verdict	WRONG_ANSWER
+id	628926
+programmingLanguage	Delphi
+solvedCount	205
+name	Arrangement
+tag0	bitmasks
+
+contestId	107
+index	A
+verdict	OK
+id	628243
+programmingLanguage	Delphi
+solvedCount	1880
+name	Dorm Water Supply
+tag0	dfs and similar
+
+contestId	107
+index	B
+verdict	OK
+id	627574
+programmingLanguage	Delphi
+solvedCount	1319
+name	Basketball Team
+tag0	combinatorics
+tag1	dp
+
+contestId	109
+index	E
+verdict	TIME_LIMIT_EXCEEDED
+id	648652
+programmingLanguage	Delphi
+solvedCount	39
+name	Lucky Interval
+tag0	brute force
+
+contestId	109
+index	E
+verdict	SKIPPED
+id	648182
+programmingLanguage	Delphi
+solvedCount	39
+name	Lucky Interval
+tag0	brute force
+
+contestId	109
+index	B
+verdict	OK
+id	645849
+programmingLanguage	Delphi
+solvedCount	762
+name	Lucky Probability
+tag0	brute force
+
+contestId	109
+index	C
+verdict	OK
+id	645267
+programmingLanguage	Delphi
+solvedCount	1055
+name	Lucky Tree
+tag0	dp
+tag1	dsu
+
+contestId	109
+index	D
+verdict	OK
+id	644534
+programmingLanguage	Delphi
+solvedCount	371
+name	Lucky Sorting
+tag0	constructive algorithms
+
+contestId	109
+index	A
+verdict	OK
+id	642168
+programmingLanguage	Delphi
+solvedCount	4484
+name	Lucky Sum of Digits
+tag0	brute force
+
+contestId	111
+index	D
+verdict	OK
+id	668288
+programmingLanguage	FPC
+solvedCount	273
+name	Petya and Coloring
+tag0	combinatorics
+
+contestId	111
+index	D
+verdict	OK
+id	666377
+programmingLanguage	Delphi
+solvedCount	273
+name	Petya and Coloring
+tag0	combinatorics
+
+contestId	111
+index	D
+verdict	OK
+id	666373
+programmingLanguage	Delphi
+solvedCount	273
+name	Petya and Coloring
+tag0	combinatorics
+
+contestId	111
+index	D
+verdict	OK
+id	666371
+programmingLanguage	Delphi
+solvedCount	273
+name	Petya and Coloring
+tag0	combinatorics
+
+contestId	111
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	666353
+programmingLanguage	Delphi
+solvedCount	273
+name	Petya and Coloring
+tag0	combinatorics
+
+contestId	111
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	666352
+programmingLanguage	Delphi
+solvedCount	273
+name	Petya and Coloring
+tag0	combinatorics
+
+contestId	111
+index	D
+verdict	WRONG_ANSWER
+id	666341
+programmingLanguage	Delphi
+solvedCount	273
+name	Petya and Coloring
+tag0	combinatorics
+
+contestId	111
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	662468
+programmingLanguage	Delphi
+solvedCount	273
+name	Petya and Coloring
+tag0	combinatorics
+
+contestId	111
+index	D
+verdict	WRONG_ANSWER
+id	662104
+programmingLanguage	Delphi
+solvedCount	273
+name	Petya and Coloring
+tag0	combinatorics
+
+contestId	111
+index	C
+verdict	OK
+id	659064
+programmingLanguage	Delphi
+solvedCount	637
+name	Petya and Spiders
+tag0	bitmasks
+tag1	dp
+
+contestId	111
+index	B
+verdict	OK
+id	658150
+programmingLanguage	Delphi
+solvedCount	1472
+name	Petya and Divisors
+tag0	binary search
+tag1	data structures
+
+contestId	111
+index	A
+verdict	OK
+id	657206
+programmingLanguage	Delphi
+solvedCount	2362
+name	Petya and Inequiations
+
+contestId	113
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	683265
+programmingLanguage	GNU C++
+solvedCount	212
+name	Museum
+tag0	matrices
+
+contestId	113
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	683261
+programmingLanguage	GNU C++
+solvedCount	212
+name	Museum
+tag0	matrices
+
+contestId	113
+index	D
+verdict	OK
+id	682967
+programmingLanguage	GNU C++
+solvedCount	212
+name	Museum
+tag0	matrices
+
+contestId	113
+index	D
+verdict	OK
+id	682949
+programmingLanguage	GNU C++
+solvedCount	212
+name	Museum
+tag0	matrices
+
+contestId	113
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	682939
+programmingLanguage	GNU C++
+solvedCount	212
+name	Museum
+tag0	matrices
+
+contestId	113
+index	D
+verdict	WRONG_ANSWER
+id	682886
+programmingLanguage	GNU C++
+solvedCount	212
+name	Museum
+tag0	matrices
+
+contestId	113
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	682859
+programmingLanguage	GNU C++
+solvedCount	212
+name	Museum
+tag0	matrices
+
+contestId	113
+index	C
+verdict	OK
+id	682852
+programmingLanguage	Delphi
+solvedCount	539
+name	Double Happiness
+tag0	brute force
+
+contestId	113
+index	C
+verdict	WRONG_ANSWER
+id	682845
+programmingLanguage	Delphi
+solvedCount	539
+name	Double Happiness
+tag0	brute force
+
+contestId	113
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	682830
+programmingLanguage	GNU C++
+solvedCount	212
+name	Museum
+tag0	matrices
+
+contestId	113
+index	D
+verdict	WRONG_ANSWER
+id	682825
+programmingLanguage	GNU C++
+solvedCount	212
+name	Museum
+tag0	matrices
+
+contestId	113
+index	D
+verdict	WRONG_ANSWER
+id	682780
+programmingLanguage	GNU C++
+solvedCount	212
+name	Museum
+tag0	matrices
+
+contestId	113
+index	D
+verdict	WRONG_ANSWER
+id	682779
+programmingLanguage	GNU C++
+solvedCount	212
+name	Museum
+tag0	matrices
+
+contestId	113
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	682767
+programmingLanguage	GNU C++
+solvedCount	212
+name	Museum
+tag0	matrices
+
+contestId	113
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	682754
+programmingLanguage	GNU C++
+solvedCount	212
+name	Museum
+tag0	matrices
+
+contestId	113
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	682745
+programmingLanguage	GNU C++
+solvedCount	212
+name	Museum
+tag0	matrices
+
+contestId	113
+index	E
+verdict	OK
+id	680820
+programmingLanguage	Delphi
+solvedCount	48
+name	Sleeping
+tag0	combinatorics
+tag1	implementation
+
+contestId	113
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	679123
+programmingLanguage	GNU C++
+solvedCount	212
+name	Museum
+tag0	matrices
+
+contestId	113
+index	A
+verdict	OK
+id	676774
+programmingLanguage	Delphi
+solvedCount	1213
+name	Grammar Lessons
+tag0	implementation
+
+contestId	113
+index	B
+verdict	OK
+id	676084
+programmingLanguage	Delphi
+solvedCount	1058
+name	Petr#
+tag0	brute force
+tag1	data structures
+tag2	hashing
+
+contestId	113
+index	B
+verdict	WRONG_ANSWER
+id	675970
+programmingLanguage	Delphi
+solvedCount	1058
+name	Petr#
+tag0	brute force
+tag1	data structures
+tag2	hashing
+
+contestId	113
+index	C
+verdict	WRONG_ANSWER
+id	675558
+programmingLanguage	Delphi
+solvedCount	539
+name	Double Happiness
+tag0	brute force
+
+contestId	115
+index	B
+verdict	OK
+id	701785
+programmingLanguage	Delphi
+solvedCount	1526
+name	Lawnmower
+tag0	greedy
+
+contestId	115
+index	D
+verdict	OK
+id	700677
+programmingLanguage	GNU C++
+solvedCount	127
+name	Unambiguous Arithmetic Expression
+tag0	dp
+
+contestId	115
+index	D
+verdict	COMPILATION_ERROR
+id	700665
+programmingLanguage	Delphi
+solvedCount	127
+name	Unambiguous Arithmetic Expression
+tag0	dp
+
+contestId	115
+index	E
+verdict	OK
+id	698918
+programmingLanguage	Delphi
+solvedCount	326
+name	Linear Kingdom Races
+tag0	data structures
+
+contestId	115
+index	B
+verdict	SKIPPED
+id	697928
+programmingLanguage	Delphi
+solvedCount	1526
+name	Lawnmower
+tag0	greedy
+
+contestId	115
+index	C
+verdict	OK
+id	696934
+programmingLanguage	Delphi
+solvedCount	454
+name	Plumber
+
+contestId	115
+index	A
+verdict	OK
+id	695755
+programmingLanguage	Delphi
+solvedCount	6604
+name	Party
+tag0	dfs and similar
+tag1	graphs
+
+contestId	117
+index	E
+verdict	OK
+id	720521
+programmingLanguage	Delphi
+solvedCount	89
+name	Tree or not Tree
+tag0	data structures
+tag1	divide and conquer
+tag2	implementation
+
+contestId	117
+index	E
+verdict	WRONG_ANSWER
+id	719151
+programmingLanguage	Delphi
+solvedCount	89
+name	Tree or not Tree
+tag0	data structures
+tag1	divide and conquer
+tag2	implementation
+
+contestId	117
+index	E
+verdict	WRONG_ANSWER
+id	719051
+programmingLanguage	Delphi
+solvedCount	89
+name	Tree or not Tree
+tag0	data structures
+tag1	divide and conquer
+tag2	implementation
+
+contestId	117
+index	D
+verdict	OK
+id	715941
+programmingLanguage	FPC
+solvedCount	237
+name	Not Quick Transformation
+tag0	divide and conquer
+
+contestId	117
+index	C
+verdict	OK
+id	714087
+programmingLanguage	Delphi
+solvedCount	1234
+name	Cycle
+tag0	dfs and similar
+
+contestId	117
+index	B
+verdict	OK
+id	713852
+programmingLanguage	Delphi
+solvedCount	1058
+name	Very Interesting Game
+tag0	brute force
+
+contestId	117
+index	A
+verdict	OK
+id	713826
+programmingLanguage	Delphi
+solvedCount	1542
+name	Elevator
+tag0	implementation
+
+contestId	119
+index	D
+verdict	OK
+id	762523
+programmingLanguage	Delphi
+solvedCount	193
+name	String Transformation
+tag0	hashing
+
+contestId	119
+index	C
+verdict	OK
+id	761666
+programmingLanguage	Delphi
+solvedCount	525
+name	Education Reform
+
+contestId	119
+index	C
+verdict	SKIPPED
+id	761400
+programmingLanguage	Delphi
+solvedCount	525
+name	Education Reform
+
+contestId	119
+index	B
+verdict	WRONG_ANSWER
+id	759895
+programmingLanguage	Delphi
+solvedCount	774
+name	Before Exam
+tag0	constructive algorithms
+tag1	implementation
+
+contestId	119
+index	A
+verdict	OK
+id	759387
+programmingLanguage	Delphi
+solvedCount	11718
+name	Epic Game
+
+contestId	120
+index	I
+verdict	OK
+id	775976
+programmingLanguage	Delphi
+solvedCount	230
+name	Luck is in Numbers
+
+contestId	120
+index	G
+verdict	OK
+id	775504
+programmingLanguage	Delphi
+solvedCount	545
+name	Boom
+
+contestId	120
+index	J
+verdict	OK
+id	775403
+programmingLanguage	Delphi
+solvedCount	507
+name	Minimum Sum
+tag0	divide and conquer
+tag1	geometry
+
+contestId	120
+index	G
+verdict	WRONG_ANSWER
+id	774923
+programmingLanguage	Delphi
+solvedCount	545
+name	Boom
+
+contestId	120
+index	E
+verdict	OK
+id	774183
+programmingLanguage	Delphi
+solvedCount	1547
+name	Put Knight!
+
+contestId	120
+index	H
+verdict	OK
+id	773891
+programmingLanguage	Delphi
+solvedCount	630
+name	Brevity is Soul of Wit
+
+contestId	120
+index	F
+verdict	OK
+id	772754
+programmingLanguage	Delphi
+solvedCount	1513
+name	Spiders
+tag0	dp
+tag1	greedy
+
+contestId	120
+index	D
+verdict	OK
+id	772445
+programmingLanguage	Delphi
+solvedCount	1330
+name	Three Sons
+
+contestId	120
+index	C
+verdict	OK
+id	772055
+programmingLanguage	Delphi
+solvedCount	1943
+name	Winnie-the-Pooh and honey
+tag0	implementation
+
+contestId	120
+index	B
+verdict	OK
+id	771950
+programmingLanguage	Delphi
+solvedCount	1874
+name	Quiz League
+
+contestId	120
+index	A
+verdict	OK
+id	771894
+programmingLanguage	Delphi
+solvedCount	2257
+name	Elevator
+tag0	brute force
+tag1	implementation
+
+contestId	121
+index	E
+verdict	OK
+id	804829
+programmingLanguage	Delphi
+solvedCount	407
+name	Lucky Array
+
+contestId	121
+index	D
+verdict	OK
+id	802756
+programmingLanguage	Delphi
+solvedCount	155
+name	Lucky Segments
+tag0	binary search
+tag1	implementation
+
+contestId	121
+index	B
+verdict	OK
+id	801296
+programmingLanguage	Delphi
+solvedCount	1466
+name	Lucky Transformation
+
+contestId	121
+index	C
+verdict	OK
+id	800348
+programmingLanguage	Delphi
+solvedCount	765
+name	Lucky Permutation
+tag0	brute force
+tag1	combinatorics
+
+contestId	121
+index	A
+verdict	OK
+id	799092
+programmingLanguage	Delphi
+solvedCount	2735
+name	Lucky Sum
+
+contestId	123
+index	B
+verdict	OK
+id	832194
+programmingLanguage	Delphi
+solvedCount	666
+name	Squares
+
+contestId	123
+index	B
+verdict	SKIPPED
+id	831433
+programmingLanguage	Delphi
+solvedCount	666
+name	Squares
+
+contestId	123
+index	E
+verdict	OK
+id	830913
+programmingLanguage	Delphi
+solvedCount	173
+name	Maze
+tag0	dfs and similar
+tag1	dp
+tag2	probabilities
+
+contestId	123
+index	C
+verdict	OK
+id	830487
+programmingLanguage	Delphi
+solvedCount	296
+name	Brackets
+tag0	combinatorics
+tag1	dp
+
+contestId	123
+index	D
+verdict	OK
+id	829997
+programmingLanguage	Delphi
+solvedCount	338
+name	String
+
+contestId	123
+index	B
+verdict	OK
+id	828761
+programmingLanguage	Delphi
+solvedCount	666
+name	Squares
+
+contestId	123
+index	A
+verdict	OK
+id	827481
+programmingLanguage	Delphi
+solvedCount	1376
+name	Prime Permutation
+tag0	implementation
+tag1	number theory
+
+contestId	126
+index	A
+verdict	OK
+id	848423
+programmingLanguage	Delphi
+solvedCount	895
+name	Hot Bath
+tag0	binary search
+tag1	brute force
+
+contestId	126
+index	A
+verdict	SKIPPED
+id	848229
+programmingLanguage	Delphi
+solvedCount	895
+name	Hot Bath
+tag0	binary search
+tag1	brute force
+
+contestId	126
+index	D
+verdict	OK
+id	846952
+programmingLanguage	Delphi
+solvedCount	384
+name	Fibonacci Sums
+tag0	dp
+
+contestId	126
+index	C
+verdict	OK
+id	844825
+programmingLanguage	Delphi
+solvedCount	462
+name	E-reader Display
+tag0	constructive algorithms
+
+contestId	126
+index	B
+verdict	OK
+id	844058
+programmingLanguage	Delphi
+solvedCount	3290
+name	Password
+tag0	binary search
+tag1	dp
+tag2	hashing
+tag3	string suffix structures
+
+contestId	128
+index	E
+verdict	WRONG_ANSWER
+id	869350
+programmingLanguage	Delphi
+solvedCount	44
+name	Birthday
+tag0	geometry
+
+contestId	128
+index	D
+verdict	OK
+id	867220
+programmingLanguage	Delphi
+solvedCount	594
+name	Numbers
+
+contestId	128
+index	B
+verdict	OK
+id	866590
+programmingLanguage	Delphi
+solvedCount	904
+name	String
+tag0	brute force
+tag1	constructive algorithms
+tag2	hashing
+tag3	string suffix structures
+
+contestId	128
+index	B
+verdict	SKIPPED
+id	866497
+programmingLanguage	Delphi
+solvedCount	904
+name	String
+tag0	brute force
+tag1	constructive algorithms
+tag2	hashing
+tag3	string suffix structures
+
+contestId	128
+index	C
+verdict	OK
+id	865977
+programmingLanguage	Delphi
+solvedCount	982
+name	Games with Rectangle
+tag0	combinatorics
+
+contestId	128
+index	A
+verdict	OK
+id	865279
+programmingLanguage	Delphi
+solvedCount	1732
+name	Statues
+
+contestId	140
+index	F
+verdict	OK
+id	1007449
+programmingLanguage	Delphi
+solvedCount	240
+name	New Year Snowflake
+tag0	geometry
+
+contestId	140
+index	F
+verdict	SKIPPED
+id	1007193
+programmingLanguage	Delphi
+solvedCount	240
+name	New Year Snowflake
+tag0	geometry
+
+contestId	140
+index	E
+verdict	OK
+id	1005484
+programmingLanguage	FPC
+solvedCount	243
+name	New Year Garland
+tag0	combinatorics
+
+contestId	140
+index	E
+verdict	WRONG_ANSWER
+id	1005152
+programmingLanguage	FPC
+solvedCount	243
+name	New Year Garland
+tag0	combinatorics
+
+contestId	140
+index	E
+verdict	WRONG_ANSWER
+id	1005135
+programmingLanguage	Delphi
+solvedCount	243
+name	New Year Garland
+tag0	combinatorics
+
+contestId	140
+index	D
+verdict	OK
+id	1001437
+programmingLanguage	Delphi
+solvedCount	1566
+name	New Year Contest
+tag0	greedy
+
+contestId	140
+index	A
+verdict	OK
+id	1000944
+programmingLanguage	Delphi
+solvedCount	2682
+name	New Year Table
+tag0	geometry
+
+contestId	140
+index	B
+verdict	OK
+id	1000239
+programmingLanguage	Delphi
+solvedCount	1078
+name	New Year Cards
+tag0	brute force
+tag1	greedy
+
+contestId	140
+index	C
+verdict	OK
+id	999267
+programmingLanguage	Delphi
+solvedCount	1876
+name	New Year Snowmen
+tag0	binary search
+tag1	data structures
+
+contestId	142
+index	D
+verdict	OK
+id	1037704
+programmingLanguage	Delphi
+solvedCount	170
+name	Help Shrek and Donkey 2
+
+contestId	142
+index	D
+verdict	WRONG_ANSWER
+id	1037258
+programmingLanguage	Delphi
+solvedCount	170
+name	Help Shrek and Donkey 2
+
+contestId	142
+index	D
+verdict	WRONG_ANSWER
+id	1036652
+programmingLanguage	Delphi
+solvedCount	170
+name	Help Shrek and Donkey 2
+
+contestId	142
+index	C
+verdict	OK
+id	1036362
+programmingLanguage	Delphi
+solvedCount	407
+name	Help Caretaker
+tag0	brute force
+
+contestId	142
+index	B
+verdict	OK
+id	1031869
+programmingLanguage	Delphi
+solvedCount	1173
+name	Help General
+tag0	constructive algorithms
+tag1	greedy
+
+contestId	142
+index	A
+verdict	OK
+id	1031117
+programmingLanguage	Delphi
+solvedCount	1592
+name	Help Farmer
+tag0	brute force
+
+contestId	145
+index	C
+verdict	OK
+id	1107770
+programmingLanguage	FPC
+solvedCount	837
+name	Lucky Subsequence
+tag0	combinatorics
+tag1	dp
+
+contestId	145
+index	E
+verdict	OK
+id	1106471
+programmingLanguage	Delphi
+solvedCount	609
+name	Lucky Queries
+
+contestId	145
+index	D
+verdict	OK
+id	1105329
+programmingLanguage	Delphi
+solvedCount	130
+name	Lucky Pair
+tag0	combinatorics
+tag1	data structures
+
+contestId	145
+index	B
+verdict	OK
+id	1104573
+programmingLanguage	Delphi
+solvedCount	1093
+name	Lucky Number 2
+
+contestId	145
+index	B
+verdict	CHALLENGED
+id	1103473
+programmingLanguage	Delphi
+solvedCount	1093
+name	Lucky Number 2
+
+contestId	145
+index	A
+verdict	OK
+id	1101514
+programmingLanguage	Delphi
+solvedCount	3841
+name	Lucky Conversion
+tag0	greedy
+
+contestId	150
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	1197815
+programmingLanguage	Delphi
+solvedCount	217
+name	Mission Impassable
+
+contestId	150
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	1197800
+programmingLanguage	Delphi
+solvedCount	217
+name	Mission Impassable
+
+contestId	150
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	1197794
+programmingLanguage	Delphi
+solvedCount	217
+name	Mission Impassable
+
+contestId	150
+index	D
+verdict	WRONG_ANSWER
+id	1197773
+programmingLanguage	Delphi
+solvedCount	217
+name	Mission Impassable
+
+contestId	150
+index	D
+verdict	WRONG_ANSWER
+id	1197766
+programmingLanguage	Delphi
+solvedCount	217
+name	Mission Impassable
+
+contestId	150
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	1197762
+programmingLanguage	Delphi
+solvedCount	217
+name	Mission Impassable
+
+contestId	150
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	1194386
+programmingLanguage	Delphi
+solvedCount	217
+name	Mission Impassable
+
+contestId	150
+index	C
+verdict	OK
+id	1191698
+programmingLanguage	Delphi
+solvedCount	406
+name	Smart Cheater
+tag0	data structures
+tag1	math
+
+contestId	150
+index	C
+verdict	WRONG_ANSWER
+id	1190019
+programmingLanguage	Delphi
+solvedCount	406
+name	Smart Cheater
+tag0	data structures
+tag1	math
+
+contestId	150
+index	B
+verdict	OK
+id	1187876
+programmingLanguage	Delphi
+solvedCount	1661
+name	Quantity of Strings
+tag0	combinatorics
+tag1	dfs and similar
+
+contestId	150
+index	A
+verdict	OK
+id	1187174
+programmingLanguage	FPC
+solvedCount	2661
+name	Win or Freeze
+tag0	games
+
+contestId	154
+index	D
+verdict	OK
+id	1225484
+programmingLanguage	Delphi
+solvedCount	241
+name	Flatland Fencing
+tag0	games
+
+contestId	154
+index	C
+verdict	OK
+id	1223877
+programmingLanguage	Delphi
+solvedCount	807
+name	Double Profiles
+tag0	graphs
+tag1	hashing
+
+contestId	154
+index	B
+verdict	OK
+id	1222594
+programmingLanguage	Delphi
+solvedCount	1659
+name	Colliders
+tag0	math
+
+contestId	154
+index	A
+verdict	OK
+id	1221625
+programmingLanguage	Delphi
+solvedCount	1966
+name	Hometask
+
+contestId	156
+index	A
+verdict	OK
+id	1251062
+programmingLanguage	Delphi
+solvedCount	1950
+name	Message
+
+contestId	156
+index	D
+verdict	OK
+id	1250914
+programmingLanguage	Delphi
+solvedCount	353
+name	Clues
+tag0	combinatorics
+
+contestId	156
+index	D
+verdict	WRONG_ANSWER
+id	1250587
+programmingLanguage	Delphi
+solvedCount	353
+name	Clues
+tag0	combinatorics
+
+contestId	156
+index	D
+verdict	WRONG_ANSWER
+id	1250547
+programmingLanguage	Delphi
+solvedCount	353
+name	Clues
+tag0	combinatorics
+
+contestId	156
+index	E
+verdict	OK
+id	1250291
+programmingLanguage	Delphi
+solvedCount	94
+name	Mrs. Hudson's Pancakes
+tag0	brute force
+
+contestId	156
+index	A
+verdict	WRONG_ANSWER
+id	1246420
+programmingLanguage	Delphi
+solvedCount	1950
+name	Message
+
+contestId	156
+index	C
+verdict	OK
+id	1246183
+programmingLanguage	Delphi
+solvedCount	1007
+name	Cipher
+tag0	combinatorics
+
+contestId	156
+index	B
+verdict	OK
+id	1244730
+programmingLanguage	Delphi
+solvedCount	1290
+name	Suspects
+tag0	constructive algorithms
+tag1	data structures
+
+contestId	158
+index	E
+verdict	OK
+id	1275188
+programmingLanguage	Delphi
+solvedCount	1144
+name	Phone Talks
+tag0	dp
+
+contestId	158
+index	D
+verdict	OK
+id	1274568
+programmingLanguage	Delphi
+solvedCount	4504
+name	Ice Sculptures
+tag0	brute force
+
+contestId	158
+index	C
+verdict	OK
+id	1274555
+programmingLanguage	Delphi
+solvedCount	4774
+name	Cd and pwd commands
+tag0	data structures
+
+contestId	158
+index	B
+verdict	OK
+id	1274440
+programmingLanguage	Delphi
+solvedCount	20576
+name	Taxi
+tag0	greedy
+
+contestId	158
+index	A
+verdict	OK
+id	1274426
+programmingLanguage	Delphi
+solvedCount	31104
+name	Next Round
+
+contestId	161
+index	C
+verdict	OK
+id	1346849
+programmingLanguage	Delphi
+solvedCount	349
+name	Abracadabra
+
+contestId	161
+index	E
+verdict	OK
+id	1344819
+programmingLanguage	Delphi
+solvedCount	293
+name	Polycarpus the Safecracker
+tag0	brute force
+
+contestId	161
+index	B
+verdict	OK
+id	1343521
+programmingLanguage	Delphi
+solvedCount	1361
+name	Discounts
+tag0	constructive algorithms
+tag1	greedy
+
+contestId	161
+index	D
+verdict	OK
+id	1342736
+programmingLanguage	Delphi
+solvedCount	2516
+name	Distance in Tree
+tag0	dfs and similar
+tag1	dp
+
+contestId	161
+index	D
+verdict	SKIPPED
+id	1342322
+programmingLanguage	Delphi
+solvedCount	2516
+name	Distance in Tree
+tag0	dfs and similar
+tag1	dp
+
+contestId	161
+index	A
+verdict	OK
+id	1340919
+programmingLanguage	Delphi
+solvedCount	2624
+name	Dress'em in Vests!
+tag0	binary search
+tag1	brute force
+tag2	greedy
+
+contestId	163
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	1416433
+programmingLanguage	FPC
+solvedCount	165
+name	Large Refrigerator
+
+contestId	163
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	1416376
+programmingLanguage	FPC
+solvedCount	165
+name	Large Refrigerator
+
+contestId	163
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	1416356
+programmingLanguage	FPC
+solvedCount	165
+name	Large Refrigerator
+
+contestId	163
+index	D
+verdict	WRONG_ANSWER
+id	1416332
+programmingLanguage	FPC
+solvedCount	165
+name	Large Refrigerator
+
+contestId	163
+index	D
+verdict	WRONG_ANSWER
+id	1416288
+programmingLanguage	FPC
+solvedCount	165
+name	Large Refrigerator
+
+contestId	163
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	1416226
+programmingLanguage	FPC
+solvedCount	165
+name	Large Refrigerator
+
+contestId	163
+index	D
+verdict	WRONG_ANSWER
+id	1416202
+programmingLanguage	FPC
+solvedCount	165
+name	Large Refrigerator
+
+contestId	163
+index	D
+verdict	WRONG_ANSWER
+id	1416136
+programmingLanguage	FPC
+solvedCount	165
+name	Large Refrigerator
+
+contestId	163
+index	D
+verdict	WRONG_ANSWER
+id	1415182
+programmingLanguage	FPC
+solvedCount	165
+name	Large Refrigerator
+
+contestId	163
+index	E
+verdict	OK
+id	1412489
+programmingLanguage	Delphi
+solvedCount	305
+name	e-Government
+tag0	data structures
+tag1	dfs and similar
+tag2	dp
+tag3	strings
+
+contestId	163
+index	B
+verdict	OK
+id	1411057
+programmingLanguage	Delphi
+solvedCount	645
+name	Lemmings
+
+contestId	163
+index	C
+verdict	OK
+id	1410319
+programmingLanguage	Delphi
+solvedCount	408
+name	Conveyor
+
+contestId	163
+index	A
+verdict	OK
+id	1409313
+programmingLanguage	Delphi
+solvedCount	1257
+name	Substring and Subsequence
+
+contestId	164
+index	D
+verdict	OK
+id	1503272
+programmingLanguage	Delphi
+solvedCount	130
+name	Minimum Diameter
+tag0	binary search
+
+contestId	164
+index	D
+verdict	WRONG_ANSWER
+id	1503137
+programmingLanguage	Delphi
+solvedCount	130
+name	Minimum Diameter
+tag0	binary search
+
+contestId	164
+index	D
+verdict	WRONG_ANSWER
+id	1503009
+programmingLanguage	Delphi
+solvedCount	130
+name	Minimum Diameter
+tag0	binary search
+
+contestId	164
+index	D
+verdict	WRONG_ANSWER
+id	1502609
+programmingLanguage	Delphi
+solvedCount	130
+name	Minimum Diameter
+tag0	binary search
+
+contestId	164
+index	D
+verdict	WRONG_ANSWER
+id	1502425
+programmingLanguage	Delphi
+solvedCount	130
+name	Minimum Diameter
+tag0	binary search
+
+contestId	164
+index	B
+verdict	OK
+id	1499994
+programmingLanguage	Delphi
+solvedCount	322
+name	Ancient Berland Hieroglyphs
+
+contestId	164
+index	A
+verdict	OK
+id	1498440
+programmingLanguage	Delphi
+solvedCount	591
+name	Variable, or There and Back Again
+tag0	dfs and similar
+
+contestId	165
+index	D
+verdict	OK
+id	1363823
+programmingLanguage	Delphi
+solvedCount	603
+name	Beard Graph
+tag0	data structures
+tag1	dsu
+
+contestId	165
+index	D
+verdict	WRONG_ANSWER
+id	1363372
+programmingLanguage	Delphi
+solvedCount	603
+name	Beard Graph
+tag0	data structures
+tag1	dsu
+
+contestId	165
+index	E
+verdict	OK
+id	1362253
+programmingLanguage	Delphi
+solvedCount	957
+name	Compatible Numbers
+tag0	bitmasks
+tag1	brute force
+tag2	dfs and similar
+
+contestId	165
+index	C
+verdict	OK
+id	1361783
+programmingLanguage	Delphi
+solvedCount	3519
+name	Another Problem on Strings
+tag0	binary search
+tag1	brute force
+tag2	dp
+tag3	math
+tag4	strings
+
+contestId	165
+index	B
+verdict	OK
+id	1361572
+programmingLanguage	Delphi
+solvedCount	3551
+name	Burning Midnight Oil
+tag0	binary search
+
+contestId	165
+index	A
+verdict	OK
+id	1361543
+programmingLanguage	Delphi
+solvedCount	5498
+name	Supercentral Point
+
+contestId	167
+index	E
+verdict	OK
+id	1431660
+programmingLanguage	GNU C++
+solvedCount	159
+name	Wizards and Bets
+tag0	math
+
+contestId	167
+index	A
+verdict	OK
+id	1426303
+programmingLanguage	Delphi
+solvedCount	1485
+name	Wizards and Trolleybuses
+
+contestId	167
+index	B
+verdict	OK
+id	1425716
+programmingLanguage	Delphi
+solvedCount	964
+name	Wizards and Huge Prize
+tag0	dp
+
+contestId	167
+index	C
+verdict	OK
+id	1425129
+programmingLanguage	Delphi
+solvedCount	347
+name	Wizards and Numbers
+tag0	games
+
+contestId	171
+index	G
+verdict	OK
+id	1462911
+programmingLanguage	Delphi
+solvedCount	323
+
+contestId	171
+index	C
+verdict	OK
+id	1462810
+programmingLanguage	Delphi
+solvedCount	400
+name	A Piece of Cake
+
+contestId	171
+index	F
+verdict	OK
+id	1462775
+programmingLanguage	Delphi
+solvedCount	699
+name	ucyhf
+tag0	brute force
+tag1	implementation
+
+contestId	171
+index	D
+verdict	OK
+id	1462738
+programmingLanguage	Delphi
+solvedCount	1291
+name	Broken checker
+
+contestId	171
+index	D
+verdict	WRONG_ANSWER
+id	1462735
+programmingLanguage	Delphi
+solvedCount	1291
+name	Broken checker
+
+contestId	171
+index	D
+verdict	WRONG_ANSWER
+id	1462734
+programmingLanguage	Delphi
+solvedCount	1291
+name	Broken checker
+
+contestId	171
+index	D
+verdict	WRONG_ANSWER
+id	1462730
+programmingLanguage	Delphi
+solvedCount	1291
+name	Broken checker
+
+contestId	171
+index	D
+verdict	WRONG_ANSWER
+id	1462727
+programmingLanguage	Delphi
+solvedCount	1291
+name	Broken checker
+
+contestId	171
+index	D
+verdict	WRONG_ANSWER
+id	1462724
+programmingLanguage	Delphi
+solvedCount	1291
+name	Broken checker
+
+contestId	171
+index	D
+verdict	WRONG_ANSWER
+id	1462719
+programmingLanguage	Delphi
+solvedCount	1291
+name	Broken checker
+
+contestId	171
+index	A
+verdict	OK
+id	1462699
+programmingLanguage	Delphi
+solvedCount	1945
+name	Mysterious numbers - 1
+
+contestId	171
+index	B
+verdict	OK
+id	1462694
+programmingLanguage	Delphi
+solvedCount	1745
+name	Star
+
+contestId	171
+index	E
+verdict	OK
+id	1462690
+programmingLanguage	Secret_171
+solvedCount	327
+
+contestId	173
+index	E
+verdict	OK
+id	1483750
+programmingLanguage	Delphi
+solvedCount	222
+name	Camping Groups
+tag0	data structures
+
+contestId	173
+index	D
+verdict	OK
+id	1482764
+programmingLanguage	Delphi
+solvedCount	150
+name	Deputies
+tag0	constructive algorithms
+tag1	graphs
+tag2	greedy
+
+contestId	173
+index	B
+verdict	OK
+id	1481564
+programmingLanguage	Delphi
+solvedCount	885
+name	Chamber of Secrets
+tag0	dfs and similar
+
+contestId	173
+index	C
+verdict	OK
+id	1481290
+programmingLanguage	Delphi
+solvedCount	626
+name	Spiral Maximum
+tag0	brute force
+
+contestId	173
+index	C
+verdict	WRONG_ANSWER
+id	1480884
+programmingLanguage	Delphi
+solvedCount	626
+name	Spiral Maximum
+tag0	brute force
+
+contestId	173
+index	A
+verdict	OK
+id	1480149
+programmingLanguage	Delphi
+solvedCount	1482
+name	Rock-Paper-Scissors
+tag0	implementation
+
+contestId	175
+index	E
+verdict	OK
+id	1536306
+programmingLanguage	Delphi
+solvedCount	128
+name	Power Defence
+tag0	brute force
+tag1	dp
+
+contestId	175
+index	D
+verdict	OK
+id	1535308
+programmingLanguage	Delphi
+solvedCount	186
+name	Plane of Tanks: Duel
+tag0	brute force
+tag1	dp
+
+contestId	175
+index	C
+verdict	OK
+id	1532709
+programmingLanguage	Delphi
+solvedCount	740
+name	Geometry Horse
+tag0	greedy
+tag1	implementation
+
+contestId	175
+index	B
+verdict	OK
+id	1532316
+programmingLanguage	Delphi
+solvedCount	927
+name	Plane of Tanks: Pro
+
+contestId	175
+index	A
+verdict	OK
+id	1531987
+programmingLanguage	Delphi
+solvedCount	1690
+name	Robot Bicorn Attack
+tag0	brute force
+
+contestId	180
+index	A
+verdict	OK
+id	1609591
+programmingLanguage	Delphi
+solvedCount	373
+name	Defragmentation
+
+contestId	180
+index	D
+verdict	OK
+id	1609317
+programmingLanguage	Delphi
+solvedCount	450
+name	Name
+tag0	greedy
+
+contestId	180
+index	B
+verdict	OK
+id	1608634
+programmingLanguage	Delphi
+solvedCount	196
+name	Divisibility Rules
+tag0	math
+
+contestId	180
+index	B
+verdict	WRONG_ANSWER
+id	1608482
+programmingLanguage	Delphi
+solvedCount	196
+name	Divisibility Rules
+tag0	math
+
+contestId	180
+index	F
+verdict	OK
+id	1608295
+programmingLanguage	Delphi
+solvedCount	1148
+name	Mathematical Analysis Rocks!
+tag0	constructive algorithms
+tag1	implementation
+
+contestId	180
+index	E
+verdict	OK
+id	1608265
+programmingLanguage	Delphi
+solvedCount	703
+name	Cubes
+tag0	binary search
+tag1	dp
+
+contestId	180
+index	C
+verdict	OK
+id	1608236
+programmingLanguage	Delphi
+solvedCount	1747
+name	Letter
+
+contestId	185
+index	C
+verdict	WRONG_ANSWER
+id	1658549
+programmingLanguage	Delphi
+solvedCount	40
+name	Clever Fat Rat
+
+contestId	185
+index	D
+verdict	OK
+id	1657656
+programmingLanguage	FPC
+solvedCount	201
+name	Visit of the Great
+tag0	math
+
+contestId	185
+index	D
+verdict	WRONG_ANSWER
+id	1657319
+programmingLanguage	FPC
+solvedCount	201
+name	Visit of the Great
+tag0	math
+
+contestId	185
+index	D
+verdict	WRONG_ANSWER
+id	1656997
+programmingLanguage	FPC
+solvedCount	201
+name	Visit of the Great
+tag0	math
+
+contestId	185
+index	D
+verdict	WRONG_ANSWER
+id	1656803
+programmingLanguage	FPC
+solvedCount	201
+name	Visit of the Great
+tag0	math
+
+contestId	185
+index	B
+verdict	OK
+id	1654143
+programmingLanguage	Delphi
+solvedCount	953
+name	Mushroom Scientists
+tag0	math
+
+contestId	185
+index	A
+verdict	OK
+id	1652777
+programmingLanguage	Delphi
+solvedCount	2590
+name	Plant
+
+contestId	193
+index	E
+verdict	OK
+id	1760964
+programmingLanguage	GNU C++
+solvedCount	146
+name	Fibonacci Number
+tag0	brute force
+tag1	math
+
+contestId	193
+index	C
+verdict	OK
+id	1759791
+programmingLanguage	Delphi
+solvedCount	261
+name	Hamming Distance
+tag0	constructive algorithms
+tag1	greedy
+tag2	math
+
+contestId	193
+index	B
+verdict	OK
+id	1754726
+programmingLanguage	Delphi
+solvedCount	589
+name	Xor
+
+contestId	193
+index	A
+verdict	OK
+id	1754079
+programmingLanguage	Delphi
+solvedCount	1349
+name	Cutting Figure
+tag0	2-sat
+tag1	chinese remainder theorem
+
+contestId	196
+index	D
+verdict	OK
+id	1794229
+programmingLanguage	Delphi
+solvedCount	190
+name	The Next Good String
+tag0	data structures
+tag1	greedy
+tag2	hashing
+
+contestId	196
+index	E
+verdict	OK
+id	1792424
+programmingLanguage	Delphi
+solvedCount	266
+name	Opening Portals
+tag0	dsu
+tag1	graphs
+
+contestId	196
+index	C
+verdict	OK
+id	1790334
+programmingLanguage	Delphi
+solvedCount	436
+name	Paint Tree
+tag0	divide and conquer
+tag1	geometry
+tag2	sortings
+
+contestId	196
+index	B
+verdict	OK
+id	1788499
+programmingLanguage	Delphi
+solvedCount	1015
+name	Infinite Maze
+
+contestId	196
+index	A
+verdict	OK
+id	1787619
+programmingLanguage	Delphi
+solvedCount	2896
+name	Lexicographically Maximum Subsequence
+
+contestId	198
+index	C
+verdict	OK
+id	1820338
+programmingLanguage	Delphi
+solvedCount	233
+name	Delivering Carcinogen
+tag0	binary search
+
+contestId	198
+index	E
+verdict	OK
+id	1818691
+programmingLanguage	Delphi
+solvedCount	240
+name	Gripping Story
+tag0	binary search
+tag1	data structures
+
+contestId	198
+index	B
+verdict	OK
+id	1815002
+programmingLanguage	Delphi
+solvedCount	1470
+name	Jumping on Walls
+
+contestId	198
+index	A
+verdict	OK
+id	1814240
+programmingLanguage	Delphi
+solvedCount	1701
+name	About Bacteria
+tag0	implementation
+
+contestId	204
+index	E
+verdict	OK
+id	1890672
+programmingLanguage	Delphi
+solvedCount	309
+name	Little Elephant and Strings
+tag0	data structures
+tag1	implementation
+tag2	string suffix structures
+
+contestId	204
+index	D
+verdict	OK
+id	1888443
+programmingLanguage	Delphi
+solvedCount	226
+name	Little Elephant and Retro Strings
+
+contestId	204
+index	C
+verdict	OK
+id	1887685
+programmingLanguage	Delphi
+solvedCount	676
+name	Little Elephant and Furik and Rubik
+tag0	math
+
+contestId	204
+index	D
+verdict	WRONG_ANSWER
+id	1887431
+programmingLanguage	Delphi
+solvedCount	226
+name	Little Elephant and Retro Strings
+
+contestId	204
+index	C
+verdict	SKIPPED
+id	1885750
+programmingLanguage	Delphi
+solvedCount	676
+name	Little Elephant and Furik and Rubik
+tag0	math
+
+contestId	204
+index	B
+verdict	OK
+id	1884626
+programmingLanguage	Delphi
+solvedCount	2304
+name	Little Elephant and Cards
+tag0	binary search
+
+contestId	204
+index	A
+verdict	OK
+id	1883566
+programmingLanguage	Delphi
+solvedCount	2236
+name	Little Elephant and Interval
+tag0	binary search
+tag1	combinatorics
+
+contestId	209
+index	B
+verdict	OK
+id	1899085
+programmingLanguage	Delphi
+solvedCount	169
+name	Pixels
+tag0	constructive algorithms
+
+contestId	209
+index	C
+verdict	OK
+id	1898916
+programmingLanguage	Delphi
+solvedCount	271
+name	Trails and Glades
+tag0	constructive algorithms
+tag1	dsu
+tag2	graphs
+
+contestId	209
+index	C
+verdict	SKIPPED
+id	1898908
+programmingLanguage	Delphi
+solvedCount	271
+name	Trails and Glades
+tag0	constructive algorithms
+tag1	dsu
+tag2	graphs
+
+contestId	209
+index	A
+verdict	OK
+id	1898847
+programmingLanguage	Delphi
+solvedCount	288
+name	Multicolored Marbles
+tag0	dp
+
+contestId	212
+index	A
+verdict	OK
+id	1913805
+programmingLanguage	Delphi
+solvedCount	36
+name	Privatization
+tag0	flows
+
+contestId	212
+index	A
+verdict	RUNTIME_ERROR
+id	1913803
+programmingLanguage	Delphi
+solvedCount	36
+name	Privatization
+tag0	flows
+
+contestId	212
+index	A
+verdict	WRONG_ANSWER
+id	1913684
+programmingLanguage	Delphi
+solvedCount	36
+name	Privatization
+tag0	flows
+
+contestId	212
+index	A
+verdict	WRONG_ANSWER
+id	1913680
+programmingLanguage	Delphi
+solvedCount	36
+name	Privatization
+tag0	flows
+
+contestId	212
+index	A
+verdict	WRONG_ANSWER
+id	1913676
+programmingLanguage	Delphi
+solvedCount	36
+name	Privatization
+tag0	flows
+
+contestId	212
+index	A
+verdict	WRONG_ANSWER
+id	1912712
+programmingLanguage	Delphi
+solvedCount	36
+name	Privatization
+tag0	flows
+
+contestId	212
+index	A
+verdict	WRONG_ANSWER
+id	1912711
+programmingLanguage	Delphi
+solvedCount	36
+name	Privatization
+tag0	flows
+
+contestId	212
+index	A
+verdict	TIME_LIMIT_EXCEEDED
+id	1912710
+programmingLanguage	Delphi
+solvedCount	36
+name	Privatization
+tag0	flows
+
+contestId	212
+index	A
+verdict	WRONG_ANSWER
+id	1912708
+programmingLanguage	Delphi
+solvedCount	36
+name	Privatization
+tag0	flows
+
+contestId	212
+index	A
+verdict	TIME_LIMIT_EXCEEDED
+id	1912706
+programmingLanguage	Delphi
+solvedCount	36
+name	Privatization
+tag0	flows
+
+contestId	212
+index	A
+verdict	WRONG_ANSWER
+id	1912697
+programmingLanguage	Delphi
+solvedCount	36
+name	Privatization
+tag0	flows
+
+contestId	212
+index	A
+verdict	WRONG_ANSWER
+id	1912695
+programmingLanguage	Delphi
+solvedCount	36
+name	Privatization
+tag0	flows
+
+contestId	212
+index	A
+verdict	WRONG_ANSWER
+id	1912685
+programmingLanguage	Delphi
+solvedCount	36
+name	Privatization
+tag0	flows
+
+contestId	212
+index	A
+verdict	WRONG_ANSWER
+id	1912671
+programmingLanguage	Delphi
+solvedCount	36
+name	Privatization
+tag0	flows
+
+contestId	212
+index	A
+verdict	WRONG_ANSWER
+id	1912662
+programmingLanguage	Delphi
+solvedCount	36
+name	Privatization
+tag0	flows
+
+contestId	212
+index	A
+verdict	WRONG_ANSWER
+id	1912661
+programmingLanguage	Delphi
+solvedCount	36
+name	Privatization
+tag0	flows
+
+contestId	213
+index	E
+verdict	WRONG_ANSWER
+id	1964398
+programmingLanguage	Delphi
+solvedCount	262
+name	Two Permutations
+tag0	data structures
+tag1	hashing
+
+contestId	213
+index	E
+verdict	WRONG_ANSWER
+id	1964397
+programmingLanguage	Delphi
+solvedCount	262
+name	Two Permutations
+tag0	data structures
+tag1	hashing
+
+contestId	213
+index	E
+verdict	WRONG_ANSWER
+id	1964391
+programmingLanguage	Delphi
+solvedCount	262
+name	Two Permutations
+tag0	data structures
+tag1	hashing
+
+contestId	213
+index	E
+verdict	WRONG_ANSWER
+id	1960286
+programmingLanguage	Delphi
+solvedCount	262
+name	Two Permutations
+tag0	data structures
+tag1	hashing
+
+contestId	213
+index	D
+verdict	OK
+id	1957392
+programmingLanguage	Delphi
+solvedCount	219
+name	Stars
+tag0	constructive algorithms
+
+contestId	213
+index	C
+verdict	OK
+id	1955832
+programmingLanguage	Delphi
+solvedCount	933
+name	Relay Race
+
+contestId	213
+index	B
+verdict	OK
+id	1955124
+programmingLanguage	Delphi
+solvedCount	888
+name	Numbers
+tag0	combinatorics
+
+contestId	213
+index	A
+verdict	OK
+id	1954282
+programmingLanguage	Delphi
+solvedCount	1059
+name	Game
+tag0	dfs and similar
+
+contestId	216
+index	A
+verdict	OK
+id	2019841
+programmingLanguage	Delphi
+solvedCount	3098
+name	Tiling with Hexagons
+tag0	implementation
+
+contestId	217
+index	C
+verdict	OK
+id	2028513
+programmingLanguage	Delphi
+solvedCount	186
+name	Formurosa
+tag0	divide and conquer
+tag1	dp
+
+contestId	217
+index	C
+verdict	WRONG_ANSWER
+id	2028499
+programmingLanguage	Delphi
+solvedCount	186
+name	Formurosa
+tag0	divide and conquer
+tag1	dp
+
+contestId	217
+index	B
+verdict	OK
+id	2025056
+programmingLanguage	Delphi
+solvedCount	602
+name	Blackboard Fibonacci
+tag0	brute force
+
+contestId	217
+index	B
+verdict	WRONG_ANSWER
+id	2024863
+programmingLanguage	Delphi
+solvedCount	602
+name	Blackboard Fibonacci
+tag0	brute force
+
+contestId	217
+index	A
+verdict	OK
+id	2023494
+programmingLanguage	Delphi
+solvedCount	4860
+name	Ice Skating
+tag0	brute force
+tag1	dfs and similar
+tag2	dsu
+
+contestId	223
+index	A
+verdict	OK
+id	2191691
+programmingLanguage	Delphi
+solvedCount	1287
+name	Bracket Sequence
+tag0	data structures
+tag1	expression parsing
+
+contestId	223
+index	B
+verdict	OK
+id	2191009
+programmingLanguage	Delphi
+solvedCount	863
+name	Two Strings
+tag0	data structures
+tag1	dp
+
+contestId	223
+index	C
+verdict	OK
+id	2189888
+programmingLanguage	FPC
+solvedCount	781
+name	Partial Sums
+tag0	combinatorics
+
+contestId	225
+index	D
+verdict	OK
+id	2216431
+programmingLanguage	GNU C++
+solvedCount	469
+name	Snake
+tag0	bitmasks
+tag1	dfs and similar
+tag2	graphs
+
+contestId	225
+index	B
+verdict	OK
+id	2215147
+programmingLanguage	GNU C++
+solvedCount	1763
+name	Well-known Numbers
+tag0	binary search
+tag1	greedy
+
+contestId	225
+index	E
+verdict	OK
+id	2214686
+programmingLanguage	GNU C++
+solvedCount	435
+name	Unsolvable
+tag0	math
+
+contestId	225
+index	A
+verdict	OK
+id	2213870
+programmingLanguage	GNU C++
+solvedCount	3176
+name	Dice Tower
+tag0	constructive algorithms
+
+contestId	225
+index	A
+verdict	COMPILATION_ERROR
+id	2213839
+programmingLanguage	Delphi
+solvedCount	3176
+name	Dice Tower
+tag0	constructive algorithms
+
+contestId	225
+index	C
+verdict	OK
+id	2213023
+programmingLanguage	GNU C++
+solvedCount	2500
+name	Barcode
+tag0	dp
+
+contestId	225
+index	C
+verdict	WRONG_ANSWER
+id	2212986
+programmingLanguage	GNU C++
+solvedCount	2500
+name	Barcode
+tag0	dp
+
+contestId	232
+index	D
+verdict	OK
+id	2346447
+programmingLanguage	GNU C++
+solvedCount	210
+name	Fence
+tag0	binary search
+tag1	data structures
+
+contestId	232
+index	D
+verdict	WRONG_ANSWER
+id	2346100
+programmingLanguage	GNU C++
+solvedCount	210
+name	Fence
+tag0	binary search
+tag1	data structures
+
+contestId	232
+index	A
+verdict	OK
+id	2343160
+programmingLanguage	GNU C++
+solvedCount	1336
+name	Cycles
+tag0	binary search
+tag1	constructive algorithms
+tag2	graphs
+
+contestId	232
+index	A
+verdict	SKIPPED
+id	2342652
+programmingLanguage	GNU C++
+solvedCount	1336
+name	Cycles
+tag0	binary search
+tag1	constructive algorithms
+tag2	graphs
+
+contestId	232
+index	B
+verdict	OK
+id	2340867
+programmingLanguage	GNU C++
+solvedCount	769
+name	Table
+tag0	bitmasks
+tag1	combinatorics
+tag2	dp
+
+contestId	235
+index	B
+verdict	OK
+id	2396839
+programmingLanguage	Delphi
+solvedCount	1020
+name	Let's Play Osu!
+tag0	dp
+tag1	math
+
+contestId	235
+index	A
+verdict	OK
+id	2395919
+programmingLanguage	GNU C++
+solvedCount	3857
+name	LCM Challenge
+
+contestId	238
+index	E
+verdict	OK
+id	2504243
+programmingLanguage	GNU C++
+solvedCount	142
+name	Meeting Her
+tag0	dp
+tag1	graphs
+
+contestId	238
+index	B
+verdict	OK
+id	2501797
+programmingLanguage	GNU C++
+solvedCount	741
+name	Boring Partition
+
+contestId	238
+index	C
+verdict	OK
+id	2500671
+programmingLanguage	GNU C++
+solvedCount	571
+name	World Eater Brothers
+tag0	dfs and similar
+tag1	dp
+tag2	greedy
+
+contestId	238
+index	A
+verdict	OK
+id	2498053
+programmingLanguage	Delphi
+solvedCount	1399
+name	Not Wool Sequences
+tag0	constructive algorithms
+
+contestId	240
+index	E
+verdict	OK
+id	2372786
+programmingLanguage	GNU C++
+solvedCount	137
+name	Road Repairs
+tag0	dfs and similar
+tag1	graphs
+
+contestId	240
+index	E
+verdict	WRONG_ANSWER
+id	2372744
+programmingLanguage	GNU C++
+solvedCount	137
+name	Road Repairs
+tag0	dfs and similar
+tag1	graphs
+
+contestId	240
+index	E
+verdict	WRONG_ANSWER
+id	2369801
+programmingLanguage	GNU C++
+solvedCount	137
+name	Road Repairs
+tag0	dfs and similar
+tag1	graphs
+
+contestId	240
+index	F
+verdict	OK
+id	2369245
+programmingLanguage	GNU C++
+solvedCount	356
+name	TorCoder
+
+contestId	240
+index	F
+verdict	TIME_LIMIT_EXCEEDED
+id	2368223
+programmingLanguage	GNU C++
+solvedCount	356
+name	TorCoder
+
+contestId	241
+index	D
+verdict	OK
+id	2487982
+programmingLanguage	GNU C++
+solvedCount	91
+
+contestId	241
+index	D
+verdict	OK
+id	2487916
+programmingLanguage	GNU C++
+solvedCount	91
+
+contestId	241
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	2487863
+programmingLanguage	MS C++
+solvedCount	91
+
+contestId	241
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	2487851
+programmingLanguage	MS C++
+solvedCount	91
+
+contestId	241
+index	D
+verdict	WRONG_ANSWER
+id	2487772
+programmingLanguage	GNU C++
+solvedCount	91
+
+contestId	241
+index	D
+verdict	MEMORY_LIMIT_EXCEEDED
+id	2487761
+programmingLanguage	GNU C++
+solvedCount	91
+
+contestId	241
+index	D
+verdict	WRONG_ANSWER
+id	2487631
+programmingLanguage	GNU C++
+solvedCount	91
+
+contestId	241
+index	D
+verdict	WRONG_ANSWER
+id	2487241
+programmingLanguage	GNU C++
+solvedCount	91
+
+contestId	241
+index	B
+verdict	OK
+id	2485774
+programmingLanguage	GNU C++
+solvedCount	170
+name	Friends
+tag0	binary search
+tag1	bitmasks
+tag2	data structures
+
+contestId	241
+index	F
+verdict	OK
+id	2484024
+programmingLanguage	GNU C++
+solvedCount	203
+name	Race
+tag0	brute force
+
+contestId	241
+index	F
+verdict	WRONG_ANSWER
+id	2483389
+programmingLanguage	GNU C++
+solvedCount	203
+name	Race
+tag0	brute force
+
+contestId	241
+index	E
+verdict	OK
+id	2482138
+programmingLanguage	GNU C++
+solvedCount	247
+name	Flights
+tag0	graphs
+
+contestId	241
+index	G
+verdict	OK
+id	2481472
+programmingLanguage	GNU C++
+solvedCount	455
+name	Challenging Balloons
+
+contestId	241
+index	G
+verdict	WRONG_ANSWER
+id	2481354
+programmingLanguage	GNU C++
+solvedCount	455
+name	Challenging Balloons
+
+contestId	241
+index	C
+verdict	OK
+id	2480741
+programmingLanguage	GNU C++
+solvedCount	403
+name	Mirror Box
+tag0	geometry
+
+contestId	241
+index	A
+verdict	OK
+id	2480014
+programmingLanguage	GNU C++
+solvedCount	1683
+name	Old Peykan
+
+contestId	243
+index	B
+verdict	OK
+id	2574723
+programmingLanguage	GNU C++
+solvedCount	773
+name	Hydra
+tag0	graphs
+
+contestId	243
+index	B
+verdict	WRONG_ANSWER
+id	2570569
+programmingLanguage	GNU C++
+solvedCount	773
+name	Hydra
+tag0	graphs
+
+contestId	243
+index	C
+verdict	OK
+id	2569802
+programmingLanguage	GNU C++
+solvedCount	304
+name	Colorado Potato Beetle
+tag0	dfs and similar
+
+contestId	243
+index	A
+verdict	OK
+id	2567807
+programmingLanguage	GNU C++
+solvedCount	1663
+name	The Brand New Function
+
+contestId	251
+index	C
+verdict	OK
+id	2708116
+programmingLanguage	GNU C++
+solvedCount	611
+name	Number Transformation
+tag0	dp
+tag1	greedy
+
+contestId	251
+index	C
+verdict	SKIPPED
+id	2707901
+programmingLanguage	GNU C++
+solvedCount	611
+name	Number Transformation
+tag0	dp
+tag1	greedy
+
+contestId	251
+index	D
+verdict	OK
+id	2706516
+programmingLanguage	GNU C++
+solvedCount	207
+name	Two Sets
+tag0	bitmasks
+
+contestId	251
+index	D
+verdict	WRONG_ANSWER
+id	2705710
+programmingLanguage	GNU C++
+solvedCount	207
+name	Two Sets
+tag0	bitmasks
+
+contestId	251
+index	B
+verdict	OK
+id	2702885
+programmingLanguage	GNU C++
+solvedCount	818
+name	Playing with Permutations
+tag0	implementation
+
+contestId	251
+index	B
+verdict	WRONG_ANSWER
+id	2702163
+programmingLanguage	GNU C++
+solvedCount	818
+name	Playing with Permutations
+tag0	implementation
+
+contestId	251
+index	A
+verdict	OK
+id	2700911
+programmingLanguage	GNU C++
+solvedCount	3691
+name	Points on Line
+tag0	binary search
+tag1	combinatorics
+
+contestId	260
+index	D
+verdict	OK
+id	2844129
+programmingLanguage	GNU C++
+solvedCount	657
+name	Black and White Tree
+tag0	constructive algorithms
+tag1	dsu
+tag2	graphs
+tag3	greedy
+
+contestId	260
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	2843326
+programmingLanguage	GNU C++
+solvedCount	657
+name	Black and White Tree
+tag0	constructive algorithms
+tag1	dsu
+tag2	graphs
+tag3	greedy
+
+contestId	260
+index	E
+verdict	OK
+id	2840239
+programmingLanguage	GNU C++
+solvedCount	242
+name	Dividing Kingdom
+tag0	binary search
+tag1	brute force
+
+contestId	260
+index	C
+verdict	OK
+id	2837093
+programmingLanguage	GNU C++
+solvedCount	1477
+name	Balls and Boxes
+tag0	greedy
+
+contestId	260
+index	B
+verdict	OK
+id	2836467
+programmingLanguage	GNU C++
+solvedCount	1982
+name	Ancient Prophesy
+tag0	brute force
+tag1	implementation
+
+contestId	260
+index	A
+verdict	OK
+id	2836160
+programmingLanguage	GNU C++
+solvedCount	3642
+name	Adding Digits
+tag0	implementation
+
+contestId	269
+index	D
+verdict	OK
+id	3055065
+programmingLanguage	GNU C++
+solvedCount	219
+name	Maximum Waterfall
+tag0	data structures
+
+contestId	269
+index	B
+verdict	OK
+id	3051384
+programmingLanguage	GNU C++
+solvedCount	2182
+name	Greenhouse Effect
+
+contestId	269
+index	A
+verdict	OK
+id	3050569
+programmingLanguage	GNU C++
+solvedCount	2232
+name	Magical Boxes
+tag0	greedy
+
+contestId	269
+index	A
+verdict	WRONG_ANSWER
+id	3050067
+programmingLanguage	GNU C++
+solvedCount	2232
+name	Magical Boxes
+tag0	greedy
+
+contestId	269
+index	C
+verdict	OK
+id	3048752
+programmingLanguage	GNU C++
+solvedCount	844
+name	Flawed Flow
+tag0	constructive algorithms
+tag1	flows
+
+contestId	273
+index	E
+verdict	OK
+id	3120720
+programmingLanguage	GNU C++
+solvedCount	129
+name	Dima and Game
+tag0	dp
+
+contestId	273
+index	D
+verdict	OK
+id	3117520
+programmingLanguage	GNU C++
+solvedCount	214
+name	Dima and Figure
+
+contestId	280
+index	C
+verdict	OK
+id	3277787
+programmingLanguage	GNU C++
+solvedCount	792
+name	Game on Tree
+tag0	implementation
+tag1	math
+tag2	probabilities
+
+contestId	280
+index	B
+verdict	OK
+id	3277306
+programmingLanguage	GNU C++
+solvedCount	1450
+name	Maximum Xor Secondary
+tag0	data structures
+tag1	implementation
+
+contestId	280
+index	A
+verdict	OK
+id	3275958
+programmingLanguage	GNU C++
+solvedCount	854
+name	Rectangle Puzzle
+
+contestId	291
+index	E
+verdict	OK
+id	3534877
+programmingLanguage	GNU C++
+solvedCount	720
+name	Tree-String Problem
+tag0	dfs and similar
+tag1	hashing
+
+contestId	291
+index	D
+verdict	OK
+id	3534834
+programmingLanguage	GNU C++
+solvedCount	1297
+name	Parallel Programming
+
+contestId	291
+index	C
+verdict	OK
+id	3534733
+programmingLanguage	GNU C++
+solvedCount	1497
+name	Network Mask
+tag0	brute force
+
+contestId	291
+index	B
+verdict	OK
+id	3534671
+programmingLanguage	GNU C++
+solvedCount	2527
+name	Command Line Arguments
+tag0	implementation
+
+contestId	291
+index	B
+verdict	WRONG_ANSWER
+id	3534645
+programmingLanguage	GNU C++
+solvedCount	2527
+name	Command Line Arguments
+tag0	implementation
+
+contestId	291
+index	A
+verdict	OK
+id	3534584
+programmingLanguage	GNU C++
+solvedCount	3862
+name	Spyke Talks
+tag0	implementation
+
+contestId	292
+index	D
+verdict	OK
+id	3549635
+programmingLanguage	MS C++
+solvedCount	1035
+name	Connected Components
+tag0	data structures
+tag1	dfs and similar
+tag2	dp
+
+contestId	292
+index	C
+verdict	OK
+id	3544312
+programmingLanguage	GNU C++
+solvedCount	607
+name	Beautiful IP Addresses
+
+contestId	292
+index	D
+verdict	OK
+id	3543332
+programmingLanguage	GNU C++
+solvedCount	1035
+name	Connected Components
+tag0	data structures
+tag1	dfs and similar
+tag2	dp
+
+contestId	292
+index	E
+verdict	OK
+id	3542709
+programmingLanguage	GNU C++
+solvedCount	1243
+name	Copying Data
+
+contestId	292
+index	A
+verdict	OK
+id	3541917
+programmingLanguage	GNU C++
+solvedCount	1748
+name	SMSC
+
+contestId	292
+index	B
+verdict	OK
+id	3541690
+programmingLanguage	GNU C++
+solvedCount	2636
+name	Network Topology
+tag0	graphs
+
+contestId	293
+index	E
+verdict	OK
+id	3609723
+programmingLanguage	GNU C++
+solvedCount	272
+name	Close Vertices
+tag0	data structures
+tag1	divide and conquer
+
+contestId	293
+index	E
+verdict	WRONG_ANSWER
+id	3609678
+programmingLanguage	GNU C++
+solvedCount	272
+name	Close Vertices
+tag0	data structures
+tag1	divide and conquer
+
+contestId	293
+index	B
+verdict	OK
+id	3606650
+programmingLanguage	GNU C++
+solvedCount	265
+name	Distinct Paths
+tag0	brute force
+
+contestId	293
+index	A
+verdict	OK
+id	3605548
+programmingLanguage	GNU C++
+solvedCount	1497
+name	Weird Game
+tag0	games
+
+contestId	293
+index	C
+verdict	OK
+id	3605165
+programmingLanguage	GNU C++
+solvedCount	394
+name	Cube Problem
+tag0	brute force
+tag1	math
+
+contestId	293
+index	D
+verdict	OK
+id	3603787
+programmingLanguage	GNU C++
+solvedCount	142
+name	Ksusha and Square
+tag0	geometry
+tag1	math
+tag2	probabilities
+
+contestId	297
+index	E
+verdict	OK
+id	3573577
+programmingLanguage	GNU C++
+solvedCount	101
+name	Mystic Carvings
+
+contestId	297
+index	C
+verdict	OK
+id	3572198
+programmingLanguage	GNU C++
+solvedCount	516
+name	Splitting the Uniqueness
+
+contestId	297
+index	D
+verdict	OK
+id	3571285
+programmingLanguage	GNU C++
+solvedCount	255
+name	Color the Carpet
+
+contestId	297
+index	B
+verdict	OK
+id	3565273
+programmingLanguage	GNU C++
+solvedCount	2109
+name	Fish Weight
+tag0	constructive algorithms
+
+contestId	297
+index	A
+verdict	OK
+id	3564985
+programmingLanguage	GNU C++
+solvedCount	2324
+name	Parity Game
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713985
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713984
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713982
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713980
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713978
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713975
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713974
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713971
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713959
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713952
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713949
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713946
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713940
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713935
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713932
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713928
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713915
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713909
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713905
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713899
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713894
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713888
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713886
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	WRONG_ANSWER
+id	3713882
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	TIME_LIMIT_EXCEEDED
+id	3713733
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	303
+index	E
+verdict	OK
+id	3713726
+programmingLanguage	GNU C++
+solvedCount	88
+name	Random Ranking
+
+contestId	316
+index	G3
+verdict	TIME_LIMIT_EXCEEDED
+id	3875572
+programmingLanguage	GNU C++
+solvedCount	183
+name	Good Substrings
+
+contestId	316
+index	G3
+verdict	TIME_LIMIT_EXCEEDED
+id	3875527
+programmingLanguage	GNU C++
+solvedCount	183
+name	Good Substrings
+
+contestId	316
+index	G3
+verdict	TIME_LIMIT_EXCEEDED
+id	3875466
+programmingLanguage	GNU C++
+solvedCount	183
+name	Good Substrings
+
+contestId	316
+index	F3
+verdict	OK
+id	3872862
+programmingLanguage	GNU C++
+solvedCount	112
+name	Suns and Rays
+tag0	constructive algorithms
+tag1	dfs and similar
+
+contestId	316
+index	F2
+verdict	OK
+id	3872762
+programmingLanguage	GNU C++
+solvedCount	108
+
+contestId	316
+index	F3
+verdict	WRONG_ANSWER
+id	3872694
+programmingLanguage	GNU C++
+solvedCount	112
+name	Suns and Rays
+tag0	constructive algorithms
+tag1	dfs and similar
+
+contestId	316
+index	F3
+verdict	WRONG_ANSWER
+id	3872487
+programmingLanguage	GNU C++
+solvedCount	112
+name	Suns and Rays
+tag0	constructive algorithms
+tag1	dfs and similar
+
+contestId	316
+index	F2
+verdict	OK
+id	3872476
+programmingLanguage	GNU C++
+solvedCount	108
+
+contestId	316
+index	F1
+verdict	OK
+id	3872438
+programmingLanguage	GNU C++
+solvedCount	121
+name	Suns and Rays
+tag0	dfs and similar
+
+contestId	316
+index	F1
+verdict	WRONG_ANSWER
+id	3872150
+programmingLanguage	GNU C++
+solvedCount	121
+name	Suns and Rays
+tag0	dfs and similar
+
+contestId	316
+index	F1
+verdict	WRONG_ANSWER
+id	3871802
+programmingLanguage	GNU C++
+solvedCount	121
+name	Suns and Rays
+tag0	dfs and similar
+
+contestId	316
+index	E3
+verdict	OK
+id	3870518
+programmingLanguage	GNU C++
+solvedCount	277
+name	Summer Homework
+tag0	data structures
+
+contestId	316
+index	E2
+verdict	OK
+id	3869439
+programmingLanguage	GNU C++
+solvedCount	269
+name	Summer Homework
+tag0	data structures
+
+contestId	316
+index	E2
+verdict	TIME_LIMIT_EXCEEDED
+id	3869197
+programmingLanguage	GNU C++
+solvedCount	269
+name	Summer Homework
+tag0	data structures
+
+contestId	316
+index	E2
+verdict	WRONG_ANSWER
+id	3868861
+programmingLanguage	GNU C++
+solvedCount	269
+name	Summer Homework
+tag0	data structures
+
+contestId	316
+index	F1
+verdict	WRONG_ANSWER
+id	3868049
+programmingLanguage	GNU C++
+solvedCount	121
+name	Suns and Rays
+tag0	dfs and similar
+
+contestId	316
+index	G2
+verdict	OK
+id	3867332
+programmingLanguage	GNU C++
+solvedCount	278
+name	Good Substrings
+
+contestId	316
+index	G1
+verdict	OK
+id	3867240
+programmingLanguage	GNU C++
+solvedCount	649
+name	Good Substrings
+tag0	hashing
+
+contestId	316
+index	F1
+verdict	WRONG_ANSWER
+id	3866051
+programmingLanguage	GNU C++
+solvedCount	121
+name	Suns and Rays
+tag0	dfs and similar
+
+contestId	316
+index	C2
+verdict	OK
+id	3865013
+programmingLanguage	GNU C++
+solvedCount	333
+name	Tidying Up
+tag0	flows
+
+contestId	316
+index	C1
+verdict	OK
+id	3864899
+programmingLanguage	GNU C++
+solvedCount	352
+name	Tidying Up
+
+contestId	316
+index	D3
+verdict	OK
+id	3864059
+programmingLanguage	GNU C++
+solvedCount	249
+name	PE Lesson
+tag0	dp
+
+contestId	316
+index	D2
+verdict	OK
+id	3864057
+programmingLanguage	GNU C++
+solvedCount	233
+name	PE Lesson
+
+contestId	316
+index	E1
+verdict	OK
+id	3863479
+programmingLanguage	GNU C++
+solvedCount	1104
+name	Summer Homework
+tag0	brute force
+
+contestId	316
+index	D1
+verdict	OK
+id	3863206
+programmingLanguage	GNU C++
+solvedCount	257
+name	PE Lesson
+tag0	brute force
+
+contestId	316
+index	B2
+verdict	OK
+id	3861163
+programmingLanguage	GNU C++
+solvedCount	1159
+name	EKG
+tag0	dfs and similar
+
+contestId	316
+index	B1
+verdict	OK
+id	3860823
+programmingLanguage	GNU C++
+solvedCount	1099
+name	EKG
+tag0	brute force
+
+contestId	316
+index	A2
+verdict	OK
+id	3860545
+programmingLanguage	GNU C++
+solvedCount	1650
+name	Special Task
+
+contestId	316
+index	A1
+verdict	OK
+id	3860538
+programmingLanguage	GNU C++
+solvedCount	1899
+name	Special Task
+
+contestId	316
+index	A1
+verdict	WRONG_ANSWER
+id	3860518
+programmingLanguage	GNU C++
+solvedCount	1899
+name	Special Task
+
+contestId	316
+index	A1
+verdict	WRONG_ANSWER
+id	3860517
+programmingLanguage	GNU C++
+solvedCount	1899
+name	Special Task
+
+contestId	317
+index	C
+verdict	WRONG_ANSWER
+id	3892757
+programmingLanguage	GNU C++
+solvedCount	295
+name	Balance
+tag0	constructive algorithms
+tag1	dfs and similar
+tag2	graphs
+
+contestId	317
+index	D
+verdict	OK
+id	3889207
+programmingLanguage	GNU C++
+solvedCount	530
+name	Game with Powers
+tag0	dp
+
+contestId	317
+index	B
+verdict	OK
+id	3888482
+programmingLanguage	GNU C++
+solvedCount	1171
+name	Ants
+tag0	brute force
+
+contestId	317
+index	A
+verdict	OK
+id	3886617
+programmingLanguage	GNU C++
+solvedCount	2892
+name	Perfect Pair
+
+contestId	317
+index	D
+verdict	WRONG_ANSWER
+id	3886404
+programmingLanguage	GNU C++
+solvedCount	530
+name	Game with Powers
+tag0	dp
+
+contestId	329
+index	C
+verdict	OK
+id	4122060
+programmingLanguage	GNU C++
+solvedCount	472
+name	Graph Reconstruction
+
+contestId	329
+index	D
+verdict	OK
+id	4118708
+programmingLanguage	GNU C++
+solvedCount	216
+name	The Evil Temple and the Moving Rocks
+
+contestId	329
+index	B
+verdict	OK
+id	4114580
+programmingLanguage	GNU C++
+solvedCount	2351
+name	Biridian Forest
+tag0	dfs and similar
+
+contestId	329
+index	A
+verdict	OK
+id	4113197
+programmingLanguage	GNU C++
+solvedCount	2773
+name	Purification
+tag0	constructive algorithms
+
+contestId	331
+index	D3
+verdict	OK
+id	4092885
+programmingLanguage	GNU C++
+solvedCount	51
+name	Escaping on Beaveractor
+tag0	data structures
+tag1	implementation
+
+contestId	331
+index	D2
+verdict	OK
+id	4092858
+programmingLanguage	GNU C++
+solvedCount	59
+name	Escaping on Beaveractor
+
+contestId	331
+index	D2
+verdict	OK
+id	4091923
+programmingLanguage	GNU C++
+solvedCount	59
+name	Escaping on Beaveractor
+
+contestId	331
+index	D1
+verdict	OK
+id	4091829
+programmingLanguage	GNU C++
+solvedCount	110
+name	Escaping on Beaveractor
+tag0	dfs and similar
+
+contestId	331
+index	B2
+verdict	OK
+id	4089462
+programmingLanguage	GNU C++
+solvedCount	471
+name	Shave Beaver!
+
+contestId	331
+index	B1
+verdict	OK
+id	4089349
+programmingLanguage	GNU C++
+solvedCount	581
+name	Shave Beaver!
+
+contestId	331
+index	A2
+verdict	OK
+id	4088949
+programmingLanguage	GNU C++
+solvedCount	879
+name	Oh Sweet Beaverette
+tag0	data structures
+
+contestId	331
+index	A1
+verdict	OK
+id	4088920
+programmingLanguage	GNU C++
+solvedCount	954
+name	Oh Sweet Beaverette
+tag0	brute force
+
+contestId	331
+index	C3
+verdict	OK
+id	4088453
+programmingLanguage	GNU C++
+solvedCount	209
+name	The Great Julya Calendar
+
+contestId	331
+index	C2
+verdict	OK
+id	4088451
+programmingLanguage	GNU C++
+solvedCount	173
+name	The Great Julya Calendar
+
+contestId	331
+index	C1
+verdict	OK
+id	4088426
+programmingLanguage	GNU C++
+solvedCount	1237
+name	The Great Julya Calendar
+
+contestId	335
+index	E
+verdict	OK
+id	4224349
+programmingLanguage	GNU C++
+solvedCount	74
+name	Counting Skyscrapers
+tag0	dp
+tag1	math
+
+contestId	335
+index	D
+verdict	OK
+id	4223701
+programmingLanguage	GNU C++
+solvedCount	178
+name	Rectangles and Square
+tag0	brute force
+
+contestId	335
+index	B
+verdict	OK
+id	4222343
+programmingLanguage	GNU C++
+solvedCount	786
+name	Palindrome
+tag0	constructive algorithms
+
+contestId	335
+index	C
+verdict	OK
+id	4222014
+programmingLanguage	GNU C++
+solvedCount	337
+name	More Reclamation
+
+contestId	335
+index	A
+verdict	OK
+id	4221303
+programmingLanguage	GNU C++
+solvedCount	1006
+name	Banana
+tag0	binary search
+tag1	constructive algorithms
+
+contestId	338
+index	D
+verdict	OK
+id	4295147
+programmingLanguage	GNU C++
+solvedCount	252
+name	GCD Table
+tag0	chinese remainder theorem
+tag1	math
+
+contestId	338
+index	E
+verdict	OK
+id	4291715
+programmingLanguage	GNU C++
+solvedCount	304
+name	Optimize!
+
+contestId	338
+index	E
+verdict	WRONG_ANSWER
+id	4291365
+programmingLanguage	GNU C++
+solvedCount	304
+name	Optimize!
+
+contestId	343
+index	E
+verdict	OK
+id	4470358
+programmingLanguage	GNU C++
+solvedCount	155
+name	Pumping Stations
+tag0	brute force
+tag1	dfs and similar
+tag2	divide and conquer
+tag3	flows
+
+contestId	343
+index	D
+verdict	OK
+id	4464141
+programmingLanguage	GNU C++
+solvedCount	1090
+name	Water Tree
+tag0	data structures
+tag1	dfs and similar
+
+contestId	343
+index	C
+verdict	OK
+id	4460935
+programmingLanguage	GNU C++
+solvedCount	1379
+name	Read Time
+tag0	binary search
+tag1	greedy
+
+contestId	343
+index	B
+verdict	OK
+id	4459735
+programmingLanguage	GNU C++
+solvedCount	3397
+name	Alternating Current
+tag0	data structures
+tag1	greedy
+
+contestId	343
+index	A
+verdict	OK
+id	4458959
+programmingLanguage	GNU C++
+solvedCount	3595
+name	Rational Resistance
+tag0	math
+
+contestId	356
+index	D
+verdict	OK
+id	4794974
+programmingLanguage	GNU C++
+solvedCount	245
+name	Bags and Coins
+tag0	bitmasks
+tag1	constructive algorithms
+tag2	dp
+
+contestId	356
+index	C
+verdict	OK
+id	4792387
+programmingLanguage	GNU C++
+solvedCount	786
+name	Compartments
+tag0	combinatorics
+tag1	constructive algorithms
+tag2	greedy
+
+contestId	356
+index	A
+verdict	OK
+id	4790471
+programmingLanguage	GNU C++
+solvedCount	3085
+name	Knight Tournament
+tag0	data structures
+
+contestId	356
+index	B
+verdict	OK
+id	4789769
+programmingLanguage	GNU C++
+solvedCount	1248
+name	Xenia and Hamming
+tag0	implementation
+
+contestId	367
+index	E
+verdict	OK
+id	5253117
+programmingLanguage	GNU C++
+solvedCount	252
+name	Sereja and Intervals
+tag0	combinatorics
+
+contestId	367
+index	D
+verdict	OK
+id	5249684
+programmingLanguage	GNU C++
+solvedCount	352
+name	Sereja and Sets
+tag0	bitmasks
+
+contestId	367
+index	A
+verdict	OK
+id	5248539
+programmingLanguage	GNU C++
+solvedCount	2760
+name	Sereja and Algorithm 
+tag0	data structures
+
+contestId	367
+index	C
+verdict	OK
+id	5247815
+programmingLanguage	GNU C++
+solvedCount	1011
+name	Sereja and the Arrangement of Numbers
+tag0	graphs
+tag1	greedy
+
+contestId	367
+index	B
+verdict	OK
+id	5245452
+programmingLanguage	GNU C++
+solvedCount	1504
+name	Sereja ans Anagrams
+tag0	binary search
+
+contestId	372
+index	D
+verdict	OK
+id	5430216
+programmingLanguage	GNU C++
+solvedCount	319
+name	Choosing Subtree is Fun
+tag0	binary search
+tag1	data structures
+tag2	dfs and similar
+tag3	trees
+
+contestId	372
+index	C
+verdict	OK
+id	5423917
+programmingLanguage	GNU C++
+solvedCount	796
+name	Watching Fireworks is Fun
+tag0	data structures
+tag1	dp
+
+contestId	372
+index	B
+verdict	OK
+id	5421838
+programmingLanguage	GNU C++
+solvedCount	1217
+name	Counting Rectangles is Fun
+tag0	brute force
+tag1	divide and conquer
+
+contestId	372
+index	A
+verdict	OK
+id	5420847
+programmingLanguage	GNU C++
+solvedCount	3630
+name	Counting Kangaroos is Fun
+tag0	binary search
+tag1	greedy
+tag2	sortings
+
+contestId	377
+index	E
+verdict	OK
+id	5565104
+programmingLanguage	GNU C++
+solvedCount	105
+name	Cookie Clicker
+tag0	dp
+
+contestId	377
+index	E
+verdict	WRONG_ANSWER
+id	5560946
+programmingLanguage	GNU C++
+solvedCount	105
+name	Cookie Clicker
+tag0	dp
+
+contestId	377
+index	C
+verdict	OK
+id	5557198
+programmingLanguage	GNU C++
+solvedCount	627
+name	Captains Mode
+tag0	bitmasks
+tag1	dp
+
+contestId	377
+index	B
+verdict	OK
+id	5555860
+programmingLanguage	GNU C++
+solvedCount	1169
+name	Preparing for the Contest
+tag0	binary search
+tag1	data structures
+tag2	greedy
+
+contestId	377
+index	D
+verdict	OK
+id	5554743
+programmingLanguage	GNU C++
+solvedCount	413
+name	Developing Game
+
+contestId	377
+index	A
+verdict	OK
+id	5552294
+programmingLanguage	GNU C++
+solvedCount	4927
+name	Maze
+
+contestId	379
+index	E
+verdict	OK
+id	5580054
+programmingLanguage	GNU C++
+solvedCount	219
+name	New Year Tree Decorations
+tag0	geometry
+tag1	schedules
+
+contestId	379
+index	D
+verdict	OK
+id	5577419
+programmingLanguage	GNU C++
+solvedCount	1010
+name	New Year Letter
+tag0	bitmasks
+tag1	brute force
+
+contestId	379
+index	B
+verdict	OK
+id	5571662
+programmingLanguage	GNU C++
+solvedCount	4877
+name	New Year Present
+tag0	constructive algorithms
+
+contestId	379
+index	C
+verdict	OK
+id	5570734
+programmingLanguage	GNU C++
+solvedCount	4012
+name	New Year Ratings Change
+tag0	greedy
+
+contestId	379
+index	A
+verdict	OK
+id	5570092
+programmingLanguage	GNU C++
+solvedCount	12127
+name	New Year Candles
+
+contestId	388
+index	D
+verdict	OK
+id	5881221
+programmingLanguage	GNU C++
+solvedCount	138
+name	Fox and Perfect Sets
+
+contestId	388
+index	A
+verdict	OK
+id	5878499
+programmingLanguage	GNU C++
+solvedCount	4611
+name	Fox and Box Accumulation
+tag0	greedy
+
+contestId	388
+index	C
+verdict	OK
+id	5878094
+programmingLanguage	GNU C++
+solvedCount	1328
+name	Fox and Card Game
+tag0	games
+tag1	greedy
+
+contestId	388
+index	B
+verdict	OK
+id	5877357
+programmingLanguage	GNU C++
+solvedCount	1303
+name	Fox and Minimal path
+tag0	bitmasks
+tag1	constructive algorithms
+tag2	graphs
+tag3	implementation
+
+contestId	388
+index	A
+verdict	WRONG_ANSWER
+id	5874948
+programmingLanguage	GNU C++
+solvedCount	4611
+name	Fox and Box Accumulation
+tag0	greedy
+
+contestId	407
+index	D
+verdict	OK
+id	6186438
+programmingLanguage	GNU C++
+solvedCount	249
+name	Largest Submatrix 3
+tag0	dp
+
+contestId	407
+index	C
+verdict	OK
+id	6183229
+programmingLanguage	GNU C++
+solvedCount	407
+name	Curious Array
+tag0	brute force
+tag1	implementation
+
+contestId	407
+index	A
+verdict	OK
+id	6179819
+programmingLanguage	GNU C++
+solvedCount	2473
+name	Triangle
+tag0	brute force
+tag1	implementation
+
+contestId	407
+index	B
+verdict	OK
+id	6178779
+programmingLanguage	GNU C++
+solvedCount	2565
+name	Long Path
+tag0	dp
+
+contestId	409
+index	E
+verdict	OK
+id	6229002
+programmingLanguage	GNU C++
+solvedCount	358
+
+contestId	409
+index	D
+verdict	OK
+id	6226300
+programmingLanguage	GNU C++
+solvedCount	645
+
+contestId	409
+index	D
+verdict	WRONG_ANSWER
+id	6226265
+programmingLanguage	GNU C++
+solvedCount	645
+
+contestId	409
+index	D
+verdict	WRONG_ANSWER
+id	6226191
+programmingLanguage	GNU C++
+solvedCount	645
+
+contestId	409
+index	D
+verdict	WRONG_ANSWER
+id	6225763
+programmingLanguage	GNU C++
+solvedCount	645
+
+contestId	409
+index	D
+verdict	WRONG_ANSWER
+id	6225431
+programmingLanguage	GNU C++
+solvedCount	645
+
+contestId	409
+index	D
+verdict	WRONG_ANSWER
+id	6225387
+programmingLanguage	GNU C++
+solvedCount	645
+
+contestId	409
+index	D
+verdict	WRONG_ANSWER
+id	6225332
+programmingLanguage	GNU C++
+solvedCount	645
+
+contestId	409
+index	D
+verdict	WRONG_ANSWER
+id	6224700
+programmingLanguage	GNU C++
+solvedCount	645
+
+contestId	409
+index	H
+verdict	OK
+id	6211134
+programmingLanguage	GNU C++
+solvedCount	3156
+name	A + B Strikes Back
+tag0	brute force
+tag1	constructive algorithms
+tag2	dsu
+
+contestId	409
+index	H
+verdict	WRONG_ANSWER
+id	6211097
+programmingLanguage	GNU C++
+solvedCount	3156
+name	A + B Strikes Back
+tag0	brute force
+tag1	constructive algorithms
+tag2	dsu
+
+contestId	409
+index	H
+verdict	WRONG_ANSWER
+id	6211056
+programmingLanguage	GNU C++
+solvedCount	3156
+name	A + B Strikes Back
+tag0	brute force
+tag1	constructive algorithms
+tag2	dsu
+
+contestId	409
+index	H
+verdict	WRONG_ANSWER
+id	6211027
+programmingLanguage	GNU C++
+solvedCount	3156
+name	A + B Strikes Back
+tag0	brute force
+tag1	constructive algorithms
+tag2	dsu
+
+contestId	409
+index	H
+verdict	WRONG_ANSWER
+id	6210964
+programmingLanguage	GNU C++
+solvedCount	3156
+name	A + B Strikes Back
+tag0	brute force
+tag1	constructive algorithms
+tag2	dsu
+
+contestId	409
+index	H
+verdict	WRONG_ANSWER
+id	6210895
+programmingLanguage	GNU C++
+solvedCount	3156
+name	A + B Strikes Back
+tag0	brute force
+tag1	constructive algorithms
+tag2	dsu
+
+contestId	409
+index	B
+verdict	OK
+id	6210388
+programmingLanguage	Mysterious Language
+solvedCount	954
+
+contestId	409
+index	C
+verdict	OK
+id	6208379
+programmingLanguage	GNU C++
+solvedCount	1300
+
+contestId	409
+index	A
+verdict	OK
+id	6207760
+programmingLanguage	GNU C++
+solvedCount	1614
+
+contestId	412
+index	E
+verdict	OK
+id	6406325
+programmingLanguage	GNU C++
+solvedCount	563
+name	E-mail Addresses
+
+contestId	412
+index	D
+verdict	OK
+id	6405248
+programmingLanguage	GNU C++
+solvedCount	882
+name	Giving Awards
+
+contestId	412
+index	A
+verdict	OK
+id	6404336
+programmingLanguage	GNU C++
+solvedCount	2079
+name	Poster
+tag0	greedy
+
+contestId	412
+index	B
+verdict	OK
+id	6404191
+programmingLanguage	GNU C++
+solvedCount	2163
+name	Network Configuration
+tag0	greedy
+
+contestId	412
+index	C
+verdict	OK
+id	6404170
+programmingLanguage	GNU C++
+solvedCount	1867
+name	Pattern
+tag0	implementation
+
+contestId	418
+index	D
+verdict	OK
+id	6394549
+programmingLanguage	GNU C++
+solvedCount	141
+name	Big Problems for Organizers
+tag0	data structures
+tag1	graphs
+
+contestId	418
+index	D
+verdict	WRONG_ANSWER
+id	6393969
+programmingLanguage	GNU C++
+solvedCount	141
+name	Big Problems for Organizers
+tag0	data structures
+tag1	graphs
+
+contestId	418
+index	D
+verdict	WRONG_ANSWER
+id	6393785
+programmingLanguage	GNU C++
+solvedCount	141
+name	Big Problems for Organizers
+tag0	data structures
+tag1	graphs
+
+contestId	436
+index	F
+verdict	OK
+id	6886429
+programmingLanguage	GNU C++
+solvedCount	84
+name	Banners
+tag0	brute force
+tag1	data structures
+
+contestId	436
+index	F
+verdict	TIME_LIMIT_EXCEEDED
+id	6886422
+programmingLanguage	GNU C++
+solvedCount	84
+name	Banners
+tag0	brute force
+tag1	data structures
+
+contestId	436
+index	F
+verdict	WRONG_ANSWER
+id	6883248
+programmingLanguage	GNU C++
+solvedCount	84
+name	Banners
+tag0	brute force
+tag1	data structures
+
+contestId	436
+index	D
+verdict	OK
+id	6881094
+programmingLanguage	GNU C++
+solvedCount	141
+name	Pudding Monsters
+
+contestId	436
+index	C
+verdict	OK
+id	6875335
+programmingLanguage	GNU C++
+solvedCount	1594
+name	Dungeons and Candies
+tag0	dsu
+tag1	graphs
+tag2	greedy
+
+contestId	436
+index	B
+verdict	OK
+id	6874241
+programmingLanguage	GNU C++
+solvedCount	2454
+name	Om Nom and Spiders
+tag0	implementation
+
+contestId	436
+index	A
+verdict	OK
+id	6873988
+programmingLanguage	GNU C++
+solvedCount	2387
+name	Feed with Candy
+
+contestId	442
+index	E
+verdict	OK
+id	6921847
+programmingLanguage	GNU C++
+solvedCount	66
+name	Gena and Second Distance
+
+contestId	442
+index	C
+verdict	OK
+id	6919336
+programmingLanguage	GNU C++
+solvedCount	761
+name	Artem and Array 
+tag0	data structures
+
+contestId	442
+index	D
+verdict	OK
+id	6917753
+programmingLanguage	GNU C++
+solvedCount	317
+name	Adam and Tree
+tag0	data structures
+
+contestId	442
+index	B
+verdict	OK
+id	6916976
+programmingLanguage	GNU C++
+solvedCount	2306
+name	Andrey and Problem
+tag0	greedy
+tag1	math
+
+contestId	442
+index	A
+verdict	OK
+id	6914458
+programmingLanguage	GNU C++
+solvedCount	1442
+name	Borya and Hanabi
+tag0	bitmasks
+tag1	brute force
+
+contestId	452
+index	E
+verdict	OK
+id	7265530
+programmingLanguage	GNU C++
+solvedCount	308
+name	Three strings
+tag0	data structures
+tag1	dsu
+tag2	string suffix structures
+
+contestId	452
+index	D
+verdict	OK
+id	7263835
+programmingLanguage	GNU C++
+solvedCount	1043
+name	Washer, Dryer, Folder
+tag0	greedy
+
+contestId	452
+index	B
+verdict	OK
+id	7263420
+programmingLanguage	GNU C++
+solvedCount	1550
+name	4-point polyline
+tag0	brute force
+tag1	constructive algorithms
+tag2	geometry
+
+contestId	452
+index	C
+verdict	OK
+id	7262766
+programmingLanguage	GNU C++
+solvedCount	921
+name	Magic Trick
+tag0	combinatorics
+tag1	math
+
+contestId	452
+index	A
+verdict	OK
+id	7258696
+programmingLanguage	GNU C++
+solvedCount	4684
+name	Eevee
+tag0	implementation
+
+contestId	455
+index	E
+verdict	OK
+id	7394351
+programmingLanguage	GNU C++
+solvedCount	181
+name	Function
+
+contestId	455
+index	E
+verdict	WRONG_ANSWER
+id	7393975
+programmingLanguage	GNU C++
+solvedCount	181
+name	Function
+
+contestId	455
+index	D
+verdict	OK
+id	7390969
+programmingLanguage	GNU C++
+solvedCount	617
+name	Serega and Fun
+
+contestId	455
+index	C
+verdict	OK
+id	7383856
+programmingLanguage	GNU C++
+solvedCount	1859
+name	Civilization
+tag0	dfs and similar
+tag1	dp
+tag2	dsu
+tag3	ternary search
+
+contestId	455
+index	C
+verdict	WRONG_ANSWER
+id	7382998
+programmingLanguage	GNU C++
+solvedCount	1859
+name	Civilization
+tag0	dfs and similar
+tag1	dp
+tag2	dsu
+tag3	ternary search
+
+contestId	455
+index	C
+verdict	WRONG_ANSWER
+id	7382688
+programmingLanguage	GNU C++
+solvedCount	1859
+name	Civilization
+tag0	dfs and similar
+tag1	dp
+tag2	dsu
+tag3	ternary search
+
+contestId	455
+index	B
+verdict	OK
+id	7380394
+programmingLanguage	GNU C++
+solvedCount	2098
+name	A Lot of Games
+tag0	dfs and similar
+tag1	dp
+tag2	games
+tag3	implementation
+tag4	strings
+
+contestId	455
+index	A
+verdict	OK
+id	7377249
+programmingLanguage	GNU C++
+solvedCount	10292
+name	Boredom
+
+contestId	464
+index	D
+verdict	OK
+id	7709708
+programmingLanguage	GNU C++
+solvedCount	262
+name	World of Darkraft - 2
+tag0	dp
+
+contestId	464
+index	B
+verdict	OK
+id	7707364
+programmingLanguage	GNU C++
+solvedCount	1210
+name	Restore Cube 
+tag0	brute force
+
+contestId	464
+index	C
+verdict	OK
+id	7704070
+programmingLanguage	GNU C++
+solvedCount	1062
+name	Substitutes in Number
+
+contestId	464
+index	A
+verdict	OK
+id	7701335
+programmingLanguage	GNU C++
+solvedCount	3094
+name	No to Palindromes!
+tag0	greedy
+
+contestId	466
+index	E
+verdict	OK
+id	7758393
+programmingLanguage	GNU C++
+solvedCount	778
+name	Information Graph
+tag0	dfs and similar
+tag1	dsu
+tag2	graphs
+
+contestId	466
+index	D
+verdict	OK
+id	7756150
+programmingLanguage	GNU C++
+solvedCount	970
+name	Increase Sequence
+tag0	combinatorics
+
+contestId	466
+index	C
+verdict	OK
+id	7754473
+programmingLanguage	GNU C++
+solvedCount	6944
+name	Number of Ways
+tag0	binary search
+tag1	brute force
+tag2	data structures
+tag3	dp
+
+contestId	466
+index	B
+verdict	OK
+id	7753781
+programmingLanguage	GNU C++
+solvedCount	2241
+name	Wonder Room
+tag0	brute force
+
+contestId	466
+index	A
+verdict	OK
+id	7753035
+programmingLanguage	GNU C++
+solvedCount	10494
+name	Cheap Travel
+
+contestId	472
+index	A
+verdict	COMPILATION_ERROR
+id	8039550
+programmingLanguage	GNU C++
+solvedCount	12761
+name	Design Tutorial: Learn from Math
+tag0	math
+
+contestId	472
+index	F
+verdict	WRONG_ANSWER
+id	8014079
+programmingLanguage	GNU C++
+solvedCount	145
+name	Design Tutorial: Change the Goal
+tag0	constructive algorithms
+tag1	math
+
+contestId	472
+index	E
+verdict	OK
+id	8012060
+programmingLanguage	GNU C++
+solvedCount	78
+name	Design Tutorial: Learn from a Game
+tag0	constructive algorithms
+
+contestId	472
+index	D
+verdict	OK
+id	8002975
+programmingLanguage	GNU C++
+solvedCount	2123
+name	Design Tutorial: Inverse the Problem
+tag0	dfs and similar
+tag1	dsu
+tag2	shortest paths
+
+contestId	472
+index	C
+verdict	OK
+id	7999042
+programmingLanguage	GNU C++
+solvedCount	4589
+name	Design Tutorial: Make It Nondeterministic
+
+contestId	472
+index	B
+verdict	OK
+id	7996646
+programmingLanguage	GNU C++
+solvedCount	5656
+
+contestId	472
+index	A
+verdict	OK
+id	7996316
+programmingLanguage	GNU C++
+solvedCount	12761
+name	Design Tutorial: Learn from Math
+tag0	math
+
+contestId	474
+index	E
+verdict	OK
+id	8112605
+programmingLanguage	GNU C++
+solvedCount	1040
+name	Pillars
+tag0	binary search
+tag1	data structures
+tag2	dp
+tag3	sortings
+
+contestId	474
+index	F
+verdict	OK
+id	8110974
+programmingLanguage	GNU C++
+solvedCount	1280
+name	Ant colony
+tag0	data structures
+
+contestId	474
+index	D
+verdict	OK
+id	8109752
+programmingLanguage	GNU C++
+solvedCount	5270
+name	Flowers
+
+contestId	474
+index	C
+verdict	OK
+id	8109129
+programmingLanguage	GNU C++
+solvedCount	1638
+name	Captain Marmot
+tag0	brute force
+
+contestId	474
+index	B
+verdict	OK
+id	8107578
+programmingLanguage	GNU C++
+solvedCount	8334
+name	Worms
+tag0	binary search
+
+contestId	474
+index	A
+verdict	OK
+id	8107540
+programmingLanguage	GNU C++
+solvedCount	8976
+name	Keyboard
+
+contestId	482
+index	E
+verdict	OK
+id	8395492
+programmingLanguage	GNU C++
+solvedCount	51
+name	ELCA
+tag0	data structures
+
+contestId	482
+index	E
+verdict	OK
+id	8395487
+programmingLanguage	GNU C++
+solvedCount	51
+name	ELCA
+tag0	data structures
+
+contestId	482
+index	E
+verdict	OK
+id	8395485
+programmingLanguage	GNU C++
+solvedCount	51
+name	ELCA
+tag0	data structures
+
+contestId	482
+index	E
+verdict	OK
+id	8395484
+programmingLanguage	GNU C++
+solvedCount	51
+name	ELCA
+tag0	data structures
+
+contestId	482
+index	E
+verdict	OK
+id	8395481
+programmingLanguage	GNU C++
+solvedCount	51
+name	ELCA
+tag0	data structures
+
+contestId	482
+index	E
+verdict	WRONG_ANSWER
+id	8395341
+programmingLanguage	GNU C++
+solvedCount	51
+name	ELCA
+tag0	data structures
+
+contestId	482
+index	E
+verdict	WRONG_ANSWER
+id	8395285
+programmingLanguage	GNU C++
+solvedCount	51
+name	ELCA
+tag0	data structures
+
+contestId	482
+index	C
+verdict	OK
+id	8395044
+programmingLanguage	Java 7
+solvedCount	392
+name	Game with Strings
+tag0	bitmasks
+tag1	dp
+
+contestId	482
+index	C
+verdict	OK
+id	8395016
+programmingLanguage	Java 7
+solvedCount	392
+name	Game with Strings
+tag0	bitmasks
+tag1	dp
+
+contestId	482
+index	C
+verdict	OK
+id	8394627
+programmingLanguage	Java 7
+solvedCount	392
+name	Game with Strings
+tag0	bitmasks
+tag1	dp
+
+contestId	482
+index	C
+verdict	OK
+id	8394567
+programmingLanguage	Java 7
+solvedCount	392
+name	Game with Strings
+tag0	bitmasks
+tag1	dp
+
+contestId	482
+index	E
+verdict	WRONG_ANSWER
+id	8393436
+programmingLanguage	GNU C++
+solvedCount	51
+name	ELCA
+tag0	data structures
+
+contestId	482
+index	E
+verdict	TIME_LIMIT_EXCEEDED
+id	8393372
+programmingLanguage	GNU C++
+solvedCount	51
+name	ELCA
+tag0	data structures
+
+contestId	482
+index	E
+verdict	WRONG_ANSWER
+id	8392996
+programmingLanguage	GNU C++
+solvedCount	51
+name	ELCA
+tag0	data structures
+
+contestId	482
+index	D
+verdict	OK
+id	8386071
+programmingLanguage	GNU C++
+solvedCount	179
+name	Random Function and Tree
+tag0	combinatorics
+tag1	dp
+
+contestId	482
+index	C
+verdict	OK
+id	8384458
+programmingLanguage	GNU C++
+solvedCount	392
+name	Game with Strings
+tag0	bitmasks
+tag1	dp
+
+contestId	482
+index	B
+verdict	OK
+id	8382609
+programmingLanguage	GNU C++
+solvedCount	2223
+name	Interesting Array
+tag0	constructive algorithms
+tag1	data structures
+
+contestId	482
+index	A
+verdict	OK
+id	8380309
+programmingLanguage	GNU C++
+solvedCount	5297
+name	Diverse Permutation
+tag0	constructive algorithms
+
+contestId	492
+index	D
+verdict	OK
+id	8912071
+programmingLanguage	GNU C++
+solvedCount	2033
+name	Vanya and Computer Game
+tag0	binary search
+tag1	implementation
+tag2	math
+
+contestId	492
+index	E
+verdict	OK
+id	8911687
+programmingLanguage	GNU C++
+solvedCount	1044
+name	Vanya and Field
+
+contestId	492
+index	D
+verdict	WRONG_ANSWER
+id	8910643
+programmingLanguage	GNU C++
+solvedCount	2033
+name	Vanya and Computer Game
+tag0	binary search
+tag1	implementation
+tag2	math
+
+contestId	492
+index	C
+verdict	OK
+id	8909822
+programmingLanguage	GNU C++
+solvedCount	4604
+name	Vanya and Exams
+tag0	greedy
+
+contestId	492
+index	C
+verdict	WRONG_ANSWER
+id	8909715
+programmingLanguage	GNU C++
+solvedCount	4604
+name	Vanya and Exams
+tag0	greedy
+
+contestId	492
+index	A
+verdict	OK
+id	8909344
+programmingLanguage	GNU C++
+solvedCount	10270
+name	Vanya and Cubes
+
+contestId	492
+index	B
+verdict	OK
+id	8909069
+programmingLanguage	GNU C++
+solvedCount	10056
+name	Vanya and Lanterns
+tag0	binary search
+tag1	math
+
+contestId	492
+index	A
+verdict	WRONG_ANSWER
+id	8908816
+programmingLanguage	GNU C++
+solvedCount	10270
+name	Vanya and Cubes
+
+contestId	492
+index	A
+verdict	WRONG_ANSWER
+id	8908560
+programmingLanguage	GNU C++
+solvedCount	10270
+name	Vanya and Cubes
+
+contestId	494
+index	D
+verdict	OK
+id	9118626
+programmingLanguage	GNU C++
+solvedCount	266
+name	Birthday
+tag0	data structures
+tag1	dfs and similar
+tag2	dp
+
+contestId	494
+index	D
+verdict	WRONG_ANSWER
+id	9118561
+programmingLanguage	GNU C++
+solvedCount	266
+name	Birthday
+tag0	data structures
+tag1	dfs and similar
+tag2	dp
+
+contestId	494
+index	D
+verdict	WRONG_ANSWER
+id	9118047
+programmingLanguage	GNU C++
+solvedCount	266
+name	Birthday
+tag0	data structures
+tag1	dfs and similar
+tag2	dp
+
+contestId	494
+index	C
+verdict	OK
+id	9115660
+programmingLanguage	GNU C++
+solvedCount	296
+name	Helping People
+tag0	dp
+
+contestId	494
+index	E
+verdict	OK
+id	9112090
+programmingLanguage	GNU C++
+solvedCount	56
+name	Sharti
+
+contestId	494
+index	E
+verdict	RUNTIME_ERROR
+id	9111742
+programmingLanguage	GNU C++
+solvedCount	56
+name	Sharti
+
+contestId	494
+index	B
+verdict	OK
+id	9104681
+programmingLanguage	GNU C++
+solvedCount	1217
+name	Obsessive String
+tag0	dp
+
+contestId	494
+index	A
+verdict	OK
+id	9103881
+programmingLanguage	GNU C++
+solvedCount	3466
+name	Treasure
+
+contestId	500
+index	F
+verdict	OK
+id	9316542
+programmingLanguage	GNU C++
+solvedCount	244
+name	New Year Shopping
+tag0	divide and conquer
+
+contestId	500
+index	E
+verdict	OK
+id	9314444
+programmingLanguage	GNU C++
+solvedCount	720
+name	New Year Domino
+tag0	data structures
+tag1	dp
+
+contestId	500
+index	E
+verdict	WRONG_ANSWER
+id	9313076
+programmingLanguage	GNU C++
+solvedCount	720
+name	New Year Domino
+tag0	data structures
+tag1	dp
+
+contestId	500
+index	D
+verdict	OK
+id	9309948
+programmingLanguage	GNU C++
+solvedCount	1858
+name	New Year Santa Network
+tag0	combinatorics
+tag1	dfs and similar
+tag2	graphs
+
+contestId	500
+index	C
+verdict	OK
+id	9308245
+programmingLanguage	GNU C++
+solvedCount	3887
+name	New Year Book Reading
+tag0	constructive algorithms
+tag1	greedy
+tag2	implementation
+
+contestId	500
+index	A
+verdict	OK
+id	9307130
+programmingLanguage	GNU C++
+solvedCount	11567
+name	New Year Transportation
+tag0	dfs and similar
+tag1	graphs
+
+contestId	500
+index	B
+verdict	OK
+id	9306707
+programmingLanguage	GNU C++
+solvedCount	4278
+name	New Year Permutation
+tag0	dfs and similar
+tag1	dsu
+tag2	graphs
+tag3	greedy
+tag4	math
+
+contestId	507
+index	D
+verdict	OK
+id	9520456
+programmingLanguage	GNU C++0x
+solvedCount	820
+name	The Maths Lecture
+tag0	dp
+
+contestId	507
+index	E
+verdict	OK
+id	9520218
+programmingLanguage	GNU C++0x
+solvedCount	1156
+name	Breaking Good
+tag0	dfs and similar
+tag1	dp
+tag2	graphs
+
+contestId	507
+index	D
+verdict	WRONG_ANSWER
+id	9519052
+programmingLanguage	GNU C++0x
+solvedCount	820
+name	The Maths Lecture
+tag0	dp
+
+contestId	507
+index	C
+verdict	OK
+id	9517954
+programmingLanguage	GNU C++0x
+solvedCount	2575
+name	Guess Your Way Out!
+tag0	implementation
+
+contestId	507
+index	B
+verdict	OK
+id	9515452
+programmingLanguage	GNU C++0x
+solvedCount	6425
+name	Amr and Pins
+tag0	geometry
+
+contestId	507
+index	A
+verdict	OK
+id	9514951
+programmingLanguage	GNU C++0x
+solvedCount	7559
+name	Amr and Music
+tag0	greedy
+tag1	implementation
+
+contestId	512
+index	E
+verdict	OK
+id	9689329
+programmingLanguage	GNU C++
+solvedCount	116
+name	Fox And Polygon
+tag0	constructive algorithms
+
+contestId	512
+index	E
+verdict	WRONG_ANSWER
+id	9688877
+programmingLanguage	GNU C++
+solvedCount	116
+name	Fox And Polygon
+tag0	constructive algorithms
+
+contestId	512
+index	D
+verdict	OK
+id	9685060
+programmingLanguage	GNU C++
+solvedCount	172
+name	Fox And Travelling
+tag0	dp
+
+contestId	513
+index	G3
+verdict	OK
+id	9761881
+programmingLanguage	GNU C++0x
+solvedCount	57
+name	Inversions problem
+
+contestId	513
+index	G2
+verdict	OK
+id	9761855
+programmingLanguage	GNU C++0x
+solvedCount	364
+name	Inversions problem
+tag0	dp
+
+contestId	513
+index	G2
+verdict	OK
+id	9761060
+programmingLanguage	GNU C++0x
+solvedCount	364
+name	Inversions problem
+tag0	dp
+
+contestId	513
+index	F2
+verdict	OK
+id	9759865
+programmingLanguage	GNU C++
+solvedCount	139
+name	Scaygerboss
+
+contestId	513
+index	F1
+verdict	OK
+id	9759734
+programmingLanguage	GNU C++
+solvedCount	147
+name	Scaygerboss
+
+contestId	513
+index	F1
+verdict	WRONG_ANSWER
+id	9759080
+programmingLanguage	GNU C++
+solvedCount	147
+name	Scaygerboss
+
+contestId	513
+index	E2
+verdict	OK
+id	9757944
+programmingLanguage	GNU C++
+solvedCount	192
+name	Subarray Cuts
+
+contestId	513
+index	E1
+verdict	OK
+id	9757858
+programmingLanguage	GNU C++
+solvedCount	249
+name	Subarray Cuts
+
+contestId	513
+index	G2
+verdict	OK
+id	9756349
+programmingLanguage	GNU C++0x
+solvedCount	364
+name	Inversions problem
+tag0	dp
+
+contestId	513
+index	G1
+verdict	OK
+id	9756225
+programmingLanguage	GNU C++0x
+solvedCount	1437
+name	Inversions problem
+tag0	brute force
+tag1	dfs and similar
+tag2	dp
+
+contestId	513
+index	D2
+verdict	OK
+id	9755194
+programmingLanguage	GNU C++0x
+solvedCount	259
+name	Constrained Tree
+tag0	constructive algorithms
+
+contestId	513
+index	D1
+verdict	OK
+id	9755050
+programmingLanguage	GNU C++0x
+solvedCount	335
+name	Constrained Tree
+
+contestId	513
+index	D1
+verdict	OK
+id	9755001
+programmingLanguage	GNU C++0x
+solvedCount	335
+name	Constrained Tree
+
+contestId	513
+index	D1
+verdict	OK
+id	9754039
+programmingLanguage	GNU C++0x
+solvedCount	335
+name	Constrained Tree
+
+contestId	513
+index	D1
+verdict	WRONG_ANSWER
+id	9753813
+programmingLanguage	GNU C++0x
+solvedCount	335
+name	Constrained Tree
+
+contestId	513
+index	G1
+verdict	OK
+id	9751992
+programmingLanguage	GNU C++
+solvedCount	1437
+name	Inversions problem
+tag0	brute force
+tag1	dfs and similar
+tag2	dp
+
+contestId	513
+index	B2
+verdict	OK
+id	9749908
+programmingLanguage	GNU C++
+solvedCount	2041
+name	Permutations
+tag0	bitmasks
+tag1	divide and conquer
+
+contestId	513
+index	C
+verdict	OK
+id	9749606
+programmingLanguage	GNU C++
+solvedCount	1145
+name	Second price auction
+tag0	bitmasks
+
+contestId	513
+index	B1
+verdict	OK
+id	9749001
+programmingLanguage	GNU C++
+solvedCount	3065
+name	Permutations
+
+contestId	513
+index	A
+verdict	OK
+id	9747721
+programmingLanguage	GNU C++
+solvedCount	8928
+name	Game
+tag0	constructive algorithms
+
+contestId	526
+index	F
+verdict	OK
+id	11490081
+programmingLanguage	GNU C++11
+solvedCount	233
+name	Pudding Monsters
+tag0	data structures
+
+contestId	526
+index	F
+verdict	OK
+id	10584435
+programmingLanguage	GNU C++11
+solvedCount	233
+name	Pudding Monsters
+tag0	data structures
+
+contestId	526
+index	E
+verdict	OK
+id	10582137
+programmingLanguage	GNU C++11
+solvedCount	566
+name	Transmitting Levels
+tag0	dp
+
+contestId	526
+index	D
+verdict	OK
+id	10580549
+programmingLanguage	GNU C++11
+solvedCount	879
+name	Om Nom and Necklace
+tag0	hashing
+tag1	string suffix structures
+
+contestId	526
+index	C
+verdict	OK
+id	10578449
+programmingLanguage	GNU C++11
+solvedCount	1640
+name	Om Nom and Candies
+tag0	brute force
+tag1	greedy
+
+contestId	526
+index	B
+verdict	OK
+id	10576165
+programmingLanguage	GNU C++11
+solvedCount	3285
+name	Om Nom and Dark Park
+tag0	dfs and similar
+tag1	greedy
+
+contestId	526
+index	A
+verdict	OK
+id	10575487
+programmingLanguage	GNU C++11
+solvedCount	3798
+name	King of Thieves
+tag0	brute force
+
+contestId	549
+index	E
+verdict	WRONG_ANSWER
+id	11475504
+programmingLanguage	GNU C++11
+solvedCount	30
+name	Sasha Circle
+
+contestId	549
+index	E
+verdict	WRONG_ANSWER
+id	11473618
+programmingLanguage	GNU C++11
+solvedCount	30
+name	Sasha Circle
+
+contestId	549
+index	F
+verdict	OK
+id	11466701
+programmingLanguage	GNU C++11
+solvedCount	347
+name	Yura and Developers
+tag0	data structures
+
+contestId	549
+index	B
+verdict	OK
+id	11465780
+programmingLanguage	GNU C++11
+solvedCount	1044
+name	Looksery Party
+tag0	constructive algorithms
+tag1	dfs and similar
+
+contestId	549
+index	D
+verdict	OK
+id	11464258
+programmingLanguage	Java 7
+solvedCount	1815
+name	Haar Features
+tag0	greedy
+
+contestId	549
+index	C
+verdict	OK
+id	11463555
+programmingLanguage	GNU C++11
+solvedCount	1186
+name	The Game Of Parity
+
+contestId	549
+index	G
+verdict	OK
+id	11461524
+programmingLanguage	GNU C++11
+solvedCount	1486
+name	Happy Line
+tag0	greedy
+
+contestId	549
+index	H
+verdict	OK
+id	11459607
+programmingLanguage	GNU C++11
+solvedCount	1415
+name	Degenerate Matrix
+tag0	binary search
+
+contestId	549
+index	A
+verdict	OK
+id	11458439
+programmingLanguage	GNU C++11
+solvedCount	5853
+name	Face Detection
+
+contestId	566
+index	A
+verdict	OK
+id	12291750
+programmingLanguage	GNU C++11
+solvedCount	419
+name	Matching Names
+tag0	dfs and similar
+tag1	strings
+
+contestId	573
+index	D
+verdict	WRONG_ANSWER
+id	12762783
+programmingLanguage	GNU C++11
+solvedCount	96
+name	Bear and Cavalry
+tag0	data structures
+tag1	divide and conquer
+
+contestId	573
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	12761915
+programmingLanguage	GNU C++11
+solvedCount	96
+name	Bear and Cavalry
+tag0	data structures
+tag1	divide and conquer
+
+contestId	573
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	12760172
+programmingLanguage	GNU C++11
+solvedCount	96
+name	Bear and Cavalry
+tag0	data structures
+tag1	divide and conquer
+
+contestId	573
+index	C
+verdict	WRONG_ANSWER
+id	12758628
+programmingLanguage	GNU C++11
+solvedCount	620
+name	Bear and Drawing
+tag0	constructive algorithms
+tag1	dfs and similar
+
+contestId	573
+index	C
+verdict	WRONG_ANSWER
+id	12753834
+programmingLanguage	GNU C++11
+solvedCount	620
+name	Bear and Drawing
+tag0	constructive algorithms
+tag1	dfs and similar
+
+contestId	573
+index	B
+verdict	OK
+id	12747277
+programmingLanguage	GNU C++11
+solvedCount	3067
+name	Bear and Blocks
+tag0	binary search
+tag1	data structures
+
+contestId	573
+index	A
+verdict	OK
+id	12746067
+programmingLanguage	GNU C++11
+solvedCount	6754
+name	Bear and Poker
+tag0	implementation
+
+contestId	575
+index	E
+verdict	OK
+id	12871628
+programmingLanguage	GNU C++11
+solvedCount	45
+name	Spectator Riots
+
+contestId	575
+index	I
+verdict	OK
+id	12870532
+programmingLanguage	GNU C++11
+solvedCount	67
+name	Robots protection
+
+contestId	575
+index	E
+verdict	OK
+id	12869115
+programmingLanguage	GNU C++11
+solvedCount	45
+name	Spectator Riots
+
+contestId	575
+index	C
+verdict	OK
+id	12868120
+programmingLanguage	GNU C++11
+solvedCount	116
+name	Party
+tag0	bitmasks
+tag1	brute force
+
+contestId	575
+index	C
+verdict	TIME_LIMIT_EXCEEDED
+id	12867634
+programmingLanguage	GNU C++11
+solvedCount	116
+name	Party
+tag0	bitmasks
+tag1	brute force
+
+contestId	575
+index	C
+verdict	WRONG_ANSWER
+id	12867323
+programmingLanguage	GNU C++11
+solvedCount	116
+name	Party
+tag0	bitmasks
+tag1	brute force
+
+contestId	575
+index	C
+verdict	WRONG_ANSWER
+id	12867285
+programmingLanguage	GNU C++11
+solvedCount	116
+name	Party
+tag0	bitmasks
+tag1	brute force
+
+contestId	575
+index	A
+verdict	OK
+id	12866819
+programmingLanguage	GNU C++11
+solvedCount	160
+name	Fibonotci
+tag0	math
+
+contestId	575
+index	A
+verdict	WRONG_ANSWER
+id	12866776
+programmingLanguage	GNU C++11
+solvedCount	160
+name	Fibonotci
+tag0	math
+
+contestId	575
+index	A
+verdict	WRONG_ANSWER
+id	12866484
+programmingLanguage	GNU C++11
+solvedCount	160
+name	Fibonotci
+tag0	math
+
+contestId	575
+index	A
+verdict	WRONG_ANSWER
+id	12866236
+programmingLanguage	GNU C++11
+solvedCount	160
+name	Fibonotci
+tag0	math
+
+contestId	575
+index	I
+verdict	TIME_LIMIT_EXCEEDED
+id	12864855
+programmingLanguage	GNU C++11
+solvedCount	67
+name	Robots protection
+
+contestId	575
+index	B
+verdict	OK
+id	12863959
+programmingLanguage	GNU C++11
+solvedCount	555
+name	Bribes
+tag0	dfs and similar
+
+contestId	575
+index	G
+verdict	OK
+id	12863210
+programmingLanguage	GNU C++11
+solvedCount	412
+name	Run for beer
+tag0	dfs and similar
+
+contestId	575
+index	G
+verdict	WRONG_ANSWER
+id	12863162
+programmingLanguage	GNU C++11
+solvedCount	412
+name	Run for beer
+tag0	dfs and similar
+
+contestId	575
+index	G
+verdict	WRONG_ANSWER
+id	12862848
+programmingLanguage	GNU C++11
+solvedCount	412
+name	Run for beer
+tag0	dfs and similar
+
+contestId	575
+index	G
+verdict	WRONG_ANSWER
+id	12862767
+programmingLanguage	GNU C++11
+solvedCount	412
+name	Run for beer
+tag0	dfs and similar
+
+contestId	575
+index	F
+verdict	OK
+id	12862376
+programmingLanguage	GNU C++11
+solvedCount	690
+name	Bulbo
+tag0	dp
+
+contestId	575
+index	H
+verdict	OK
+id	12861837
+programmingLanguage	GNU C++11
+solvedCount	1063
+name	Bots
+tag0	combinatorics
+
+contestId	575
+index	D
+verdict	OK
+id	12861707
+programmingLanguage	GNU C++11
+solvedCount	1428
+name	Tablecity
+
+contestId	596
+index	E
+verdict	OK
+id	14279399
+programmingLanguage	GNU C++11
+solvedCount	199
+name	Wilbur and Strings
+tag0	dfs and similar
+tag1	dp
+
+contestId	596
+index	D
+verdict	OK
+id	14276759
+programmingLanguage	GNU C++11
+solvedCount	437
+name	Wilbur and Trees
+tag0	dp
+tag1	probabilities
+
+contestId	596
+index	C
+verdict	OK
+id	14273406
+programmingLanguage	GNU C++11
+solvedCount	1746
+name	Wilbur and Points
+tag0	greedy
+
+contestId	596
+index	B
+verdict	OK
+id	14272047
+programmingLanguage	GNU C++11
+solvedCount	5427
+name	Wilbur and Array
+
+contestId	596
+index	A
+verdict	OK
+id	14272013
+programmingLanguage	GNU C++11
+solvedCount	4830
+name	Wilbur and Swimming Pool
+
+contestId	607
+index	C
+verdict	OK
+id	14953869
+programmingLanguage	GNU C++11
+solvedCount	491
+name	Marbles
+tag0	hashing
+
+contestId	607
+index	D
+verdict	OK
+id	14952244
+programmingLanguage	GNU C++11
+solvedCount	275
+name	Power Tree
+
+contestId	607
+index	B
+verdict	OK
+id	14943843
+programmingLanguage	GNU C++11
+solvedCount	2274
+name	Zuma
+
+contestId	607
+index	A
+verdict	OK
+id	14942696
+programmingLanguage	GNU C++11
+solvedCount	3500
+name	Chain Reaction
+tag0	binary search
+
+contestId	611
+index	G
+verdict	OK
+id	15128537
+programmingLanguage	GNU C++11
+solvedCount	114
+name	New Year and Cake
+tag0	geometry
+
+contestId	611
+index	H
+verdict	OK
+id	15124865
+programmingLanguage	GNU C++11
+solvedCount	91
+name	New Year  and Forgotten Tree
+tag0	constructive algorithms
+
+contestId	611
+index	G
+verdict	WRONG_ANSWER
+id	15121039
+programmingLanguage	GNU C++11
+solvedCount	114
+name	New Year and Cake
+tag0	geometry
+
+contestId	611
+index	G
+verdict	WRONG_ANSWER
+id	15120746
+programmingLanguage	GNU C++11
+solvedCount	114
+name	New Year and Cake
+tag0	geometry
+
+contestId	611
+index	E
+verdict	OK
+id	15117658
+programmingLanguage	GNU C++11
+solvedCount	597
+name	New Year and Three Musketeers
+tag0	data structures
+
+contestId	611
+index	E
+verdict	WRONG_ANSWER
+id	15117483
+programmingLanguage	GNU C++11
+solvedCount	597
+name	New Year and Three Musketeers
+tag0	data structures
+
+contestId	611
+index	F
+verdict	OK
+id	15114227
+programmingLanguage	GNU C++11
+solvedCount	281
+name	New Year and Cleaning
+tag0	binary search
+
+contestId	611
+index	D
+verdict	OK
+id	15107147
+programmingLanguage	GNU C++11
+solvedCount	1619
+name	New Year and Ancient Prophecy
+tag0	hashing
+
+contestId	611
+index	C
+verdict	OK
+id	15103816
+programmingLanguage	GNU C++11
+solvedCount	4386
+name	New Year and Domino
+tag0	dp
+
+contestId	611
+index	A
+verdict	OK
+id	15101703
+programmingLanguage	GNU C++11
+solvedCount	7490
+name	New Year and Days
+
+contestId	611
+index	B
+verdict	OK
+id	15101586
+programmingLanguage	GNU C++11
+solvedCount	5106
+name	New Year and Old Property
+tag0	brute force
+
+contestId	620
+index	F
+verdict	OK
+id	15476784
+programmingLanguage	GNU C++11
+solvedCount	204
+name	Xors on Segments
+
+contestId	620
+index	D
+verdict	OK
+id	15476004
+programmingLanguage	GNU C++11
+solvedCount	597
+name	Professor GukiZ and Two Arrays
+tag0	binary search
+
+contestId	620
+index	D
+verdict	WRONG_ANSWER
+id	15475881
+programmingLanguage	GNU C++11
+solvedCount	597
+name	Professor GukiZ and Two Arrays
+tag0	binary search
+
+contestId	620
+index	E
+verdict	OK
+id	15473382
+programmingLanguage	GNU C++11
+solvedCount	906
+name	New Year Tree
+tag0	bitmasks
+
+contestId	620
+index	E
+verdict	WRONG_ANSWER
+id	15473279
+programmingLanguage	GNU C++11
+solvedCount	906
+name	New Year Tree
+tag0	bitmasks
+
+contestId	620
+index	C
+verdict	OK
+id	15470876
+programmingLanguage	GNU C++11
+solvedCount	2713
+name	Pearls in a Row
+
+contestId	620
+index	B
+verdict	OK
+id	15470277
+programmingLanguage	GNU C++11
+solvedCount	4670
+name	Grandfather Dovlet’s calculator
+
+contestId	620
+index	A
+verdict	OK
+id	15470173
+programmingLanguage	GNU C++11
+solvedCount	5718
+name	Professor GukiZ's Robot
+tag0	implementation
+
+contestId	626
+index	G
+verdict	OK
+id	16008099
+programmingLanguage	GNU C++11
+solvedCount	101
+name	Raffles
+tag0	data structures
+
+contestId	626
+index	G
+verdict	WRONG_ANSWER
+id	16007988
+programmingLanguage	GNU C++11
+solvedCount	101
+name	Raffles
+tag0	data structures
+
+contestId	626
+index	G
+verdict	WRONG_ANSWER
+id	16007869
+programmingLanguage	GNU C++11
+solvedCount	101
+name	Raffles
+tag0	data structures
+
+contestId	626
+index	E
+verdict	OK
+id	15999995
+programmingLanguage	GNU C++11
+solvedCount	606
+name	Simple Skewness
+tag0	binary search
+tag1	math
+
+contestId	626
+index	F
+verdict	OK
+id	15997185
+programmingLanguage	GNU C++11
+solvedCount	608
+name	Group Projects
+
+contestId	626
+index	D
+verdict	OK
+id	15994387
+programmingLanguage	GNU C++11
+solvedCount	1637
+name	Jerry's Protest
+tag0	brute force
+tag1	combinatorics
+
+contestId	626
+index	C
+verdict	OK
+id	15992308
+programmingLanguage	GNU C++11
+solvedCount	2705
+name	Block Towers
+tag0	brute force
+
+contestId	626
+index	B
+verdict	OK
+id	15991887
+programmingLanguage	GNU C++11
+solvedCount	3602
+name	Cards
+tag0	constructive algorithms
+
+contestId	626
+index	A
+verdict	OK
+id	15990789
+programmingLanguage	GNU C++11
+solvedCount	4276
+name	Robot Sequence
+tag0	brute force
+
+contestId	627
+index	D
+verdict	OK
+id	16413455
+programmingLanguage	GNU C++11
+solvedCount	290
+name	Preorder Test
+tag0	binary search
+tag1	dp
+
+contestId	627
+index	C
+verdict	OK
+id	16412323
+programmingLanguage	GNU C++11
+solvedCount	665
+name	Package Delivery
+tag0	data structures
+tag1	divide and conquer
+
+contestId	627
+index	E
+verdict	OK
+id	16410780
+programmingLanguage	GNU C++11
+solvedCount	83
+name	Orchestra
+
+contestId	627
+index	B
+verdict	OK
+id	16408496
+programmingLanguage	GNU C++11
+solvedCount	1348
+name	Factory Repairs
+
+contestId	627
+index	A
+verdict	OK
+id	16407728
+programmingLanguage	GNU C++11
+solvedCount	1679
+name	XOR Equation
+tag0	dp
+
+contestId	633
+index	H
+verdict	OK
+id	16369633
+programmingLanguage	GNU C++11
+solvedCount	146
+name	Fibonacci-ish II
+tag0	data structures
+
+contestId	633
+index	G
+verdict	OK
+id	16365170
+programmingLanguage	GNU C++11
+solvedCount	269
+name	Yash And Trees
+tag0	bitmasks
+tag1	data structures
+
+contestId	633
+index	E
+verdict	OK
+id	16363148
+programmingLanguage	GNU C++11
+solvedCount	367
+name	Startup Funding
+tag0	binary search
+tag1	data structures
+tag2	probabilities
+
+contestId	633
+index	F
+verdict	OK
+id	16360649
+programmingLanguage	GNU C++11
+solvedCount	297
+name	The Chocolate Spree
+tag0	dfs and similar
+tag1	dp
+
+contestId	633
+index	D
+verdict	OK
+id	16359500
+programmingLanguage	GNU C++11
+solvedCount	1255
+name	Fibonacci-ish
+tag0	brute force
+tag1	hashing
+tag2	implementation
+
+contestId	633
+index	C
+verdict	OK
+id	16358402
+programmingLanguage	GNU C++11
+solvedCount	1183
+name	Spy Syndrome 2
+tag0	data structures
+tag1	dp
+tag2	hashing
+tag3	implementation
+tag4	sortings
+tag5	string suffix structures
+
+contestId	633
+index	F
+verdict	WRONG_ANSWER
+id	16357260
+programmingLanguage	GNU C++11
+solvedCount	297
+name	The Chocolate Spree
+tag0	dfs and similar
+tag1	dp
+
+contestId	633
+index	F
+verdict	TIME_LIMIT_EXCEEDED
+id	16356686
+programmingLanguage	GNU C++11
+solvedCount	297
+name	The Chocolate Spree
+tag0	dfs and similar
+tag1	dp
+
+contestId	633
+index	B
+verdict	OK
+id	16351831
+programmingLanguage	GNU C++11
+solvedCount	3499
+name	A Trivial Problem
+tag0	brute force
+tag1	constructive algorithms
+tag2	math
+
+contestId	633
+index	A
+verdict	OK
+id	16351110
+programmingLanguage	GNU C++11
+solvedCount	4724
+name	Ebony and Ivory
+tag0	brute force
+
+contestId	639
+index	C
+verdict	WRONG_ANSWER
+id	17020591
+programmingLanguage	GNU C++11
+solvedCount	891
+name	Bear and Polynomials
+tag0	hashing
+tag1	implementation
+
+contestId	644
+index	C
+verdict	OK
+id	16743202
+programmingLanguage	GNU C++11
+solvedCount	762
+name	Hostname Aliases
+tag0	binary search
+tag1	data structures
+tag2	sortings
+
+contestId	644
+index	B
+verdict	OK
+id	16742841
+programmingLanguage	GNU C++11
+solvedCount	1798
+name	Processing Queries
+tag0	data structures
+
+contestId	644
+index	A
+verdict	OK
+id	16742551
+programmingLanguage	GNU C++11
+solvedCount	3425
+name	Parliament of Berland
+
+contestId	645
+index	G
+verdict	WRONG_ANSWER
+id	17030790
+programmingLanguage	GNU C++11
+solvedCount	38
+name	Armistice Area Apportionment
+tag0	binary search
+
+contestId	645
+index	G
+verdict	WRONG_ANSWER
+id	16795556
+programmingLanguage	GNU C++11
+solvedCount	38
+name	Armistice Area Apportionment
+tag0	binary search
+
+contestId	645
+index	F
+verdict	OK
+id	16789707
+programmingLanguage	GNU C++11
+solvedCount	278
+name	Cowslip Collections
+tag0	combinatorics
+tag1	math
+
+contestId	645
+index	E
+verdict	OK
+id	16788246
+programmingLanguage	GNU C++11
+solvedCount	717
+name	Intellectual Inquiry
+tag0	dp
+tag1	greedy
+
+contestId	645
+index	D
+verdict	OK
+id	16786451
+programmingLanguage	GNU C++11
+solvedCount	1296
+name	Robot Rapping Results Report
+tag0	binary search
+tag1	dp
+
+contestId	645
+index	C
+verdict	OK
+id	16785938
+programmingLanguage	GNU C++11
+solvedCount	1689
+name	Enduring Exodus
+tag0	binary search
+
+contestId	645
+index	A
+verdict	OK
+id	16785657
+programmingLanguage	GNU C++11
+solvedCount	2172
+name	Amity Assessment
+tag0	brute force
+tag1	constructive algorithms
+
+contestId	645
+index	B
+verdict	OK
+id	16785533
+programmingLanguage	GNU C++11
+solvedCount	2128
+name	Mischievous Mess Makers
+tag0	greedy
+
+contestId	650
+index	E
+verdict	OK
+id	16578790
+programmingLanguage	GNU C++11
+solvedCount	179
+name	Clockwork Bomb
+tag0	data structures
+tag1	dfs and similar
+tag2	dsu
+
+contestId	650
+index	D
+verdict	OK
+id	16571229
+programmingLanguage	GNU C++11
+solvedCount	435
+name	Zip-line
+tag0	binary search
+tag1	data structures
+
+contestId	650
+index	B
+verdict	OK
+id	16567529
+programmingLanguage	GNU C++11
+solvedCount	2050
+name	Image Preview
+tag0	binary search
+tag1	dp
+
+contestId	650
+index	C
+verdict	OK
+id	16565085
+programmingLanguage	GNU C++11
+solvedCount	1066
+name	Table Compression
+tag0	dfs and similar
+tag1	dp
+tag2	dsu
+tag3	graphs
+
+contestId	650
+index	A
+verdict	OK
+id	16562732
+programmingLanguage	GNU C++11
+solvedCount	5164
+name	Watchmen
+tag0	data structures
+
+contestId	662
+index	D
+verdict	OK
+id	17329570
+programmingLanguage	GNU C++11
+solvedCount	1156
+name	International Olympiad
+tag0	constructive algorithms
+tag1	greedy
+tag2	implementation
+
+contestId	662
+index	E
+verdict	OK
+id	17329285
+programmingLanguage	GNU C++11
+solvedCount	56
+name	To Hack or not to Hack
+tag0	brute force
+tag1	dp
+
+contestId	662
+index	B
+verdict	OK
+id	17328499
+programmingLanguage	GNU C++11
+solvedCount	760
+name	Graph Coloring
+
+contestId	662
+index	A
+verdict	OK
+id	17328265
+programmingLanguage	GNU C++11
+solvedCount	101
+name	Gambling Nim
+tag0	bitmasks
+tag1	math
+tag2	matrices
+
+contestId	687
+index	E
+verdict	OK
+id	18806260
+programmingLanguage	GNU C++11
+solvedCount	138
+
+contestId	687
+index	D
+verdict	OK
+id	18802718
+programmingLanguage	GNU C++11
+solvedCount	410
+name	Dividing Kingdom II
+tag0	brute force
+tag1	data structures
+tag2	dsu
+
+contestId	687
+index	D
+verdict	WRONG_ANSWER
+id	18802183
+programmingLanguage	GNU C++11
+solvedCount	410
+name	Dividing Kingdom II
+tag0	brute force
+tag1	data structures
+tag2	dsu
+
+contestId	687
+index	C
+verdict	OK
+id	18790045
+programmingLanguage	GNU C++11
+solvedCount	2097
+name	The Values You Can Make
+
+contestId	687
+index	B
+verdict	OK
+id	18788540
+programmingLanguage	GNU C++11
+solvedCount	2248
+name	Remainders Game
+tag0	chinese remainder theorem
+tag1	math
+
+contestId	687
+index	A
+verdict	OK
+id	18786960
+programmingLanguage	GNU C++11
+solvedCount	4666
+name	NP-Hard Problem
+tag0	dfs and similar
+
+contestId	710
+index	D
+verdict	OK
+id	20102628
+programmingLanguage	GNU C++11
+solvedCount	342
+name	Two Arithmetic Progressions
+
+contestId	710
+index	D
+verdict	CHALLENGED
+id	20070507
+programmingLanguage	GNU C++11
+solvedCount	342
+name	Two Arithmetic Progressions
+
+contestId	710
+index	D
+verdict	WRONG_ANSWER
+id	20070497
+programmingLanguage	GNU C++11
+solvedCount	342
+name	Two Arithmetic Progressions
+
+contestId	710
+index	F
+verdict	OK
+id	20058436
+programmingLanguage	GNU C++11
+solvedCount	205
+name	String Set Queries
+tag0	brute force
+tag1	data structures
+tag2	hashing
+tag3	string suffix structures
+
+contestId	710
+index	C
+verdict	OK
+id	20056438
+programmingLanguage	GNU C++11
+solvedCount	2679
+name	Magic Odd Square
+
+contestId	710
+index	D
+verdict	CHALLENGED
+id	20053910
+programmingLanguage	GNU C++11
+solvedCount	342
+name	Two Arithmetic Progressions
+
+contestId	710
+index	E
+verdict	OK
+id	20050515
+programmingLanguage	GNU C++11
+solvedCount	1858
+name	Generate a String
+tag0	dfs and similar
+
+contestId	710
+index	B
+verdict	OK
+id	20047656
+programmingLanguage	GNU C++11
+solvedCount	4188
+name	Optimal Point on a Line
+tag0	brute force
+
+contestId	710
+index	B
+verdict	WRONG_ANSWER
+id	20047551
+programmingLanguage	GNU C++11
+solvedCount	4188
+name	Optimal Point on a Line
+tag0	brute force
+
+contestId	710
+index	A
+verdict	OK
+id	20047537
+programmingLanguage	GNU C++11
+solvedCount	6205
+name	King Moves
+
+contestId	744
+index	D
+verdict	OK
+id	23172550
+programmingLanguage	GNU C++11
+solvedCount	35
+name	Hongcow Draws a Circle
+
+contestId	744
+index	D
+verdict	OK
+id	23101161
+programmingLanguage	GNU C++11
+solvedCount	35
+name	Hongcow Draws a Circle
+
+contestId	744
+index	D
+verdict	WRONG_ANSWER
+id	23100914
+programmingLanguage	GNU C++11
+solvedCount	35
+name	Hongcow Draws a Circle
+
+contestId	744
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	23100666
+programmingLanguage	GNU C++11
+solvedCount	35
+name	Hongcow Draws a Circle
+
+contestId	744
+index	D
+verdict	WRONG_ANSWER
+id	23100392
+programmingLanguage	GNU C++11
+solvedCount	35
+name	Hongcow Draws a Circle
+
+contestId	744
+index	D
+verdict	WRONG_ANSWER
+id	23099860
+programmingLanguage	GNU C++11
+solvedCount	35
+name	Hongcow Draws a Circle
+
+contestId	744
+index	D
+verdict	COMPILATION_ERROR
+id	23099785
+programmingLanguage	GNU C++11
+solvedCount	35
+name	Hongcow Draws a Circle
+
+contestId	744
+index	B
+verdict	OK
+id	23071347
+programmingLanguage	GNU C++11
+solvedCount	1050
+name	Hongcow's Game
+tag0	bitmasks
+
+contestId	744
+index	C
+verdict	OK
+id	23071345
+programmingLanguage	GNU C++11
+solvedCount	405
+name	Hongcow Buys a Deck of Cards
+tag0	bitmasks
+tag1	brute force
+
+contestId	744
+index	E
+verdict	OK
+id	23071342
+programmingLanguage	GNU C++11
+solvedCount	38
+name	Hongcow Masters the Cyclic Shift
+
+contestId	744
+index	A
+verdict	OK
+id	23071326
+programmingLanguage	GNU C++11
+solvedCount	3172
+name	Hongcow Builds A Nation
+tag0	dfs and similar
+
+contestId	744
+index	D
+verdict	TIME_LIMIT_EXCEEDED
+id	23069538
+programmingLanguage	GNU C++11
+solvedCount	35
+name	Hongcow Draws a Circle
+
+contestId	744
+index	E
+verdict	OK
+id	23063797
+programmingLanguage	GNU C++11
+solvedCount	38
+name	Hongcow Masters the Cyclic Shift
+
+contestId	744
+index	C
+verdict	OK
+id	23057499
+programmingLanguage	GNU C++11
+solvedCount	405
+name	Hongcow Buys a Deck of Cards
+tag0	bitmasks
+tag1	brute force
+
+contestId	744
+index	B
+verdict	OK
+id	23055547
+programmingLanguage	GNU C++11
+solvedCount	1050
+name	Hongcow's Game
+tag0	bitmasks
+
+contestId	744
+index	A
+verdict	OK
+id	23052903
+programmingLanguage	GNU C++11
+solvedCount	3172
+name	Hongcow Builds A Nation
+tag0	dfs and similar
+
+contestId	750
+index	F
+verdict	OK
+id	23449466
+programmingLanguage	GNU C++11
+solvedCount	214
+name	New Year and Finding Roots
+tag0	constructive algorithms
+tag1	implementation
+
+contestId	750
+index	F
+verdict	IDLENESS_LIMIT_EXCEEDED
+id	23445261
+programmingLanguage	GNU C++11
+solvedCount	214
+name	New Year and Finding Roots
+tag0	constructive algorithms
+tag1	implementation
+
+contestId	750
+index	G
+verdict	OK
+id	23441840
+programmingLanguage	GNU C++11
+solvedCount	80
+name	New Year and Binary Tree Paths
+tag0	bitmasks
+tag1	brute force
+tag2	combinatorics
+
+contestId	750
+index	D
+verdict	OK
+id	23432322
+programmingLanguage	GNU C++11
+solvedCount	2199
+name	New Year and Fireworks
+tag0	brute force
+tag1	data structures
+tag2	dfs and similar
+tag3	dp
+
+contestId	750
+index	B
+verdict	OK
+id	23425358
+programmingLanguage	GNU C++11
+solvedCount	6294
+name	New Year and North Pole
+
+contestId	750
+index	C
+verdict	OK
+id	23423631
+programmingLanguage	GNU C++11
+solvedCount	4012
+name	New Year and Rating
+tag0	binary search
+tag1	greedy
+
+contestId	750
+index	A
+verdict	OK
+id	23420989
+programmingLanguage	GNU C++11
+solvedCount	9665
+name	New Year and Hurry
+tag0	binary search
+tag1	brute force
+tag2	implementation
+
+contestId	755
+index	G
+verdict	OK
+id	23864695
+programmingLanguage	GNU C++14
+solvedCount	83
+name	PolandBall and Many Other Balls
+tag0	combinatorics
+tag1	divide and conquer
+tag2	dp
+tag3	fft
+tag4	math
+
+contestId	755
+index	G
+verdict	WRONG_ANSWER
+id	23861300
+programmingLanguage	GNU C++14
+solvedCount	83
+name	PolandBall and Many Other Balls
+tag0	combinatorics
+tag1	divide and conquer
+tag2	dp
+tag3	fft
+tag4	math
+
+contestId	755
+index	E
+verdict	OK
+id	23856305
+programmingLanguage	GNU C++14
+solvedCount	435
+name	PolandBall and White-Red graph
+tag0	constructive algorithms
+tag1	graphs
+
+contestId	755
+index	F
+verdict	OK
+id	23854346
+programmingLanguage	GNU C++14
+solvedCount	383
+name	PolandBall and Gifts
+tag0	bitmasks
+tag1	dp
+
+contestId	755
+index	C
+verdict	OK
+id	23852255
+programmingLanguage	GNU C++14
+solvedCount	3420
+name	PolandBall and Forest
+tag0	dfs and similar
+tag1	dsu
+
+contestId	755
+index	D
+verdict	OK
+id	23850075
+programmingLanguage	GNU C++14
+solvedCount	1686
+name	PolandBall and Polygon
+
+contestId	755
+index	B
+verdict	OK
+id	23847935
+programmingLanguage	GNU C++14
+solvedCount	3984
+name	PolandBall and Game
+tag0	binary search
+tag1	data structures
+tag2	games
+tag3	greedy
+
+contestId	755
+index	A
+verdict	OK
+id	23846955
+programmingLanguage	GNU C++14
+solvedCount	5278
+name	PolandBall and Hypothesis
+tag0	brute force
+tag1	graphs
+
+contestId	755
+index	A
+verdict	WRONG_ANSWER
+id	23846590
+programmingLanguage	GNU C++14
+solvedCount	5278
+name	PolandBall and Hypothesis
+tag0	brute force
+tag1	graphs
+
+contestId	756
+index	D
+verdict	OK
+id	24069406
+programmingLanguage	GNU C++14
+solvedCount	409
+name	Bacterial Melee
+tag0	brute force
+tag1	combinatorics
+tag2	dp
+
+contestId	756
+index	F
+verdict	OK
+id	24053908
+programmingLanguage	GNU C++14
+solvedCount	29
+name	Long number
+tag0	expression parsing
+tag1	math
+
+contestId	756
+index	F
+verdict	WRONG_ANSWER
+id	24053036
+programmingLanguage	GNU C++14
+solvedCount	29
+name	Long number
+tag0	expression parsing
+tag1	math
+
+contestId	756
+index	F
+verdict	WRONG_ANSWER
+id	24050787
+programmingLanguage	GNU C++14
+solvedCount	29
+name	Long number
+tag0	expression parsing
+tag1	math
+
+contestId	756
+index	F
+verdict	WRONG_ANSWER
+id	24049732
+programmingLanguage	GNU C++14
+solvedCount	29
+name	Long number
+tag0	expression parsing
+tag1	math
+
+contestId	756
+index	F
+verdict	WRONG_ANSWER
+id	24049354
+programmingLanguage	GNU C++14
+solvedCount	29
+name	Long number
+tag0	expression parsing
+tag1	math
+
+contestId	756
+index	C
+verdict	OK
+id	24041809
+programmingLanguage	GNU C++14
+solvedCount	643
+name	Nikita and stack
+
+contestId	756
+index	D
+verdict	OK
+id	24039817
+programmingLanguage	GNU C++14
+solvedCount	409
+name	Bacterial Melee
+tag0	brute force
+tag1	combinatorics
+tag2	dp
+
+contestId	756
+index	D
+verdict	SKIPPED
+id	24039078
+programmingLanguage	GNU C++14
+solvedCount	409
+name	Bacterial Melee
+tag0	brute force
+tag1	combinatorics
+tag2	dp
+
+contestId	756
+index	A
+verdict	OK
+id	24037453
+programmingLanguage	GNU C++14
+solvedCount	2016
+name	Pavel and barbecue
+
+contestId	756
+index	B
+verdict	OK
+id	24036019
+programmingLanguage	GNU C++14
+solvedCount	1589
+name	Travel Card
+tag0	binary search
+
+contestId	757
+index	F
+verdict	OK
+id	24068926
+programmingLanguage	GNU C++14
+solvedCount	157
+name	Team Rocket Rises Again
+tag0	data structures
+tag1	graphs
+
+contestId	757
+index	F
+verdict	OK
+id	24068888
+programmingLanguage	GNU C++14
+solvedCount	157
+name	Team Rocket Rises Again
+tag0	data structures
+tag1	graphs
+
+contestId	757
+index	F
+verdict	OK
+id	24068798
+programmingLanguage	GNU C++14
+solvedCount	157
+name	Team Rocket Rises Again
+tag0	data structures
+tag1	graphs
+
+contestId	757
+index	F
+verdict	OK
+id	24068629
+programmingLanguage	GNU C++14
+solvedCount	157
+name	Team Rocket Rises Again
+tag0	data structures
+tag1	graphs
+
+contestId	757
+index	F
+verdict	WRONG_ANSWER
+id	24068533
+programmingLanguage	GNU C++14
+solvedCount	157
+name	Team Rocket Rises Again
+tag0	data structures
+tag1	graphs
+
+contestId	757
+index	F
+verdict	WRONG_ANSWER
+id	24068514
+programmingLanguage	GNU C++14
+solvedCount	157
+name	Team Rocket Rises Again
+tag0	data structures
+tag1	graphs
+
+contestId	757
+index	F
+verdict	WRONG_ANSWER
+id	24068492
+programmingLanguage	GNU C++14
+solvedCount	157
+name	Team Rocket Rises Again
+tag0	data structures
+tag1	graphs
+
+contestId	757
+index	F
+verdict	OK
+id	24068020
+programmingLanguage	GNU C++14
+solvedCount	157
+name	Team Rocket Rises Again
+tag0	data structures
+tag1	graphs
+
+contestId	757
+index	F
+verdict	WRONG_ANSWER
+id	24067868
+programmingLanguage	GNU C++14
+solvedCount	157
+name	Team Rocket Rises Again
+tag0	data structures
+tag1	graphs
+
+contestId	757
+index	G
+verdict	OK
+id	23782048
+programmingLanguage	GNU C++14
+solvedCount	44
+name	Can Bash Save the Day?
+tag0	data structures
+tag1	divide and conquer
+tag2	graphs
+
+contestId	757
+index	G
+verdict	TIME_LIMIT_EXCEEDED
+id	23771554
+programmingLanguage	GNU C++14
+solvedCount	44
+name	Can Bash Save the Day?
+tag0	data structures
+tag1	divide and conquer
+tag2	graphs
+
+contestId	757
+index	G
+verdict	TIME_LIMIT_EXCEEDED
+id	23771542
+programmingLanguage	GNU C++14
+solvedCount	44
+name	Can Bash Save the Day?
+tag0	data structures
+tag1	divide and conquer
+tag2	graphs
+
+contestId	757
+index	G
+verdict	TIME_LIMIT_EXCEEDED
+id	23771425
+programmingLanguage	GNU C++11
+solvedCount	44
+name	Can Bash Save the Day?
+tag0	data structures
+tag1	divide and conquer
+tag2	graphs
+
+contestId	757
+index	G
+verdict	TIME_LIMIT_EXCEEDED
+id	23771351
+programmingLanguage	GNU C++11
+solvedCount	44
+name	Can Bash Save the Day?
+tag0	data structures
+tag1	divide and conquer
+tag2	graphs
+
+contestId	757
+index	G
+verdict	TIME_LIMIT_EXCEEDED
+id	23769166
+programmingLanguage	GNU C++11
+solvedCount	44
+name	Can Bash Save the Day?
+tag0	data structures
+tag1	divide and conquer
+tag2	graphs
+
+contestId	757
+index	G
+verdict	TIME_LIMIT_EXCEEDED
+id	23767259
+programmingLanguage	GNU C++11
+solvedCount	44
+name	Can Bash Save the Day?
+tag0	data structures
+tag1	divide and conquer
+tag2	graphs
+
+contestId	757
+index	F
+verdict	OK
+id	23762892
+programmingLanguage	GNU C++11
+solvedCount	157
+name	Team Rocket Rises Again
+tag0	data structures
+tag1	graphs
+
+contestId	757
+index	D
+verdict	OK
+id	23749937
+programmingLanguage	GNU C++11
+solvedCount	765
+name	Felicity's Big Secret Revealed
+tag0	bitmasks
+
+contestId	757
+index	C
+verdict	OK
+id	23747486
+programmingLanguage	GNU C++11
+solvedCount	1597
+name	Felicity is Coming!
+tag0	data structures
+tag1	hashing
+tag2	sortings
+
+contestId	757
+index	E
+verdict	OK
+id	23746626
+programmingLanguage	GNU C++11
+solvedCount	446
+name	Bash Plays with Functions
+tag0	brute force
+tag1	combinatorics
+tag2	dp
+
+contestId	757
+index	B
+verdict	OK
+id	23740589
+programmingLanguage	GNU C++11
+solvedCount	4241
+name	Bash's Big Day
+tag0	greedy
+tag1	math
+
+contestId	757
+index	A
+verdict	OK
+id	23740335
+programmingLanguage	GNU C++11
+solvedCount	6459
+name	Gotta Catch Em' All!
+
+contestId	757
+index	B
+verdict	WRONG_ANSWER
+id	23739787
+programmingLanguage	GNU C++11
+solvedCount	4241
+name	Bash's Big Day
+tag0	greedy
+tag1	math
+
+contestId	776
+index	F
+verdict	OK
+id	24940601
+programmingLanguage	GNU C++11
+solvedCount	153
+name	Sherlock's bet to Moriarty
+tag0	constructive algorithms
+tag1	geometry
+tag2	graphs
+
+contestId	776
+index	F
+verdict	WRONG_ANSWER
+id	24937635
+programmingLanguage	GNU C++11
+solvedCount	153
+name	Sherlock's bet to Moriarty
+tag0	constructive algorithms
+tag1	geometry
+tag2	graphs
+
+contestId	776
+index	F
+verdict	WRONG_ANSWER
+id	24937179
+programmingLanguage	GNU C++11
+solvedCount	153
+name	Sherlock's bet to Moriarty
+tag0	constructive algorithms
+tag1	geometry
+tag2	graphs
+
+contestId	776
+index	G
+verdict	OK
+id	24933167
+programmingLanguage	GNU C++11
+solvedCount	124
+name	Sherlock and the Encrypted Data
+tag0	bitmasks
+tag1	combinatorics
+
+contestId	776
+index	D
+verdict	OK
+id	24926240
+programmingLanguage	GNU C++11
+solvedCount	1414
+name	The Door Problem
+tag0	2-sat
+tag1	dfs and similar
+tag2	dsu
+
+contestId	776
+index	C
+verdict	OK
+id	24924230
+programmingLanguage	GNU C++11
+solvedCount	2457
+name	Molly's Chemicals
+tag0	binary search
+tag1	data structures
+
+contestId	776
+index	C
+verdict	TIME_LIMIT_EXCEEDED
+id	24923867
+programmingLanguage	GNU C++11
+solvedCount	2457
+name	Molly's Chemicals
+tag0	binary search
+tag1	data structures
+
+contestId	776
+index	E
+verdict	OK
+id	24922427
+programmingLanguage	GNU C++11
+solvedCount	963
+name	The Holmes Children
+tag0	math
+
+contestId	776
+index	B
+verdict	OK
+id	24919248
+programmingLanguage	GNU C++11
+solvedCount	4645
+name	Sherlock and his girlfriend
+
+contestId	776
+index	A
+verdict	OK
+id	24918716
+programmingLanguage	GNU C++11
+solvedCount	5570
+name	A Serial Killer
+
+contestId	776
+index	B
+verdict	WRONG_ANSWER
+id	24918211
+programmingLanguage	GNU C++11
+solvedCount	4645
+name	Sherlock and his girlfriend
+
