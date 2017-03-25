@@ -1,0 +1,8 @@
+Looking at codeforces [1] database
+
+* Footnotes
+
+[1] http://codeforces.com/api/help?mobile=true
+[2] https://github.com/stedolan/jq.git
+
+
