@@ -3,7 +3,9 @@
 # create a database of user's submissions
 
 ini () {
-    h=tourist # handle
+    # handle
+    # h=izrak
+    h=tourist
     cc=$h.code # where to place code
 
     mg='!!#' # magic string for database
@@ -11,7 +13,7 @@ ini () {
     trap 'rm -rf $t' 1 2 13 15
 
     mkdir -p .c # cache
-    mkdir -p .d # data base
+    mkdir -p .d # database
     mkdir -p  $cc
 }
 
@@ -95,7 +97,7 @@ ini
 api problemset.problems # make a database of all problems
 stream_problemset | s2d $mg     > .d/d0
 
-# make a database of all contests user `handle` took part
+# make a database of all contests user took part
 clist=`awk '/^contestId/ {print $2}' .d/d0 | sort -g | uniq`
 for c in $clist; do
     api contest.status contestId=$c handle=$h
@@ -105,11 +107,9 @@ done > .d/d1
 
 # joint databases using two fields
 ./join2.awk  .d/d0 .d/d1 contestId index > .d/d3
-
-# filter
 ./filter.awk .d/d3 verdict OK > .d/d.tmp && mv .d/d.tmp .d/d3
 
-# add urls for the problem and for submission
+# add urls for the problem and for submissions
 ./url.awk    .d/d3            > .d/d.tmp && mv .d/d.tmp .d/d3
 
 # fetch code and add code field to a database

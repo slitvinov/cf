@@ -9,10 +9,12 @@ BEGIN {
     ARGC = 2
 
     h["Delphi"] = h["FPC"]                         = "pas" # language to suffix data
-    h["Java 7"]                                    = "java"
+    h["Java 7"] = h["Java 8"]                      = "java"
     h["GNU C++"] = h["GNU C++0x"] = h["GNU C++11"] = "cpp"
     h["GNU C++14"] = h["MS C++"]                   = "cpp"
     h["Tcl"]                                       = "tcl"
+    h["Python 3"] = h["Python 2"]                  = "py"
+    h["GNU C"]                                     = "c"
 }
 
 {
