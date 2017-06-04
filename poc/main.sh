@@ -1,11 +1,19 @@
 #!/bin/sh
 
 # create a database of user's submissions
+ini0 () {
+    # h=izrak
+    h=tourist # handle
+}
+
+err () { msg "$@"; exit; }
+msg () { printf 'main.sh: %s\n' "$*" > /dev/stderr; }
+req_jq () { if ! which jq >/dev/null; then err 'jq is not found'; fi }
 
 ini () {
-    # handle
-    # h=izrak
-    h=tourist
+    req_jq
+    ini0
+
     cc=$h.code # where to place code
 
     mg='!!#' # magic string for database
@@ -38,7 +46,6 @@ api0 () {
     # sets curl_rc, $t/l: last; $t/r: result
     curl0 http://codeforces.com/api/$1
     status=`jq .status $t/l | tr -d '"'`
-    echo '(h.sh) status:' $status 1>&2
     jq .result $t/l > $t/r
 }
 
@@ -95,16 +102,23 @@ stream_contest () { # see `stream_problemset`
 
 ini
 api problemset.problems # make a database of all problems
+msg making .d/d0
 stream_problemset | s2d $mg     > .d/d0
 
 # make a database of all contests user took part
 clist=`awk '/^contestId/ {print $2}' .d/d0 | sort -g | uniq`
+nc=`awk 'BEGIN {print ARGC}' $clist`
+msg making .d/d1
 for c in $clist; do
     api contest.status contestId=$c handle=$h
+    if test       $? != 0 ; then break; fi
     if test ! $status = OK; then break; fi
+    if test $c = 10; then break; fi
+    msg $c/$nc
     stream_contest | s2d $mg
 done > .d/d1
 
+msg making .d/d3
 # joint databases using two fields
 ./join2.awk  .d/d0 .d/d1 contestId index > .d/d3
 ./filter.awk .d/d3 verdict OK > .d/d.tmp && mv .d/d.tmp .d/d3
@@ -112,5 +126,6 @@ done > .d/d1
 # add urls for the problem and for submissions
 ./url.awk    .d/d3            > .d/d.tmp && mv .d/d.tmp .d/d3
 
+msg fetching code $cc
 # fetch code and add code field to a database
 ./code.awk   .d/d3 $cc        > .d/d.tmp && mv .d/d.tmp .d/d3
