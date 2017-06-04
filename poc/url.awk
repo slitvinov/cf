@@ -5,8 +5,8 @@
 BEGIN {
     RS = ""; FS = "\n"
 
-    prbfmt = "http://codeforces.com/contest/ %contestId% /problem/ %index%"
-    subfmt = "http://codeforces.com/contest/ %contestId% /submission/ %id%"
+    prbfmt = "http://codeforces.com/contest/%contestId%/problem/%index%"
+    subfmt = "http://codeforces.com/contest/%contestId%/submission/%id%"
 }
 
 {
@@ -19,9 +19,9 @@ BEGIN {
 }
 
 function unformat(s) {
-    gsub(/ %contestId% /, contestId, s)
-    gsub(/ %id% /       , id       , s)
-    gsub(/ %index% /    , iindex   , s)
+    gsub(/%contestId%/, contestId, s)
+    gsub(/%id%/       , id       , s)
+    gsub(/%index%/    , iindex   , s)
     return s
 }
 

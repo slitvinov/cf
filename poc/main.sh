@@ -113,7 +113,6 @@ for c in $clist; do
     api contest.status contestId=$c handle=$h
     if test       $? != 0 ; then break; fi
     if test ! $status = OK; then break; fi
-    if test $c = 10; then break; fi
     msg $c/$nc
     stream_contest | s2d $mg
 done > .d/d1
