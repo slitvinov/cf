@@ -4,15 +4,14 @@
 
 BEGIN {
     RS = ""; FS = "\n"
-    
-    prbfmt = "http://codeforces.com/contest/ %contestId% /problem/ %index% ?mobile=true"
-    subfmt = "http://codeforces.com/contest/ %contestId% /submission/ %id% ?mobile=true"
-    
+
+    prbfmt = "http://codeforces.com/contest/ %contestId% /problem/ %index%"
+    subfmt = "http://codeforces.com/contest/ %contestId% /submission/ %id%"
 }
 
 {
     url() # set urls
-    
+
     print
     print "submissionUrl" "\t" suburl
     print "problemUrl" "\t" prburl
@@ -29,7 +28,7 @@ function unformat(s) {
 function url() {
     contestId= field("contestId"); id = field("id"); iindex = field("index")
     suburl = unformat(subfmt)
-    prburl = unformat(prbfmt)    
+    prburl = unformat(prbfmt)
 }
 
 function kv(s) { # split into [k]ey and [v]alue
@@ -44,4 +43,3 @@ function field(k0,  i) {
 	if (k == k0) return v
     }
 }
-
