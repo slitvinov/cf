@@ -81,7 +81,7 @@ stream_problemset () {
     # magic name
     # value
     # ...
-    local i
+    local i f
     f=contestId  ; echo $mg $f; jq0 .problemStatistics[].$f
     f=index      ; echo $mg $f; jq0 .problemStatistics[].$f
     f=solvedCount; echo $mg $f; jq0 .problemStatistics[].$f
@@ -107,13 +107,12 @@ stream_problemset | s2d $mg     > .d/d0
 
 # make a database of all contests user took part
 clist=`awk '/^contestId/ {print $2}' .d/d0 | sort -g | uniq`
-nc=`awk 'BEGIN {print ARGC}' $clist`
 msg making .d/d1
 for c in $clist; do
     api contest.status contestId=$c handle=$h
     if test       $? != 0 ; then break; fi
     if test ! $status = OK; then break; fi
-    msg $c/$nc
+    msg $c
     stream_contest | s2d $mg
 done > .d/d1
 
